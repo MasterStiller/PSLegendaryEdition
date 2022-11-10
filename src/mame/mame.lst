@@ -1,0 +1,146 @@
+// license:BSD-3-Clause
+// copyright-holders:Aaron Giles
+/******************************************************************************
+
+    mame.lst
+
+    This is not an automatically generated file, and it should be manually
+    updated when new driver is added. From time to time, we will auto-update
+    comments according to metadata from source files.
+
+******************************************************************************/
+
+@source:neogeo.cpp
+neogeo          // NeoGeo MV-6F
+2020bb			// 0030 (c) 1991 SNK / Pallas
+3countb			// 0043 (c) 1993 SNK
+alpham2			// 0007 (c) 1991 SNK
+androdun		// 0049 (c) 1992 Visco
+aof				// 0044 (c) 1992 SNK
+aof2			// 0056 (c) 1994 SNK
+aof3			// 0096 (c) 1996 SNK
+b2b				// 0071 (c) 2000 Visco (released by NCI in 2010)
+bakatono		// 0036 (c) 1991 Monolith Corp.
+bangbead		// 0259 (c) 2000 Visco
+bjourney		// 0022 (c) 1990 Alpha Denshi Co.
+blazstar		// 0239 (c) 1998 Yumekobo
+breakers		// 0230 (c) 1996 Visco
+breakrev		// 0245 (c) 1998 Visco
+bstars			// 0002 (c) 1990 SNK
+burningf		// 0018 (c) 1991 SNK
+crsword			// 0037 (c) 1991 Alpha Denshi Co.
+ctomaday		// 0249 (c) 1999 Visco
+cyberlip		// 0010 (c) 1990 SNK
+doubledr		// 0082 (c) 1995 Technos
+eightman		// 0025 (c) 1991 SNK / Pallas
+fatfury1		// 0033 (c) 1991 SNK
+fatfury2		// 0047 (c) 1992 SNK
+fatfury3		// 0069 (c) 1995 SNK
+fatfursp		// 0058 (c) 1993 SNK
+fbfrenzy		// 0034 (c) 1992 SNK
+fightfev		// 0060 (c) 1994 Viccom
+flipshot		// 0247 (c) 1998 Visco
+galaxyfg		// 0078 (c) 1995 Sunsoft
+ganryu			// 0252 (c) 1999 Visco
+garou			// 0253 (c) 1999 SNK
+goalx3			// 0209 (c) 1995 Visco
+gowcaizr		// 0094 (c) 1995 Technos
+gpilots			// 0020 (c) 1991 SNK
+ironclad		// 0220 (c) 1996 Saurus - Choutetsu Brikin'ger - Iron clad (protoype)
+jockeygp		//
+joyjoy			// 0021 (c) 1990 SNK
+kabukikl		// 0092 (c) 1995 Hudson
+karnovr			// 0066 (c) 1994 Data East Corporation
+kizuna			// 0216 (c) 1996 SNK
+kof94			// 0055 (c) 1994 SNK
+kof95			// 0084 (c) 1995 SNK
+kof96			// 0214 (c) 1996 SNK
+kof97			// 0232 (c) 1997 SNK
+kof98			// 0242 (c) 1998 SNK
+kof99			// 0251 (c) 1999 SNK
+kof2000			// 0257 (c) 2000 SNK
+kof2001			// 0262 (c) 2001 Eolith / SNK
+kof2002			// 0265 (c) 2002 Eolith / Playmore
+kof2003			// 0271 (c) 2003 Playmore
+kf2k3pcb        // 0271 (c) 2003 Playmore - JAMMA PCB
+kof2k4se		// bootleg of kof2002
+kotm			// 0016 (c) 1991 SNK
+kotm2			// 0039 (c) 1992 SNK
+lastblad		// 0234 (c) 1997 SNK
+lastbld2		// 0243 (c) 1998 SNK
+lasthope		//
+lbowling		// 0019 (c) 1990 SNK
+lresort			// 0024 (c) 1992 SNK
+magdrop3		// 0233 (c) 1997 Data East Corporation
+maglord			// 0005 (c) 1990 Alpha Denshi Co.
+matrim			// 0266 (c) 2003 Atlus
+miexchng		// 0231 (c) 1997 Face
+minasan			// 0027 (c) 1990 Monolith Corp.
+ms5pcb          // 0268 (c) 2003 Playmore - JAMMA PCB
+mslug			// 0201 (c) 1996 Nazca
+mslug2			// 0241 (c) 1998 SNK
+mslugx			// 0250 (c) 1999 SNK
+mslug3			// 0256 (c) 2000 SNK
+mslug4			// 0263 (c) 2002 Mega Enterprise
+mslug5			// 0268 (c) 2003 Playmore
+mutnat			// 0014 (c) 1992 SNK
+nam1975			// 0001 (c) 1990 SNK
+ncombat			// 0009 (c) 1990 Alpha Denshi Co.
+ncommand		// 0050 (c) 1992 Alpha Denshi Co.
+neobombe		// 0093 (c) 1997 Hudson
+neocup98		// 0244 (c) 1998 SNK
+neodrift		// 0213 (c) 1996 Visco
+ninjamas		// 0217 (c) 1996 ADK / SNK
+nitd			// 0260 (c) 2000 Eleven / Gavaking
+pbobblen		// 0083 (c) 1994 Taito
+pnyaa			// 0267 (c) 2003 Aiky / Taito
+preisle2		// 0255 (c) 1999 Yumekobo
+pulstar			// 0089 (c) 1995 Aicom
+puzzledp		// 0202 (c) 1995 Taito (Visco license)
+puzzldpr		// 0235 (c) 1997 Taito (Visco license)
+ragnagrd		// 0218 (c) 1996 Saurus
+rbff1			// 0095 (c) 1995 SNK
+rbff2			// 0240 (c) 1998 SNK
+rbffspec		// 0223 (c) 1996 SNK
+ridhero			// 0006 (c) 1990 SNK
+roboarmy		// 0032 (c) 1991 SNK
+rotd			// 0264 (c) 2002 Evoga
+s1945p			// 0254 (c) 1999 Psikyo
+samsho			// 0045 (c) 1993 SNK
+samsho2			// 0063 (c) 1994 SNK
+samsho3			// 0087 (c) 1995 SNK
+samsho4			// 0222 (c) 1996 SNK
+samsho5			// 0270 (c) 2003 Playmore
+samsh5sp		// 0272 (c) 2004 Playmore
+savagere		// 0059 (c) 1995 SNK
+sdodgeb			// 0208 (c) 1996 Technos
+sengoku			// 0017 (c) 1991 SNK
+sengoku2		// 0040 (c) 1993 SNK
+sengoku3		// 0261 (c) 2001 Noise Factory / SNK
+shocktr2		// 0246 (c) 1998 Saurus
+shocktro		// 0238 (c) 1997 Saurus
+socbrawl		// 0031 (c) 1991 SNK
+sonicwi2		// 0075 (c) 1994 Video System Co.
+sonicwi3		// 0097 (c) 1995 Video System Co.
+spinmast		// 0062 (c) 1993 Data East Corporation
+ssideki			// 0052 (c) 1992 SNK
+ssideki4		// 0215 (c) 1996 SNK
+stakwin			// 0088 (c) 1995 Saurus  //broken in mame, works here
+strhoop			// 0079 (c) 1994 Data East Corporation
+superspy		// 0011 (c) 1990 SNK
+svc				// 0269 (c) 2003 Playmore / Capcom
+tophuntr		// 0046 (c) 1994 SNK
+tpgolf			// 0003 (c) 1990 SNK
+trally			// 0038 (c) 1991 Alpha Denshi Co.
+turfmast		// 0200 (c) 1996 Nazca
+twinspri		// 0224 (c) 1996 ADK
+tws96			// 0051 (c) 1992 Sammy
+viewpoin		// 0051 (c) 1992 Sammy
+wakuwak7		// 0225 (c) 1996 Sunsoft
+wh1				// 0053 (c) 1992 Alpha Denshi Co.
+wh2				// 0057 (c) 1993 ADK
+wh2j			// 0064 (c) 1994 ADK / SNK
+whp				// 0090 (c) 1995 ADK / SNK
+wjammers		// 0065 (c) 1994 Data East Corporation
+zintrckb		// 0211 hack - this is not a genuine MVS proto, its a bootleg made from the CD version
+zupapa			// 0070 Zupapa - released in 2001, 1994 prototype probably exists

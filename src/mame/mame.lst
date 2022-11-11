@@ -1,14 +1,8 @@
 // license:BSD-3-Clause
-// copyright-holders:Aaron Giles
-/******************************************************************************
-
-    mame.lst
-
-    This is not an automatically generated file, and it should be manually
-    updated when new driver is added. From time to time, we will auto-update
-    comments according to metadata from source files.
-
-******************************************************************************/
+// copyright-holders:Gaston90
+/********************************************
+  List of all enabled drivers in the system.
+***********************************************/
 
 @source:neogeo.cpp
 neogeo          // NeoGeo MV-6F
@@ -16,10 +10,10 @@ neogeo          // NeoGeo MV-6F
 3countb			// 0043 (c) 1993 SNK
 alpham2			// 0007 (c) 1991 SNK
 androdun		// 0049 (c) 1992 Visco
-aof				// 0044 (c) 1992 SNK
+aof			    // 0044 (c) 1992 SNK
 aof2			// 0056 (c) 1994 SNK
 aof3			// 0096 (c) 1996 SNK
-b2b				// 0071 (c) 2000 Visco (released by NCI in 2010)
+b2b			    // 0071 (c) 2000 Visco (released by NCI in 2010)
 bakatono		// 0036 (c) 1991 Monolith Corp.
 bangbead		// 0259 (c) 2000 Visco
 bjourney		// 0022 (c) 1990 Alpha Denshi Co.
@@ -97,7 +91,6 @@ pnyaa			// 0267 (c) 2003 Aiky / Taito
 preisle2		// 0255 (c) 1999 Yumekobo
 pulstar			// 0089 (c) 1995 Aicom
 puzzledp		// 0202 (c) 1995 Taito (Visco license)
-puzzldpr		// 0235 (c) 1997 Taito (Visco license)
 ragnagrd		// 0218 (c) 1996 Saurus
 rbff1			// 0095 (c) 1995 SNK
 rbff2			// 0240 (c) 1998 SNK
@@ -128,7 +121,7 @@ ssideki4		// 0215 (c) 1996 SNK
 stakwin			// 0088 (c) 1995 Saurus  //broken in mame, works here
 strhoop			// 0079 (c) 1994 Data East Corporation
 superspy		// 0011 (c) 1990 SNK
-svc				// 0269 (c) 2003 Playmore / Capcom
+svc			    // 0269 (c) 2003 Playmore / Capcom
 tophuntr		// 0046 (c) 1994 SNK
 tpgolf			// 0003 (c) 1990 SNK
 trally			// 0038 (c) 1991 Alpha Denshi Co.
@@ -137,10 +130,258 @@ twinspri		// 0224 (c) 1996 ADK
 tws96			// 0051 (c) 1992 Sammy
 viewpoin		// 0051 (c) 1992 Sammy
 wakuwak7		// 0225 (c) 1996 Sunsoft
-wh1				// 0053 (c) 1992 Alpha Denshi Co.
-wh2				// 0057 (c) 1993 ADK
+wh1			    // 0053 (c) 1992 Alpha Denshi Co.
+wh2			    // 0057 (c) 1993 ADK
 wh2j			// 0064 (c) 1994 ADK / SNK
-whp				// 0090 (c) 1995 ADK / SNK
+whp			    // 0090 (c) 1995 ADK / SNK
 wjammers		// 0065 (c) 1994 Data East Corporation
 zintrckb		// 0211 hack - this is not a genuine MVS proto, its a bootleg made from the CD version
 zupapa			// 0070 Zupapa - released in 2001, 1994 prototype probably exists
+
+@source:cps1.cpp
+3wonders        // 20/05/1991 (c) 1991 (World)
+captcomm        // 02/12/1991 (c) 1991 (World)
+cawing          // 12/10/1990 (c) 1990 (World)
+dino            // 01/02/1993 (c) 1993 (World) (CPS1 + QSound)
+ffight          // 12/1989 (c) 1989 (World)
+forgottn        // 7/1988 (c) 1988 (World)
+ghouls          // 12/1988 (c) 1988 (World)
+knights         // 27/11/1991 (c) 1991 (World)
+kod             // 05/08/1991 (c) 1991 (World)
+mbombrd         // 06/12/1993 (c) 1993 (World) (CPS1 + QSound)
+megaman         // 06/10/1995 (c) 1995 (USA)
+mercs           // 02/03/1990 (c) 1990 (World)
+pnickj          // 08/06/1994 (c) 1994 Compile + Capcom license (Japan) not listed on Capcom's site
+punisher        // 22/04/1993 (c) 1993 (World) (CPS1 + QSound)
+sf2             // 22/05/1991 (c) 1991 (World)
+sf2ce           // 13/05/1992 (c) 1992 (World)
+sf2hf           // 09/12/1992 (c) 1992 (World)
+sfzch           // CPS Changer (Street Fighter ZERO)
+slammast        // 13/07/1993 (c) 1993 (World) (CPS1 + QSound)
+strider         // 3/1989 (c) 1989 (not explicitly stated but should be USA)
+varth           // 14/07/1992 (c) 1992 (World)
+willow          // 6/1989 (c) 1989 (World)
+wof             // 31/10/1992 (c) 1992 (World) (CPS1 + QSound)
+wofch           // CPS Changer (Tenchi Wo Kurau II)
+
+@source:cps2.cpp
+1944            // 20/06/2000 (c) 2000 Eighting/Raizing (Euro)
+19xx            // 04/01/1996 (c) 1996 (Euro)
+armwar          // 24/10/1994 (c) 1994 (Euro)
+avsp            // 20/05/1994 (c) 1994 (Euro)
+batcir          // 19/03/1997 (c) 1997 (Euro)
+csclub          // 17/10/1997 (c) 1997 (Euro)
+cybots          // 24/04/1995 (c) 1995 (Euro)
+ddsom           // 19/06/1996 (c) 1996 (Euro)
+ddtod           // 12/04/1994 (c) 1993 (Euro)
+dstlk           // 05/07/1994 (c) 1994 (Euro)
+gigawing        // 22/02/1999 (c) 1999 Takumi (USA)
+hsf2            // 02/02/2004 (c) 2003, 2004 (USA)
+mpang           // 10/10/2000 (c) 2000 Mitchell (Euro)
+msh             // 24/10/1995 (c) 1995 (Euro)
+mshvsf          // 25/06/1997 (c) 1997 (Euro)
+mvsc            // 23/01/1998 (c) 1998 (Euro)
+progear         // 17/01/2001 (c) 2001 Cave (USA)
+sfa             // 27/07/1995 (c) 1995 (Euro)
+sfa2            // 06/03/1996 (c) 1996 (Euro)
+sfa3            // 04/09/1998 (c) 1998 (USA)
+sfz2al          // 26/08/1996 (c) 1996 (Asia)
+sgemf           // 04/09/1997 (c) 1997 (USA)
+spf2t           // 29/05/1996 (c) 1996 (Europe)
+ssf2            // 05/10/1993 (c) 1993 (World)
+ssf2t           // 23/02/1994 (c) 1994 (World)
+vsav2           // 13/09/1997 (c) 1997 (Japan)
+xmcota          // 31/03/1995 (c) 1994 (Euro)
+xmvsf           // 04/10/1996 (c) 1996 (Euro)
+
+@source:cps3.cpp
+sfiii           // 04/02/1997 (c) 1997 (Euro)
+sfiii2          // 30/09/1997 (c) 1997 (USA)
+sfiii3          // 08/06/1999 (c) 1999 (Euro)
+jojoba          // 27/09/1999 (c) 1999 (Euro)
+jojo            // 28/01/1999 (c) 1998 (Euro)
+
+@source:cv1k.cpp
+deathsml	    // (c) 2007 Cave (AMI license) - 2007/10/09 MASTER VER
+
+@source:pgm.cpp
+pgm             // Base Unit
+ket             // (c) 2002 Ketsui
+killbld         // (c) 1998 The Killing Blade
+kovplus         // (c) 1999 Knights of Valor Plus
+kov             // (c) 1999 Knights of Valor
+kov2            // (c) 2000 Knights of Valor 
+kov2p           // (c) 2000 Knights of Valor 2 Nine Dragons
+kovsh           // (c) 1999 Knights of Valor Superheroes
+kovshp          // (c) 2004 Knights of Valor Superheroes PLUS
+olds            // (c) 1999 Oriental Legend Super / Special
+oldsplus        // (c) 2004 Oriental Legend Super Plus
+orlegend        // (c) 1997 Oriental Legend
+martmast        // (c) 2001 Martial Masters
+theglad         // (c) 2003 The Gladiator
+
+/****************************************************************
+  List of all enabled drivers in the system PSMame Builds Plus.
+*******************************************************************/
+
+@source:neogeo.cpp
+bangbedd	    // Decrypted/Bootleg
+ct2k3sp	        // Decrypted/Bootleg
+ct2k3spd	    // Decrypted/Bootleg
+cthd2k3n	    // Decrypted/Bootleg
+ct2k3ad	        // Decrypted/Bootleg
+cthd2k3a	    // Decrypted/Bootleg
+ganryud	        // Decrypted/Bootleg
+garoud	        // Decrypted/Bootleg
+jckeygpd	    // Decrypted/Bootleg
+kof96ep	        // Decrypted/Bootleg
+kof96ep2	    // Decrypted/Bootleg
+kof96ep3	    // Decrypted/Bootleg
+kof97pla	    // Decrypted/Bootleg
+kof99d	        // Decrypted/Bootleg
+kof99fd	        // Decrypted/Bootleg
+kof2000d	    // Decrypted/Bootleg
+kof2knd	        // Decrypted/Bootleg
+kof2kfd	        // Decrypted/Bootleg
+kof2001d	    // Decrypted/Bootleg
+kof2001n	    // Decrypted/Bootleg
+kf2k1pls	    // Decrypted/Bootleg
+kf2k1pla	    // Decrypted/Bootleg
+kof2k1nd	    // Decrypted/Bootleg
+kof2k1hd	    // Decrypted/Bootleg
+kf2k2pla	    // Decrypted/Bootleg
+kf2k2plb	    // Decrypted/Bootleg
+kf2k2plc	    // Decrypted/Bootleg
+kof2002d	    // Decrypted/Bootleg
+kof2k2fd	    // Decrypted/Bootleg
+kof2003d	    // Decrypted/Bootleg
+kof2003f	    // Decrypted/Bootleg
+kof2k3d	        // Decrypted/Bootleg
+kf2k3bd	        // Decrypted/Bootleg
+kof2k3hd	    // Decrypted/Bootleg
+kof2k3nd	    // Decrypted/Bootleg
+kf2k3pcd	    // Decrypted/Bootleg
+kof2k3pd	    // Decrypted/Bootleg
+kf2k3upd	    // Decrypted/Bootleg
+kf2k3bl2	    // Decrypted/Bootleg
+kf2k3fd	        // Decrypted/Bootleg
+kogd	        // Decrypted/Bootleg
+kogplus	        // Decrypted/Bootleg
+kof10thd	    // Decrypted/Bootleg
+kof2k8uni	    // Decrypted/Bootleg
+kf2k5unh	    // Decrypted/Bootleg
+kof10thud	    // Decrypted/Bootleg
+kof2k4mp	    // Decrypted/Bootleg
+kof2k4mp2	    // Decrypted/Bootleg
+kf2k4pls	    // Decrypted/Bootleg
+kof2k4spl	    // Decrypted/Bootleg
+kofse2k4	    // Decrypted/Bootleg
+lans2k4d	    // Decrypted/Bootleg
+matrimd	        // Decrypted/Bootleg
+matrima	        // Decrypted/Bootleg
+matrimeh	    // Decrypted/Bootleg
+matrimnd	    // Decrypted/Bootleg
+msboot	        // Decrypted/Bootleg
+mslug3hd	    // Decrypted/Bootleg
+mslug3nd	    // Decrypted/Bootleg
+ms4boot	        // Decrypted/Bootleg
+mslug4d	        // Decrypted/Bootleg
+mslug4hd	    // Decrypted/Bootleg
+mslug4nd	    // Decrypted/Bootleg
+mslug4dd	    // Decrypted/Bootleg
+ms5boot	        // Decrypted/Bootleg
+ms5pcbd	        // Decrypted/Bootleg
+mslug5nd	    // Decrypted/Bootleg
+mslug5d         // Decrypted/Bootleg
+mslug5b1	    // Decrypted/Bootleg
+ms5plusd	    // Decrypted/Bootleg
+mslug5n	        // Decrypted/Bootleg
+mslug5b3	    // Decrypted/Bootleg
+mslug5n2	    // Decrypted/Bootleg
+mslug5hd	    // Decrypted/Bootleg
+ms5plusc	    // Decrypted/Bootleg
+mslug5fd	    // Decrypted/Bootleg
+nitdd	        // Decrypted/Bootleg
+pbobblendx	    // Decrypted/Bootleg
+pnyaad	        // Decrypted/Bootleg
+pnyaadd	        // Decrypted/Bootleg
+preisl2d	    // Decrypted/Bootleg
+rotdd	        // Decrypted/Bootleg
+rotdnd	        // Decrypted/Bootleg
+s1945pd	        // Decrypted/Bootleg
+samsho3bh	    // Decrypted/Bootleg
+samsh5bd	    // Decrypted/Bootleg
+samsh5cd	    // Decrypted/Bootleg
+samsho5d	    // Decrypted/Bootleg
+samsh5hd	    // Decrypted/Bootleg
+samsh5nd	    // Decrypted/Bootleg
+ssh5spnd	    // Decrypted/Bootleg
+ssh5spn	        // Decrypted/Bootleg
+sams5spd	    // Decrypted/Bootleg
+samsh5spd2	    // Decrypted/Bootleg
+sams5sod	    // Decrypted/Bootleg
+sams5shd	    // Decrypted/Bootleg
+sengok3d	    // Decrypted/Bootleg
+svcda	        // Decrypted/Bootleg
+svcd	        // Decrypted/Bootleg
+svcnd	        // Decrypted/Bootleg
+svcplusb	    // Decrypted/Bootleg
+svcplusn	    // Decrypted/Bootleg
+svcplusd	    // Decrypted/Bootleg
+zupapad	        // Decrypted/Bootleg
+zupapand	    // Decrypted/Bootleg
+
+@source:cps1.cpp
+3wondrud	    // Bootleg
+3wondersha	    // Bootleg
+captcoud	    // Bootleg
+captcocn	    // Bootleg
+daimakaib	    // Bootleg
+dinoh	        // Bootleg
+dinoha	        // Bootleg
+dinotpic	    // Bootleg
+dinohc	        // Bootleg
+dinopic4	    // Bootleg
+dinod	        // Bootleg
+mercscn	        // Bootleg
+pnicku	        // Bootleg
+punisherud1	    // Bootleg
+punisherud2	    // Bootleg
+punisherb	    // Bootleg
+sf2mega2	    // Bootleg
+sf2amf5	        // Bootleg
+sf2cejabl	    // Bootleg
+sf2m12	        // Bootleg
+sf2m13	        // Bootleg
+sf2rbpr	        // Bootleg
+sf2amf6	        // Bootleg
+sf2amf7	        // Bootleg
+sf2tlona	    // Bootleg
+sf2tlonb	    // Bootleg
+sf2tlonc	    // Bootleg
+sf2yyc3d5	    // Bootleg
+sf2yyc3g	    // Bootleg
+sf2yyc6	        // Bootleg
+sf2ceeabl	    // Bootleg
+sf2cejab2	    // Bootleg
+sf2cebr	        // Bootleg
+sf2h11	        // Bootleg
+sf2ceh	        // Bootleg
+sf2cn	        // Bootleg
+sf2ly	        // Bootleg
+slammastud	    // Bootleg
+wofh	        // Bootleg
+wofha           // Bootleg
+wofah	        // Bootleg
+wofaha	        // Bootleg
+wofahb	        // Bootleg   
+wof3js	        // Bootleg
+wof3jsa	        // Bootleg
+wof3sj	        // Bootleg
+wof3sja	        // Bootleg
+wofsj	        // Bootleg
+wofsja	        // Bootleg
+wofsjb	        // Bootleg
+wofsjc	        // Bootleg
+wofjd	        // Bootleg
+wofud	        // Bootleg

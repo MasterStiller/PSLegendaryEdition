@@ -1868,6 +1868,34 @@ static INPUT_PORTS_START( sf2j )
 	PORT_DIPSETTING(    0x00, "2 Credits/Winner Continue" ) //Winner stays, loser pays, in other words.
 INPUT_PORTS_END
 
+static INPUT_PORTS_START( sf2rb )
+	PORT_INCLUDE( sf2 )
+
+	PORT_MODIFY("DSWB")
+	PORT_DIPNAME( 0xf0, 0xf0, "Turbo Vs CPU" )                      PORT_DIPLOCATION("SW(B):5,6,7,8")
+	PORT_DIPSETTING(    0xf0, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0xe0, "Fixed 1" )
+	PORT_DIPSETTING(    0xd0, "Fixed 2" )
+	PORT_DIPSETTING(    0xc0, "Fixed 3" )
+	PORT_DIPSETTING(    0xb0, "Fixed 4" )
+	PORT_DIPSETTING(    0xa0, "Fixed 5" )
+	PORT_DIPSETTING(    0x90, "Fixed 6" )
+	PORT_DIPSETTING(    0x80, "Fixed 7" )
+	PORT_DIPSETTING(    0x70, "Progressive 1" )
+	PORT_DIPSETTING(    0x60, "Progressive 2" )
+	PORT_DIPSETTING(    0x50, "Progressive 3" )
+	PORT_DIPSETTING(    0x40, "Progressive 4" )
+	PORT_DIPSETTING(    0x30, "Progressive 5" )
+	PORT_DIPSETTING(    0x20, "Progressive 6" )
+	PORT_DIPSETTING(    0x10, "Progressive 7" )
+	PORT_DIPSETTING(    0x00, "Progressive 8" )
+
+	PORT_MODIFY("DSWC")
+	PORT_DIPNAME( 0x01, 0x01, "Projectile Path" )                   PORT_DIPLOCATION("SW(C):1")
+	PORT_DIPSETTING(    0x01, "Homing" )
+	PORT_DIPSETTING(    0x00, "Zigzag" )
+INPUT_PORTS_END
+
 static INPUT_PORTS_START( sf2hack )
 	PORT_INCLUDE( sf2 )
 
@@ -12780,4 +12808,4 @@ GAME( 1995, sfzbch,      sfzch,    cps1_12MHz, sfzch,    cps_state, init_cps1,  
 
 // Ken Sei Mogura: Street Fighter II - see kenseim.c
 // HBMAME
-//#include "cps1mis.cpp"
+#include "cps1hb.cpp"

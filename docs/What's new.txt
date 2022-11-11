@@ -2,3 +2,9 @@
 ================================
 
 2022-1X-XX
+
+- Added UNIVERSE BIOS v4.0 NeoGeo MVS System.
+- Added Roms NeoGeo, Cps1 Decrypted And Bootleg.
+
+New Games
+---------------------------------

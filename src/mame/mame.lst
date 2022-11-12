@@ -4,6 +4,85 @@
   List of all enabled drivers in the system.
 ***********************************************/
 
+@source:aerofgt.cpp
+aerofgt         // (c) 1992 Video System Co.
+
+@source:cave.cpp
+agallet         // (c) 1996 Banpresto / Gazelle (country is in EEPROM)
+ddonpach        // (c) 1997 Atlus/Cave
+esprade         // (c) 1998 Atlus/Cave
+feversos        // (c) 1998 Cave + Nihon System license
+guwange         // (c) 1999 Atlus/Cave
+
+@source:cps1.cpp
+3wonders        // 20/05/1991 (c) 1991 (World)
+captcomm        // 02/12/1991 (c) 1991 (World)
+cawing          // 12/10/1990 (c) 1990 (World)
+dino            // 01/02/1993 (c) 1993 (World) (CPS1 + QSound)
+ffight          // 12/1989 (c) 1989 (World)
+forgottn        // 7/1988 (c) 1988 (World)
+ghouls          // 12/1988 (c) 1988 (World)
+knights         // 27/11/1991 (c) 1991 (World)
+kod             // 05/08/1991 (c) 1991 (World)
+mbombrd         // 06/12/1993 (c) 1993 (World) (CPS1 + QSound)
+megaman         // 06/10/1995 (c) 1995 (USA)
+mercs           // 02/03/1990 (c) 1990 (World)
+pnickj          // 08/06/1994 (c) 1994 Compile + Capcom license (Japan) not listed on Capcom's site
+punisher        // 22/04/1993 (c) 1993 (World) (CPS1 + QSound)
+sf2             // 22/05/1991 (c) 1991 (World)
+sf2ce           // 13/05/1992 (c) 1992 (World)
+sf2hf           // 09/12/1992 (c) 1992 (World)
+sfzch           // CPS Changer (Street Fighter ZERO)
+slammast        // 13/07/1993 (c) 1993 (World) (CPS1 + QSound)
+strider         // 3/1989 (c) 1989 (not explicitly stated but should be USA)
+varth           // 14/07/1992 (c) 1992 (World)
+willow          // 6/1989 (c) 1989 (World)
+wof             // 31/10/1992 (c) 1992 (World) (CPS1 + QSound)
+wofch           // CPS Changer (Tenchi Wo Kurau II)
+
+@source:cps2.cpp
+1944            // 20/06/2000 (c) 2000 Eighting/Raizing (Euro)
+19xx            // 04/01/1996 (c) 1996 (Euro)
+armwar          // 24/10/1994 (c) 1994 (Euro)
+avsp            // 20/05/1994 (c) 1994 (Euro)
+batcir          // 19/03/1997 (c) 1997 (Euro)
+csclub          // 17/10/1997 (c) 1997 (Euro)
+cybots          // 24/04/1995 (c) 1995 (Euro)
+ddsom           // 19/06/1996 (c) 1996 (Euro)
+ddtod           // 12/04/1994 (c) 1993 (Euro)
+dstlk           // 05/07/1994 (c) 1994 (Euro)
+gigawing        // 22/02/1999 (c) 1999 Takumi (USA)
+hsf2            // 02/02/2004 (c) 2003, 2004 (USA)
+mpang           // 10/10/2000 (c) 2000 Mitchell (Euro)
+msh             // 24/10/1995 (c) 1995 (Euro)
+mshvsf          // 25/06/1997 (c) 1997 (Euro)
+mvsc            // 23/01/1998 (c) 1998 (Euro)
+progear         // 17/01/2001 (c) 2001 Cave (USA)
+sfa             // 27/07/1995 (c) 1995 (Euro)
+sfa2            // 06/03/1996 (c) 1996 (Euro)
+sfa3            // 04/09/1998 (c) 1998 (USA)
+sfz2al          // 26/08/1996 (c) 1996 (Asia)
+sgemf           // 04/09/1997 (c) 1997 (USA)
+spf2t           // 29/05/1996 (c) 1996 (Europe)
+ssf2            // 05/10/1993 (c) 1993 (World)
+ssf2t           // 23/02/1994 (c) 1994 (World)
+vsav2           // 13/09/1997 (c) 1997 (Japan)
+xmcota          // 31/03/1995 (c) 1994 (Euro)
+xmvsf           // 04/10/1996 (c) 1996 (Euro)
+
+@source:cps3.cpp
+sfiii           // 04/02/1997 (c) 1997 (Euro)
+sfiii2          // 30/09/1997 (c) 1997 (USA)
+sfiii3          // 08/06/1999 (c) 1999 (Euro)
+jojoba          // 27/09/1999 (c) 1999 (Euro)
+jojo            // 28/01/1999 (c) 1998 (Euro)
+
+@source:cv1k.cpp
+deathsml	    // (c) 2007 Cave (AMI license) - 2007/10/09 MASTER VER
+
+@source:m92.cpp
+hook            // (c) 1992 Irem (World)
+
 @source:neogeo.cpp
 neogeo          // NeoGeo MV-6F
 2020bb			// 0030 (c) 1991 SNK / Pallas
@@ -138,72 +217,6 @@ wjammers		// 0065 (c) 1994 Data East Corporation
 zintrckb		// 0211 hack - this is not a genuine MVS proto, its a bootleg made from the CD version
 zupapa			// 0070 Zupapa - released in 2001, 1994 prototype probably exists
 
-@source:cps1.cpp
-3wonders        // 20/05/1991 (c) 1991 (World)
-captcomm        // 02/12/1991 (c) 1991 (World)
-cawing          // 12/10/1990 (c) 1990 (World)
-dino            // 01/02/1993 (c) 1993 (World) (CPS1 + QSound)
-ffight          // 12/1989 (c) 1989 (World)
-forgottn        // 7/1988 (c) 1988 (World)
-ghouls          // 12/1988 (c) 1988 (World)
-knights         // 27/11/1991 (c) 1991 (World)
-kod             // 05/08/1991 (c) 1991 (World)
-mbombrd         // 06/12/1993 (c) 1993 (World) (CPS1 + QSound)
-megaman         // 06/10/1995 (c) 1995 (USA)
-mercs           // 02/03/1990 (c) 1990 (World)
-pnickj          // 08/06/1994 (c) 1994 Compile + Capcom license (Japan) not listed on Capcom's site
-punisher        // 22/04/1993 (c) 1993 (World) (CPS1 + QSound)
-sf2             // 22/05/1991 (c) 1991 (World)
-sf2ce           // 13/05/1992 (c) 1992 (World)
-sf2hf           // 09/12/1992 (c) 1992 (World)
-sfzch           // CPS Changer (Street Fighter ZERO)
-slammast        // 13/07/1993 (c) 1993 (World) (CPS1 + QSound)
-strider         // 3/1989 (c) 1989 (not explicitly stated but should be USA)
-varth           // 14/07/1992 (c) 1992 (World)
-willow          // 6/1989 (c) 1989 (World)
-wof             // 31/10/1992 (c) 1992 (World) (CPS1 + QSound)
-wofch           // CPS Changer (Tenchi Wo Kurau II)
-
-@source:cps2.cpp
-1944            // 20/06/2000 (c) 2000 Eighting/Raizing (Euro)
-19xx            // 04/01/1996 (c) 1996 (Euro)
-armwar          // 24/10/1994 (c) 1994 (Euro)
-avsp            // 20/05/1994 (c) 1994 (Euro)
-batcir          // 19/03/1997 (c) 1997 (Euro)
-csclub          // 17/10/1997 (c) 1997 (Euro)
-cybots          // 24/04/1995 (c) 1995 (Euro)
-ddsom           // 19/06/1996 (c) 1996 (Euro)
-ddtod           // 12/04/1994 (c) 1993 (Euro)
-dstlk           // 05/07/1994 (c) 1994 (Euro)
-gigawing        // 22/02/1999 (c) 1999 Takumi (USA)
-hsf2            // 02/02/2004 (c) 2003, 2004 (USA)
-mpang           // 10/10/2000 (c) 2000 Mitchell (Euro)
-msh             // 24/10/1995 (c) 1995 (Euro)
-mshvsf          // 25/06/1997 (c) 1997 (Euro)
-mvsc            // 23/01/1998 (c) 1998 (Euro)
-progear         // 17/01/2001 (c) 2001 Cave (USA)
-sfa             // 27/07/1995 (c) 1995 (Euro)
-sfa2            // 06/03/1996 (c) 1996 (Euro)
-sfa3            // 04/09/1998 (c) 1998 (USA)
-sfz2al          // 26/08/1996 (c) 1996 (Asia)
-sgemf           // 04/09/1997 (c) 1997 (USA)
-spf2t           // 29/05/1996 (c) 1996 (Europe)
-ssf2            // 05/10/1993 (c) 1993 (World)
-ssf2t           // 23/02/1994 (c) 1994 (World)
-vsav2           // 13/09/1997 (c) 1997 (Japan)
-xmcota          // 31/03/1995 (c) 1994 (Euro)
-xmvsf           // 04/10/1996 (c) 1996 (Euro)
-
-@source:cps3.cpp
-sfiii           // 04/02/1997 (c) 1997 (Euro)
-sfiii2          // 30/09/1997 (c) 1997 (USA)
-sfiii3          // 08/06/1999 (c) 1999 (Euro)
-jojoba          // 27/09/1999 (c) 1999 (Euro)
-jojo            // 28/01/1999 (c) 1998 (Euro)
-
-@source:cv1k.cpp
-deathsml	    // (c) 2007 Cave (AMI license) - 2007/10/09 MASTER VER
-
 @source:pgm.cpp
 pgm             // Base Unit
 ket             // (c) 2002 Ketsui
@@ -220,9 +233,110 @@ orlegend        // (c) 1997 Oriental Legend
 martmast        // (c) 2001 Martial Masters
 theglad         // (c) 2003 The Gladiator
 
+@source:seta2.cpp
+grdians         // (c) 1995 Banpresto
+
 /****************************************************************
   List of all enabled drivers in the system PSMame Builds Plus.
 *******************************************************************/
+
+@source:aerofgt.cpp
+aerofgthc01     // Hack
+
+@source:cave.cpp
+agallethc01     // Hack
+ddonpachhc01    // Hack
+espradehc01     // Hack
+feversoshc01    // Hack
+guwangehc01     // Hack
+
+@source:cps1.cpp
+3wondrud	    // Bootleg
+3wondersha	    // Bootleg
+captcoud	    // Bootleg
+captcocn	    // Bootleg
+daimakaib	    // Bootleg
+dinoh	        // Bootleg
+dinoha	        // Bootleg
+dinotpic	    // Bootleg
+dinohc	        // Bootleg
+dinopic4	    // Bootleg
+dinod	        // Bootleg
+mercscn	        // Bootleg
+pnicku	        // Bootleg
+punisherud1	    // Bootleg
+punisherud2	    // Bootleg
+punisherb	    // Bootleg
+sf2mega2	    // Bootleg
+sf2amf5	        // Bootleg
+sf2cejabl	    // Bootleg
+sf2m12	        // Bootleg
+sf2m13	        // Bootleg
+sf2rbpr	        // Bootleg
+sf2amf6	        // Bootleg
+sf2amf7	        // Bootleg
+sf2tlona	    // Bootleg
+sf2tlonb	    // Bootleg
+sf2tlonc	    // Bootleg
+sf2yyc3d5	    // Bootleg
+sf2yyc3g	    // Bootleg
+sf2yyc6	        // Bootleg
+sf2ceeabl	    // Bootleg
+sf2cejab2	    // Bootleg
+sf2cebr	        // Bootleg
+sf2h11	        // Bootleg
+sf2ceh	        // Bootleg
+sf2cn	        // Bootleg
+sf2ly	        // Bootleg
+slammastud	    // Bootleg
+wofh	        // Bootleg
+wofha           // Bootleg
+wofah	        // Bootleg
+wofaha	        // Bootleg
+wofahb	        // Bootleg
+wof3js	        // Bootleg
+wof3jsa	        // Bootleg
+wof3sj	        // Bootleg
+wof3sja	        // Bootleg
+wofsj	        // Bootleg
+wofsja	        // Bootleg
+wofsjb	        // Bootleg
+wofsjc	        // Bootleg
+wofjd	        // Bootleg
+wofud	        // Bootleg
+
+@source:cps1.cpp
+captcommhc01    // Hack
+captcommhc02    // Hack
+dinohc01        // Hack
+dinohc02        // Hack
+dinohc03        // Hack
+dinohc04        // Hack
+dinohc05        // Hack
+dinohc06        // Hack
+//kodhc01         // Hack [It does not work]
+//kodhc02         // Hack [It does not work]
+//kodhc03         // Hack [It does not work]
+//kodhc04         // Hack [It does not work]
+punisherhc01    // Hack
+tk2hc01         // Hack
+tk2hc02         // Hack
+tk2hc03         // Hack
+//varthhc01       // Hack [It does not work]
+
+@source:cps2.cpp
+gigawinghc01    // Hack
+ssf2thc01       // Hack
+ssf2thc02       // Hack
+sfa3hc01        // Hack
+
+@source:m92.cpp
+hookhc01        // Hack
+hookhc02        // Hack
+hookhc03        // Hack
+hookhc04        // Hack
+hookhc05        // Hack
+hookhc06        // Hack
 
 @source:neogeo.cpp
 bangbedd	    // Decrypted/Bootleg
@@ -331,57 +445,51 @@ svcplusd	    // Decrypted/Bootleg
 zupapad	        // Decrypted/Bootleg
 zupapand	    // Decrypted/Bootleg
 
-@source:cps1.cpp
-3wondrud	    // Bootleg
-3wondersha	    // Bootleg
-captcoud	    // Bootleg
-captcocn	    // Bootleg
-daimakaib	    // Bootleg
-dinoh	        // Bootleg
-dinoha	        // Bootleg
-dinotpic	    // Bootleg
-dinohc	        // Bootleg
-dinopic4	    // Bootleg
-dinod	        // Bootleg
-mercscn	        // Bootleg
-pnicku	        // Bootleg
-punisherud1	    // Bootleg
-punisherud2	    // Bootleg
-punisherb	    // Bootleg
-sf2mega2	    // Bootleg
-sf2amf5	        // Bootleg
-sf2cejabl	    // Bootleg
-sf2m12	        // Bootleg
-sf2m13	        // Bootleg
-sf2rbpr	        // Bootleg
-sf2amf6	        // Bootleg
-sf2amf7	        // Bootleg
-sf2tlona	    // Bootleg
-sf2tlonb	    // Bootleg
-sf2tlonc	    // Bootleg
-sf2yyc3d5	    // Bootleg
-sf2yyc3g	    // Bootleg
-sf2yyc6	        // Bootleg
-sf2ceeabl	    // Bootleg
-sf2cejab2	    // Bootleg
-sf2cebr	        // Bootleg
-sf2h11	        // Bootleg
-sf2ceh	        // Bootleg
-sf2cn	        // Bootleg
-sf2ly	        // Bootleg
-slammastud	    // Bootleg
-wofh	        // Bootleg
-wofha           // Bootleg
-wofah	        // Bootleg
-wofaha	        // Bootleg
-wofahb	        // Bootleg   
-wof3js	        // Bootleg
-wof3jsa	        // Bootleg
-wof3sj	        // Bootleg
-wof3sja	        // Bootleg
-wofsj	        // Bootleg
-wofsja	        // Bootleg
-wofsjb	        // Bootleg
-wofsjc	        // Bootleg
-wofjd	        // Bootleg
-wofud	        // Bootleg
+@source:neogeo.cpp
+kof97hc01       // Hack
+kof97hc02       // Hack
+kof97hc03       // Hack
+kof97hc04       // Hack
+kof97hc05       // Hack
+kof98hc01       // Hack
+kof98hc02       // Hack
+kof98hc03       // Hack
+kof98hc04       // Hack
+kof99hc01       // Hack
+kof99hc02       // Hack
+kof99hc03       // Hack
+kof99hc04       // Hack
+kof2002hc01     // Hack
+kof2002hc02     // Hack
+mslug5hc01      // Hack
+mslug5hc02      // Hack
+mslug5hc03      // Hack
+mslug5hc04      // Hack
+mslug5hc05      // Hack
+mslug5hc06      // Hack
+mslug5hc07      // Hack
+mslug5hc08      // Hack
+mslug5hc09      // Hack
+mslug5hc10      // Hack
+mslug5hc11      // Hack
+mslug5hc12      // Hack
+mslug5hc13      // Hack
+mslug5hc14      // Hack
+mslug5hc15      // Hack
+mslug5hc16      // Hack
+teothc01        // Hack
+
+@source:pgm.cpp
+kovplushc01     // Hack
+//kovplushc02     // Hack [It does not work]
+//kovplushc03     // Hack [It does not work]
+//kovplushc04     // Hack [It does not work]
+//kovplushc05     // Hack [It does not work]
+//kovplushc06     // Hack [It does not work]
+//kovshphc01      // Hack [It does not work]
+
+@source:seta2.cpp
+grdianshc01     // Hack
+
+@source:cps3.cpp
+sfiii3hc01      // Hack

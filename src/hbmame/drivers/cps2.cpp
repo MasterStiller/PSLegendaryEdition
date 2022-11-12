@@ -12565,4 +12565,4 @@ GAME( 2001, progearjd, progear, dead_cps2, cps2_2p3b, cps2_state, init_cps2,    
 GAME( 2001, progearjbl,progear, dead_cps2, cps2_2p3b, cps2_state, init_cps2,    ROT0,   "bootleg", "Progear no Arashi (Japan 010117) (decrypted bootleg)", MACHINE_SUPPORTS_SAVE ) // not an actual phoenix set, but works as one
 GAME( 2004, hsf2d,    hsf2,     dead_cps2, cps2_2p6b, cps2_state, init_cps2,    ROT0,   "bootleg", "Hyper Street Fighter II: The Anniversary Edition (Asia 040202 Phoenix Edition) (bootleg)", MACHINE_SUPPORTS_SAVE )
 // HBMAME
-//#include "cps2mis.cpp"
+#include "cps2hb.cpp"

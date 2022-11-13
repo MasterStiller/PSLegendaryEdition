@@ -2,6 +2,9 @@
 // copyright-holders:Robbbert
 #include "../mame/drivers/seta2.cpp"
 
+/********************
+  Hack And Homebrow
+***********************/
 
 ROM_START( grdianshc01 ) //grdianssy
 	ROM_REGION( 0x200000, "maincpu", 0 )   

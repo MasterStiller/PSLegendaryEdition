@@ -386,7 +386,7 @@ files {
 	MAME_DIR .. "src/hbmame/video/cps1.cpp",
 	MAME_DIR .. "src/hbmame/drivers/cps2.cpp",
 	MAME_DIR .. "src/hbmame/video/cps2.cpp",
-	MAME_DIR .. "src/mame/drivers/cps3.cpp",
+	MAME_DIR .. "src/hbmame/drivers/cps3hb.cpp",
 	MAME_DIR .. "src/mame/audio/cps3.cpp",
 	MAME_DIR .. "src/hbmame/drivers/fcrash.cpp",
 	MAME_DIR .. "src/mame/drivers/mitchell.cpp",
@@ -396,7 +396,7 @@ files {
 
 createMAMEProjects(_target, _subtarget, "cave")
 files {
-	MAME_DIR .. "src/mame/drivers/cave.cpp",
+	MAME_DIR .. "src/hbmame/drivers/cavehb.cpp",
 	MAME_DIR .. "src/mame/video/cave.cpp",
 	MAME_DIR .. "src/mame/drivers/cv1k.cpp",
 	MAME_DIR .. "src/mame/video/tmap038.cpp",
@@ -433,6 +433,10 @@ files {
 	MAME_DIR .. "src/mame/video/decospr.cpp",  -- cninja
 	MAME_DIR .. "src/mame/machine/deco_irq.cpp",  -- cninja
 	MAME_DIR .. "src/mame/machine/decocrpt.cpp",  -- cninja
+	MAME_DIR .. "src/hbmame/drivers/deco_mlchb.cpp",  -- mlc
+	MAME_DIR .. "src/mame/video/deco_mlc.cpp",    -- mlc
+	MAME_DIR .. "src/mame/drivers/deco156.cpp",   -- mlc
+	MAME_DIR .. "src/mame/machine/deco156.cpp",   -- mlc
 	MAME_DIR .. "src/mame/drivers/deco32.cpp",
 	MAME_DIR .. "src/mame/video/deco32.cpp",
 	MAME_DIR .. "src/mame/audio/decobsmt.cpp", -- deco32
@@ -475,7 +479,7 @@ files {
 createMAMEProjects(_target, _subtarget, "igs")
 files {
 	MAME_DIR .. "src/mame/drivers/igs011.cpp",
-	MAME_DIR .. "src/mame/drivers/pgm.cpp",
+	MAME_DIR .. "src/hbmame/drivers/pgmhb.cpp",
 	MAME_DIR .. "src/mame/video/pgm.cpp",
 	MAME_DIR .. "src/mame/machine/pgmprot_igs027a_type1.cpp",
 	MAME_DIR .. "src/mame/machine/pgmprot_igs027a_type2.cpp",
@@ -496,7 +500,7 @@ createMAMEProjects(_target, _subtarget, "irem")
 files {
 	MAME_DIR .. "src/mame/drivers/m52.cpp",
 	MAME_DIR .. "src/mame/video/m52.cpp",
-	MAME_DIR .. "src/mame/drivers/m92.cpp",
+	MAME_DIR .. "src/hbmame/drivers/m92hb.cpp",
 	MAME_DIR .. "src/mame/video/m92.cpp",
 	MAME_DIR .. "src/mame/machine/irem_cpu.cpp",
 	MAME_DIR .. "src/mame/audio/nl_kidniki.cpp",
@@ -705,7 +709,7 @@ files {
 
 createMAMEProjects(_target, _subtarget, "nintendo")
 files {
-	MAME_DIR .. "src/mame/drivers/dkong.cpp",
+	MAME_DIR .. "src/hbmame/drivers/dkonghb.cpp",
 	MAME_DIR .. "src/mame/audio/dkong.cpp",
 	MAME_DIR .. "src/mame/video/dkong.cpp",
 	MAME_DIR .. "src/mame/drivers/mario.cpp",
@@ -839,7 +843,7 @@ files {
 	MAME_DIR .. "src/mame/drivers/simple_st0016.cpp",
 	MAME_DIR .. "src/mame/drivers/seta.cpp",
 	MAME_DIR .. "src/mame/video/seta.cpp",
-	MAME_DIR .. "src/mame/drivers/seta2.cpp",
+	MAME_DIR .. "src/hbmame/drivers/seta2hb.cpp",
 	MAME_DIR .. "src/mame/video/seta2.cpp",
 	MAME_DIR .. "src/mame/video/seta001.cpp",
 	MAME_DIR .. "src/mame/drivers/ssv.cpp",
@@ -888,7 +892,7 @@ files {
 	MAME_DIR .. "src/mame/video/taito_b.cpp",
 	MAME_DIR .. "src/mame/drivers/taito_f2.cpp",
 	MAME_DIR .. "src/mame/video/taito_f2.cpp",
-	MAME_DIR .. "src/mame/drivers/taito_f3.cpp",
+	MAME_DIR .. "src/hbmame/drivers/taito_f3hb.cpp",
 	MAME_DIR .. "src/mame/video/taito_f3.cpp",
 	MAME_DIR .. "src/mame/machine/taitocchip.cpp",
 	MAME_DIR .. "src/mame/drivers/volfied.cpp",
@@ -997,7 +1001,7 @@ files {
 	MAME_DIR .. "src/mame/video/vsystem_gga.cpp",
 	MAME_DIR .. "src/mame/video/vsystem_spr.cpp",
 	MAME_DIR .. "src/mame/video/vsystem_spr2.cpp",
-	MAME_DIR .. "src/mame/drivers/aerofgt.cpp",
+	MAME_DIR .. "src/hbmame/drivers/aerofgthb.cpp",
 	MAME_DIR .. "src/mame/video/aerofgt.cpp",
 	MAME_DIR .. "src/mame/drivers/taotaido.cpp",
 	MAME_DIR .. "src/mame/video/taotaido.cpp",

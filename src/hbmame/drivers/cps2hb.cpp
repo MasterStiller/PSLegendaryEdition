@@ -137,9 +137,44 @@ ROM_START( sfa3hc01 ) //sfa3ce
 	ROM_LOAD( "sfa3u.key",    0x000000, 0x000014, CRC(4a8f98c1) SHA1(11953de12ed8fbb6f60ad03b1ba5e22a429b7cfa) )
 ROM_END
 
+ROM_START( sfa3hc02 ) //sfz3mix
+	ROM_REGION( CODE_SIZE, "maincpu", 0 )
+	ROM_LOAD16_WORD_SWAP( "sz3e_hc02.03c", 0x000000, 0x80000, CRC(96026ef8) SHA1(10d790dc5d87abc5c82858c59f56dafbc6009c6a) )
+	ROM_LOAD16_WORD_SWAP( "sz3e_hc02.04c", 0x080000, 0x80000, CRC(0f4ab622) SHA1(fedec7a311fe5ce5c634649e52204de77114a9c5) )
+	ROM_LOAD16_WORD_SWAP( "sz3_hc02.05c",  0x100000, 0x80000, CRC(b8b19c1f) SHA1(72a38eb482b20e2e6c95dbadd0ef9108bbda2868) )
+	ROM_LOAD16_WORD_SWAP( "sz3_hc02.06c",  0x180000, 0x80000, CRC(35639da3) SHA1(7ad71481f38846e9c80556b241fcfacec638c66a) )
+	ROM_LOAD16_WORD_SWAP( "sz3_hc02.07c",  0x200000, 0x80000, CRC(a9d9f83e) SHA1(a4728207aefed7a97fafab291a427278ef77044e) )
+	ROM_LOAD16_WORD_SWAP( "sz3_hc02.08c",  0x280000, 0x80000, CRC(a85e33a5) SHA1(f6ce81bfa91008e60090df7cf8a9c73d4d8dee78) )
+	ROM_LOAD16_WORD_SWAP( "sz3_hc02.09c",  0x300000, 0x80000, CRC(7a5a0d3c) SHA1(4c9eb75c4b555a37e39d67c1318f4735bf7702f7) )
+	ROM_LOAD16_WORD_SWAP( "sz3_hc02.10b",  0x380000, 0x80000, CRC(3fa5f874) SHA1(46a39c1cc6010a0c500b4b79b8709a93a7995e3d) )
+
+	ROM_REGION( 0x2000000, "gfx", 0 )
+	ROMX_LOAD( "sz3_hc02.13m",   0x0000000, 0x400000, CRC(93183516) SHA1(a4435cf5d384294dc5f85325b8f47f166020fe7b) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "sz3_hc02.15m",   0x0000002, 0x400000, CRC(b06f14ce) SHA1(f653f8c10157102426430670f557d8fc2e0c70ec) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "sz3_hc02.17m",   0x0000004, 0x400000, CRC(661c1355) SHA1(4d53b8bbc466d947320c8c12bdff72b01493c20b) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "sz3_hc02.19m",   0x0000006, 0x400000, CRC(7227f353) SHA1(343534f1679858fae27970a859d54c6e46d16748) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "sz3_hc02.14m",   0x1000000, 0x400000, CRC(62496779) SHA1(8534226cc1074097fce296ec1ab6e453f9a2b69d) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "sz3_hc02.16m",   0x1000002, 0x400000, CRC(1e7aa3cb) SHA1(66bfe1d7897f9dfd02db0523e8296aa50f4cf8c5) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "sz3_hc02.18m",   0x1000004, 0x400000, CRC(95e161ce) SHA1(ef863b415fe4f07f5acf1e5082378c7603d8e58c) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "sz3_hc02.20m",   0x1000006, 0x400000, CRC(a6afdc2d) SHA1(6bfd7261246f19cc12364fe02ba090d456a482ce) , ROM_GROUPWORD | ROM_SKIP(6) )
+
+	ROM_REGION( QSOUND_SIZE, "audiocpu", 0 )
+	ROM_LOAD( "sz3_hc02.01",   0x00000, 0x08000, CRC(5ac9bfe5) SHA1(85fa8599de7b035ceb8ee6ffb88c93f94572a0cd) )
+	ROM_CONTINUE(         0x10000, 0x18000 )
+	ROM_LOAD( "sz3_hc02.02",   0x28000, 0x20000, CRC(68a17d87) SHA1(f6ebdabdeb1d94a3293cbe55de31c10900f45375) )
+
+	ROM_REGION( 0x800000, "qsound", 0 )
+	ROM_LOAD16_WORD_SWAP( "sz3_hc02.11m",   0x000000, 0x400000, CRC(ab9415fb) SHA1(8de2f4576aafe631f762d3a5aeb720642b98d2e8) )
+	ROM_LOAD16_WORD_SWAP( "sz3.12m",   0x400000, 0x400000, CRC(f392b13a) SHA1(fa04ce0370144a49bd1d5acd873eef87b0dc9d15) )
+
+	ROM_REGION( 0x20, "key", 0 )
+	ROM_LOAD( "phoenix.key",  0x000000, 0x000014, CRC(2cf772b0) SHA1(eff33c65a4f3862c231f9e4d6fefa7b34398dbf2) )
+ROM_END
+
 /*    YEAR  NAME          PARENT       MACHINE  INPUT                  INIT      MONITOR   COMPANY       FULLNAME FLAGS */
 // Hack/Homebrow
 GAME( 1999, gigawinghc01,gigawing,     cps2, cps2_2p2b, cps2_state, init_cps2,     ROT0,   "hack",    "Giga Wing (The Strongest Firepower)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, ssf2thc01,   ssf2t,        cps2, cps2_2p6b, cps2_state, init_cps2,     ROT0,   "hack",    "Super Street Fighter II Turbo (Accelerated Simplified Edition New Legacy v0.7 2022-07-17)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, ssf2thc02,   ssf2t,        cps2, cps2_2p6b, cps2_state, init_cps2,     ROT0,   "hack",    "Super Street Fighter II Turbo (Accelerated Original Edition New Legacy v0.7 2022-07-17)", MACHINE_SUPPORTS_SAVE )
-GAME( 1998, sfa3hc01,    sfa3,         cps2, cps2_2p6b, cps2_state, init_cps2,     ROT0,   "hack",    "Street Fighter Alpha 3 (Challenger Edition 2022-07-01)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, sfa3hc01,    sfa3,         cps2, cps2_2p6b, cps2_state, init_cps2,     ROT0,   "hack",    "Street Fighter Alpha 3 (Challenger Edition 2022-07-01)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, sfa3hc02,    sfa3,         cps2, cps2_2p6b, cps2_state, init_cps2,     ROT0,   "hack",    "Street Fighter Alpha 3 (Mix 0.13 2022-08-06)", MACHINE_SUPPORTS_SAVE )

@@ -16,6 +16,7 @@ guwange         // (c) 1999 Atlus/Cave
 
 @source:cps1.cpp
 3wonders        // 20/05/1991 (c) 1991 (World)
+area88          // 8/1989 (c) 1989 (Japan)
 captcomm        // 02/12/1991 (c) 1991 (World)
 cawing          // 12/10/1990 (c) 1990 (World)
 dino            // 01/02/1993 (c) 1993 (World) (CPS1 + QSound)
@@ -25,6 +26,7 @@ ghouls          // 12/1988 (c) 1988 (World)
 knights         // 27/11/1991 (c) 1991 (World)
 kod             // 05/08/1991 (c) 1991 (World)
 mbombrd         // 06/12/1993 (c) 1993 (World) (CPS1 + QSound)
+msword          // 25/07/1990 (c) 1990 (World)
 megaman         // 06/10/1995 (c) 1995 (USA)
 mercs           // 02/03/1990 (c) 1990 (World)
 pnickj          // 08/06/1994 (c) 1994 Compile + Capcom license (Japan) not listed on Capcom's site
@@ -219,6 +221,8 @@ zupapa			// 0070 Zupapa - released in 2001, 1994 prototype probably exists
 
 @source:pgm.cpp
 pgm             // Base Unit
+ddp2            // (c) 2001 DoDonPachi 2 - Bee Storm
+ddp3            // (c) 2002 DoDonPachi Dai-Ou-Jou / DoDonPachi III
 ket             // (c) 2002 Ketsui
 killbld         // (c) 1998 The Killing Blade
 kovplus         // (c) 1999 Knights of Valor Plus
@@ -308,17 +312,27 @@ wofud	        // Bootleg
 @source:cps1.cpp
 captcommhc01    // Hack
 captcommhc02    // Hack
+captcommhc03    // Hack
 dinohc01        // Hack
 dinohc02        // Hack
 dinohc03        // Hack
 dinohc04        // Hack
 dinohc05        // Hack
 dinohc06        // Hack
+dinohc07        // Hack
+forgottnhc01    // Hack
+mswordhc01      // Hack
 //kodhc01         // Hack [It does not work]
 //kodhc02         // Hack [It does not work]
 //kodhc03         // Hack [It does not work]
 //kodhc04         // Hack [It does not work]
+//kodhc05         // Hack [It does not work]
+//kodhc06         // Hack [It does not work]
+//kodhc07         // Hack [It does not work]
 punisherhc01    // Hack
+punisherhc02    // Hack
+punisherhc03    // Hack
+punisherhc04    // Hack
 tk2hc01         // Hack
 tk2hc02         // Hack
 tk2hc03         // Hack
@@ -329,6 +343,7 @@ gigawinghc01    // Hack
 ssf2thc01       // Hack
 ssf2thc02       // Hack
 sfa3hc01        // Hack
+sfa3hc02        // Hack
 
 @source:m92.cpp
 hookhc01        // Hack
@@ -337,6 +352,8 @@ hookhc03        // Hack
 hookhc04        // Hack
 hookhc05        // Hack
 hookhc06        // Hack
+hookhc07        // Hack
+hookhc08        // Hack
 
 @source:neogeo.cpp
 bangbedd	    // Decrypted/Bootleg
@@ -451,16 +468,34 @@ kof97hc02       // Hack
 kof97hc03       // Hack
 kof97hc04       // Hack
 kof97hc05       // Hack
+kof97hc06       // Hack
+kof97hc07       // Hack
+kof97hc08       // Hack
+kof97hc09       // Hack
+kof97hc10       // Hack
+kof97hc11       // Hack
+kof97hc12       // Hack
+kof97hc13       // Hack
+kof97hc14       // Hack
 kof98hc01       // Hack
 kof98hc02       // Hack
 kof98hc03       // Hack
 kof98hc04       // Hack
+kof98hc05       // Hack
+kof98hc06       // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
 kof99hc04       // Hack
+kof99hc05       // Hack
+kof99hc06       // Hack
 kof2002hc01     // Hack
 kof2002hc02     // Hack
+kof2002hc03     // Hack
+kof2002hc04     // Hack
+magdrop3hc01    // Hack
+mslug4hc01      // Hack
+mslug4hc02      // Hack
 mslug5hc01      // Hack
 mslug5hc02      // Hack
 mslug5hc03      // Hack
@@ -477,9 +512,18 @@ mslug5hc13      // Hack
 mslug5hc14      // Hack
 mslug5hc15      // Hack
 mslug5hc16      // Hack
+mslug5hc17      // Hack
+mslug5hc18      // Hack
+mslug5hc19      // Hack
+sonicwi2hc01    // Hack
+sonicwi3hc01    // Hack
 teothc01        // Hack
+teothc02        // Hack
 
 @source:pgm.cpp
+ddp2hc01        // Hack
+ddp3hc01        // Hack
+//kov2phc01       // Hack [It does not work]
 kovplushc01     // Hack
 //kovplushc02     // Hack [It does not work]
 //kovplushc03     // Hack [It does not work]
@@ -487,9 +531,11 @@ kovplushc01     // Hack
 //kovplushc05     // Hack [It does not work]
 //kovplushc06     // Hack [It does not work]
 //kovshphc01      // Hack [It does not work]
+//kovshphc02      // Hack [It does not work]
 
 @source:seta2.cpp
 grdianshc01     // Hack
+grdianshc02     // Hack
 
 @source:cps3.cpp
 sfiii3hc01      // Hack

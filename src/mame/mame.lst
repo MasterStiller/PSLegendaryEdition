@@ -370,6 +370,8 @@ ssf2thc03       // Hack
 ssf2thc04       // Hack
 sfa3hc01        // Hack
 sfa3hc02        // Hack
+mvschc01        // Hack
+mvschc02        // Hack
 
 @source:cps3.cpp
 sfiii3hc01      // Hack
@@ -505,6 +507,8 @@ zupapand	    // Decrypted/Bootleg
 19yyhc01         // Hack
 cakefghthc01    // Hack
 kof10thhc01     // Hack
+kof94hc01       // Hack
+kof94hc02       // Hack
 kof96hc01       // Hack
 //kof96hc02       // Hack [It does not work]
 kof97hc01       // Hack
@@ -528,6 +532,7 @@ kof97hc18       // Hack
 kof97hc19       // Hack
 kof97hc20       // Hack
 kof97hc21       // Hack
+kof97hc22       // Hack
 kof98hc01       // Hack
 kof98hc02       // Hack
 kof98hc03       // Hack
@@ -538,6 +543,8 @@ kof98hc07       // Hack
 kof98hc08       // Hack
 kof98hc09       // Hack
 kof98hc10       // Hack
+kof98hc11       // Hack
+kof98hc12       // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -552,9 +559,17 @@ kof2002hc01     // Hack
 kof2002hc02     // Hack
 kof2002hc03     // Hack
 kof2002hc04     // Hack
+kof2002hc05     // Hack
+kof2002hc06     // Hack
+kof2002hc07     // Hack
 koghc01         // Hack
 koghc02         // Hack
 magdrop3hc01    // Hack
+mslug2hc01      // Hack
+mslug2hc02      // Hack
+mslug2hc03      // Hack
+mslug2hc04      // Hack
+mslug2hc05      // Hack
 mslug3hc01      // Hack
 mslug3hc02      // Hack
 mslug4hc01      // Hack
@@ -582,7 +597,16 @@ mslug5hc19      // Hack
 mslug5hc20      // Hack
 mslug5hc21      // Hack
 mslug5hc22      // Hack
+//mslug5hc23      // Hack [It does not work]
+mslug5hc24      // Hack
 mslugxhc01      // Hack
+mslugxhc02      // Hack
+mslugxhc03      // Hack
+mslugxhc04      // Hack
+mslugxhc05      // Hack
+mslugxhc06      // Hack
+mslugxhc07      // Hack
+mslugxhc08      // Hack
 sonicwi2hc01    // Hack
 sonicwi3hc01    // Hack
 teothc01        // Hack

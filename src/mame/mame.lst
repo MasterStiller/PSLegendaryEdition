@@ -91,6 +91,9 @@ dkong           // (c) 1981 Nintendo of America
 @source:m92.cpp
 hook            // (c) 1992 Irem (World)
 
+@source:midtunit.cpp
+nbajam          // (c) 1993 Midway
+
 @source:neogeo.cpp
 neogeo          // NeoGeo MV-6F
 2020bb			// 0030 (c) 1991 SNK / Pallas
@@ -258,19 +261,15 @@ lightbr         // 1994.03 D69 (c) 1993 Taito Corporation Japan (World)
 spcinv95        // 1995.?? E06 (c) 1995 Taito Corporation Japan (World)
 pbobble3        // 1996.?? E29 (c) 1996 Taito Corporation (World)
 
+
+
 /****************************************************************
   List of all enabled drivers in the system PSMame Builds Plus.
 *******************************************************************/
 
-@source:aerofgt.cpp
-aerofgthc01     // Hack
-
-@source:cave.cpp
-agallethc01     // Hack
-ddonpachhc01    // Hack
-espradehc01     // Hack
-feversoshc01    // Hack
-guwangehc01     // Hack
+/************************
+  Decrypted And Bootleg
+***************************/
 
 @source:cps1.cpp
 3wondrud	    // Bootleg
@@ -326,75 +325,6 @@ wofsjb	        // Bootleg
 wofsjc	        // Bootleg
 wofjd	        // Bootleg
 wofud	        // Bootleg
-
-@source:cps1.cpp
-captcommhc01    // Hack
-captcommhc02    // Hack
-captcommhc03    // Hack
-dinohc01        // Hack
-dinohc02        // Hack
-dinohc03        // Hack
-dinohc04        // Hack
-dinohc05        // Hack
-dinohc06        // Hack
-dinohc07        // Hack
-dinohc08        // Hack
-dinohc09        // Hack
-dinohc10        // Hack
-forgottnhc01    // Hack
-mswordhc01      // Hack
-//kodhc01         // Hack [It does not work]
-//kodhc02         // Hack [It does not work]
-//kodhc03         // Hack [It does not work]
-//kodhc04         // Hack [It does not work]
-//kodhc05         // Hack [It does not work]
-//kodhc06         // Hack [It does not work]
-//kodhc07         // Hack [It does not work]
-//kodhc08         // Hack [It does not work]
-punisherhc01    // Hack
-punisherhc02    // Hack
-punisherhc03    // Hack
-punisherhc04    // Hack
-tk2hc01         // Hack
-tk2hc02         // Hack
-tk2hc03         // Hack
-//varthhc01       // Hack [It does not work]
-
-@source:cps2.cpp
-ddsomudhc01     // Hack
-ffightaec2      // HomeBrew
-gigawinghc01    // Hack
-ssf2thc01       // Hack
-ssf2thc02       // Hack
-ssf2thc03       // Hack
-ssf2thc04       // Hack
-sfa3hc01        // Hack
-sfa3hc02        // Hack
-mvschc01        // Hack
-mvschc02        // Hack
-
-@source:cps3.cpp
-sfiii3hc01      // Hack
-sfiii3hc02      // Hack
-
-@source:deco_mlc.cpp
-avengrgshc01    // Hack
-
-@source:dkong.cpp
-dkonghc01       // Hack
-dkonghc02       // Hack
-dkonghc03       // Hack
-dkonghc04       // Hack
-
-@source:m92.cpp
-hookhc01        // Hack
-hookhc02        // Hack
-hookhc03        // Hack
-hookhc04        // Hack
-hookhc05        // Hack
-hookhc06        // Hack
-hookhc07        // Hack
-hookhc08        // Hack
 
 @source:neogeo.cpp
 bangbedd	    // Decrypted/Bootleg
@@ -503,14 +433,116 @@ svcplusd	    // Decrypted/Bootleg
 zupapad	        // Decrypted/Bootleg
 zupapand	    // Decrypted/Bootleg
 
+
+
+/********************
+  Hack And Homebrow
+***********************/
+
+@source:aerofgt.cpp
+aerofgthc01     // Hack
+
+@source:cave.cpp
+agallethc01     // Hack
+ddonpachhc01    // Hack
+espradehc01     // Hack
+feversoshc01    // Hack
+guwangehc01     // Hack
+
+@source:cps1.cpp
+captcommhc01    // Hack
+captcommhc02    // Hack
+captcommhc03    // Hack
+captcommhc04    // Hack
+captcommhc05    // Hack
+captcommhc06    // Hack
+captcommhc07    // Hack
+dinohc01        // Hack
+dinohc02        // Hack
+dinohc03        // Hack
+dinohc04        // Hack
+dinohc05        // Hack
+dinohc06        // Hack
+dinohc07        // Hack
+dinohc08        // Hack
+dinohc09        // Hack
+dinohc10        // Hack
+dinohc11        // Hack
+dinohc12        // Hack
+dinohc13        // Hack
+dinohc14        // Hack
+dinohc15        // Hack
+dinohc16        // Hack
+forgottnhc01    // Hack
+mswordhc01      // Hack
+//kodhc01         // Hack [It does not work]
+//kodhc02         // Hack [It does not work]
+//kodhc03         // Hack [It does not work]
+//kodhc04         // Hack [It does not work]
+//kodhc05         // Hack [It does not work]
+//kodhc06         // Hack [It does not work]
+//kodhc07         // Hack [It does not work]
+//kodhc08         // Hack [It does not work]
+punisherhc01    // Hack
+punisherhc02    // Hack
+punisherhc03    // Hack
+punisherhc04    // Hack
+tk2hc01         // Hack
+tk2hc02         // Hack
+tk2hc03         // Hack
+tk2hc04         // Hack
+tk2hc05         // Hack
+//varthhc01       // Hack [It does not work]
+
+@source:cps2.cpp
+ddsomudhc01     // Hack
+ffightaec2      // HomeBrew
+gigawinghc01    // Hack
+ssf2thc01       // Hack
+ssf2thc02       // Hack
+ssf2thc03       // Hack
+ssf2thc04       // Hack
+sfa3hc01        // Hack
+sfa3hc02        // Hack
+mvschc01        // Hack
+mvschc02        // Hack
+
+@source:cps3.cpp
+sfiii3hc01      // Hack
+sfiii3hc02      // Hack
+
+@source:deco_mlc.cpp
+avengrgshc01    // Hack
+
+@source:dkong.cpp
+dkonghc01       // Hack
+dkonghc02       // Hack
+dkonghc03       // Hack
+dkonghc04       // Hack
+
+@source:m92.cpp
+hookhc01        // Hack
+hookhc02        // Hack
+hookhc03        // Hack
+hookhc04        // Hack
+hookhc05        // Hack
+hookhc06        // Hack
+hookhc07        // Hack
+hookhc08        // Hack
+
+@source:midtunit.cpp
+//nbajamhc01      // Hack [It does not work]
+
 @source:neogeo.cpp
-19yyhc01         // Hack
+19yyhc01        // Hack
+19yyhc02        // Hack
 cakefghthc01    // Hack
 kof10thhc01     // Hack
 kof94hc01       // Hack
 kof94hc02       // Hack
 kof96hc01       // Hack
 //kof96hc02       // Hack [It does not work]
+kof96hc03       // Hack
 kof97hc01       // Hack
 kof97hc02       // Hack
 kof97hc03       // Hack
@@ -533,6 +565,7 @@ kof97hc19       // Hack
 kof97hc20       // Hack
 kof97hc21       // Hack
 kof97hc22       // Hack
+kof97hc23       // Hack
 kof98hc01       // Hack
 kof98hc02       // Hack
 kof98hc03       // Hack
@@ -545,6 +578,10 @@ kof98hc09       // Hack
 kof98hc10       // Hack
 kof98hc11       // Hack
 kof98hc12       // Hack
+kof98hc13       // Hack
+kof98hc14       // Hack
+kof98hc15       // Hack
+kof98hc16       // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -553,8 +590,17 @@ kof99hc05       // Hack
 kof99hc06       // Hack
 kof99hc07       // Hack
 kof99hc08       // Hack
+kof99hc09       // Hack
+kof99hc10       // Hack
+kof99hc11       // Hack
+kof99hc12       // Hack
 kof2000hc01     // Hack
 kof2000hc02     // Hack
+kof2000hc03     // Hack
+//kof2001hc01     // Hack [It does not work]
+//kof2001hc02     // Hack [It does not work]
+//kof2001hc03     // Hack [It does not work]
+//kof2001hc04     // Hack [It does not work]
 kof2002hc01     // Hack
 kof2002hc02     // Hack
 kof2002hc03     // Hack
@@ -562,19 +608,52 @@ kof2002hc04     // Hack
 kof2002hc05     // Hack
 kof2002hc06     // Hack
 kof2002hc07     // Hack
+kof2002hc08     // Hack
+kof2002hc09     // Hack
 koghc01         // Hack
 koghc02         // Hack
 magdrop3hc01    // Hack
+mslughc01       // Hack
 mslug2hc01      // Hack
 mslug2hc02      // Hack
 mslug2hc03      // Hack
 mslug2hc04      // Hack
 mslug2hc05      // Hack
+mslug2hc06      // Hack
+mslug2hc07      // Hack
+mslug2hc08      // Hack
 mslug3hc01      // Hack
 mslug3hc02      // Hack
+mslug3hc03      // Hack
+mslug3hc04      // Hack
+mslug3hc05      // Hack
+mslug3hc06      // Hack
+mslug3hc07      // Hack
+mslug3hc08      // Hack
+mslug3hc09      // Hack
+mslug3hc10      // Hack
+mslug3hc11      // Hack
+mslug3hc12      // Hack
+mslug3hc13      // Hack
+mslug3hc14      // Hack
 mslug4hc01      // Hack
 mslug4hc02      // Hack
 mslug4hc03      // Hack
+mslug4hc04      // Hack
+mslug4hc05      // Hack
+mslug4hc06      // Hack
+mslug4hc07      // Hack
+mslug4hc08      // Hack
+mslug4hc09      // Hack
+mslug4hc10      // Hack
+//mslug4hc11      // Hack [It does not work]
+mslug4hc12      // Hack
+mslug4hc13      // Hack
+mslug4hc14      // Hack
+mslug4hc15      // Hack
+mslug4hc16      // Hack
+mslug4hc17      // Hack
+mslug4hc18      // Hack
 mslug5hc01      // Hack
 mslug5hc02      // Hack
 mslug5hc03      // Hack
@@ -599,6 +678,22 @@ mslug5hc21      // Hack
 mslug5hc22      // Hack
 //mslug5hc23      // Hack [It does not work]
 mslug5hc24      // Hack
+//mslug5hc25      // Hack [It does not work]
+//mslug5hc26      // Hack [It does not work]
+//mslug5hc27      // Hack [It does not work]
+//mslug5hc28      // Hack [It does not work]
+//mslug5hc29      // Hack [It does not work]
+//mslug5hc30      // Hack [It does not work]
+//mslug5hc31      // Hack [It does not work]
+//mslug5hc32      // Hack [It does not work]
+//mslug5hc33      // Hack [It does not work]
+//mslug5hc34      // Hack [It does not work]
+//mslug5hc35      // Hack [It does not work]
+//mslug5hc36      // Hack [It does not work]
+//mslug5hc37      // Hack [It does not work]
+mslug5hc38      // Hack
+mslug5hc39      // Hack
+//mslug5hc40      // Hack [It does not work]
 mslugxhc01      // Hack
 mslugxhc02      // Hack
 mslugxhc03      // Hack
@@ -607,6 +702,9 @@ mslugxhc05      // Hack
 mslugxhc06      // Hack
 mslugxhc07      // Hack
 mslugxhc08      // Hack
+mslugxhc09      // Hack
+mslugxhc10      // Hack
+mslugxhc11      // Hack
 sonicwi2hc01    // Hack
 sonicwi3hc01    // Hack
 teothc01        // Hack
@@ -625,14 +723,22 @@ kovplushc01     // Hack
 //kovplushc05     // Hack [It does not work]
 //kovplushc06     // Hack [It does not work]
 //kovplushc07     // Hack [It does not work]
+//kovplushc08     // Hack [It does not work]
 //kovshphc01      // Hack [It does not work]
 //kovshphc02      // Hack [It does not work]
 //kovshphc03      // Hack [It does not work]
+//olds103thc01    // Hack [It does not work]
+//olds103thc02    // Hack [It does not work]
+oldsplushc01    // Hack
+oldsplushc02    // Hack
+oldsplushc03    // Hack
 orlegendhc01    // Hack
+orlegendhc02    // Hack
 
 @source:seta2.cpp
 grdianshc01     // Hack
 grdianshc02     // Hack
+grdianshc03     // Hack
 
 @source:taito_f3.cpp
 cleopatrhc01    // Hack

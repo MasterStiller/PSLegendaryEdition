@@ -607,7 +607,7 @@ files {
 	MAME_DIR .. "src/mame/drivers/mcr68.cpp",
 	MAME_DIR .. "src/mame/machine/mcr68.cpp",
 	MAME_DIR .. "src/mame/video/mcr68.cpp",
-	MAME_DIR .. "src/mame/drivers/midtunit.cpp",
+	MAME_DIR .. "src/hbmame/drivers/midtunithb.cpp",
 	MAME_DIR .. "src/mame/machine/midtunit.cpp",
 	MAME_DIR .. "src/mame/video/midtunit.cpp",
 	MAME_DIR .. "src/mame/drivers/midwunit.cpp",

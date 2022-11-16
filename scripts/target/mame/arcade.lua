@@ -943,7 +943,7 @@ files {
 	MAME_DIR .. "src/mame/video/tecmo_mix.cpp",
 	MAME_DIR .. "src/mame/drivers/bombjack.cpp",
 	MAME_DIR .. "src/mame/video/bombjack.cpp",
-	MAME_DIR .. "src/mame/drivers/tecmo.cpp",
+	MAME_DIR .. "src/hbmame/drivers/tecmohb.cpp",
 	MAME_DIR .. "src/mame/video/tecmo.cpp",
 	MAME_DIR .. "src/mame/drivers/tecmo16.cpp",
 	MAME_DIR .. "src/mame/video/tecmo16.cpp",

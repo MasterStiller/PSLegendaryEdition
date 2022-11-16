@@ -13,6 +13,7 @@ ddonpach        // (c) 1997 Atlus/Cave
 esprade         // (c) 1998 Atlus/Cave
 feversos        // (c) 1998 Cave + Nihon System license
 guwange         // (c) 1999 Atlus/Cave
+sailormn        // (c) 1995 Banpresto (Ver. 95/03/22B, country is in EEPROM)
 
 @source:cps1.cpp
 3wonders        // 20/05/1991 (c) 1991 (World)
@@ -261,7 +262,10 @@ lightbr         // 1994.03 D69 (c) 1993 Taito Corporation Japan (World)
 spcinv95        // 1995.?? E06 (c) 1995 Taito Corporation Japan (World)
 pbobble3        // 1996.?? E29 (c) 1996 Taito Corporation (World)
 
-
+@source:tecmo.cpp
+gemini           // (c) 1987 Tecmo
+rygar            // 6002 - (c) 1986 Tecmo
+silkworm         // 6217 - (c) 1988 Tecmo
 
 /****************************************************************
   List of all enabled drivers in the system PSMame Builds Plus.
@@ -448,6 +452,8 @@ ddonpachhc01    // Hack
 espradehc01     // Hack
 feversoshc01    // Hack
 guwangehc01     // Hack
+sailormnhc01    // Hack
+sailormnhc02    // Hack
 
 @source:cps1.cpp
 captcommhc01    // Hack
@@ -473,7 +479,13 @@ dinohc13        // Hack
 dinohc14        // Hack
 dinohc15        // Hack
 dinohc16        // Hack
+dinohc17        // Hack
+dinohc18        // Hack
+dinohc19        // Hack
+dinohc20        // Hack
+dinohc21        // Hack
 forgottnhc01    // Hack
+ffighthc01      // Hack
 mswordhc01      // Hack
 //kodhc01         // Hack [It does not work]
 //kodhc02         // Hack [It does not work]
@@ -483,6 +495,10 @@ mswordhc01      // Hack
 //kodhc06         // Hack [It does not work]
 //kodhc07         // Hack [It does not work]
 //kodhc08         // Hack [It does not work]
+//kodhc09         // Hack [It does not work]
+//kodhc10         // Hack [It does not work]
+//kodhc11         // Hack [It does not work]
+//kodhc12         // Hack [It does not work]
 punisherhc01    // Hack
 punisherhc02    // Hack
 punisherhc03    // Hack
@@ -492,6 +508,13 @@ tk2hc02         // Hack
 tk2hc03         // Hack
 tk2hc04         // Hack
 tk2hc05         // Hack
+tk2hc06         // Hack
+tk2hc07         // Hack
+tk2hc08         // Hack
+tk2hc09         // Hack
+tk2hc10         // Hack
+tk2hc11         // Hack
+tk2hc12         // Hack
 //varthhc01       // Hack [It does not work]
 
 @source:cps2.cpp
@@ -529,6 +552,9 @@ hookhc05        // Hack
 hookhc06        // Hack
 hookhc07        // Hack
 hookhc08        // Hack
+hookhc09        // Hack
+hookhc10        // Hack
+hookhc11        // Hack
 
 @source:midtunit.cpp
 //nbajamhc01      // Hack [It does not work]
@@ -566,6 +592,12 @@ kof97hc20       // Hack
 kof97hc21       // Hack
 kof97hc22       // Hack
 kof97hc23       // Hack
+kof97hc24       // Hack
+kof97hc25       // Hack
+//kof97hc26       // Hack [It does not work]
+kof97hc27       // Hack
+kof97hc28       // Hack
+kof97hc29       // Hack
 kof98hc01       // Hack
 kof98hc02       // Hack
 kof98hc03       // Hack
@@ -582,6 +614,13 @@ kof98hc13       // Hack
 kof98hc14       // Hack
 kof98hc15       // Hack
 kof98hc16       // Hack
+kof98hc17       // Hack
+kof98hc18       // Hack
+kof98hc19       // Hack
+kof98hc20       // Hack
+kof98hc21       // Hack
+kof98hc22       // Hack
+kof98hc23       // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -594,6 +633,8 @@ kof99hc09       // Hack
 kof99hc10       // Hack
 kof99hc11       // Hack
 kof99hc12       // Hack
+kof99hc13       // Hack
+kof99hc14       // Hack
 kof2000hc01     // Hack
 kof2000hc02     // Hack
 kof2000hc03     // Hack
@@ -610,6 +651,8 @@ kof2002hc06     // Hack
 kof2002hc07     // Hack
 kof2002hc08     // Hack
 kof2002hc09     // Hack
+kof2002hc10     // Hack
+kof2002hc11     // Hack
 koghc01         // Hack
 koghc02         // Hack
 magdrop3hc01    // Hack
@@ -622,6 +665,8 @@ mslug2hc05      // Hack
 mslug2hc06      // Hack
 mslug2hc07      // Hack
 mslug2hc08      // Hack
+mslug2hc09      // Hack
+mslug2hc10      // Hack
 mslug3hc01      // Hack
 mslug3hc02      // Hack
 mslug3hc03      // Hack
@@ -636,6 +681,12 @@ mslug3hc11      // Hack
 mslug3hc12      // Hack
 mslug3hc13      // Hack
 mslug3hc14      // Hack
+mslug3hc15      // Hack
+mslug3hc16      // Hack
+mslug3hc17      // Hack
+mslug3hc18      // Hack
+mslug3hc19      // Hack
+mslug3hc20      // Hack
 mslug4hc01      // Hack
 mslug4hc02      // Hack
 mslug4hc03      // Hack
@@ -654,6 +705,10 @@ mslug4hc15      // Hack
 mslug4hc16      // Hack
 mslug4hc17      // Hack
 mslug4hc18      // Hack
+mslug4hc19      // Hack
+mslug4hc20      // Hack
+mslug4hc21      // Hack
+mslug4hc22      // Hack
 mslug5hc01      // Hack
 mslug5hc02      // Hack
 mslug5hc03      // Hack
@@ -694,6 +749,8 @@ mslug5hc24      // Hack
 mslug5hc38      // Hack
 mslug5hc39      // Hack
 //mslug5hc40      // Hack [It does not work]
+mslug5hc41      // Hack
+mslug5hc42      // Hack
 mslugxhc01      // Hack
 mslugxhc02      // Hack
 mslugxhc03      // Hack
@@ -705,15 +762,29 @@ mslugxhc08      // Hack
 mslugxhc09      // Hack
 mslugxhc10      // Hack
 mslugxhc11      // Hack
+mslugxhc12      // Hack
+mslugxhc13      // Hack
+mslugxhc14      // Hack
+mslugxhc15      // Hack
+mslugxhc16      // Hack
+mslugxhc17      // Hack
+mslugxhc18      // Hack
+mslugxhc19      // Hack
 sonicwi2hc01    // Hack
 sonicwi3hc01    // Hack
+svchc01         // Hack
+svchc02         // Hack
+svchc03         // Hack
+svchc04         // Hack
 teothc01        // Hack
 teothc02        // Hack
+teothc03        // Hack
 
 @source:pgm.cpp
 ddp2hc01        // Hack
 ddp3hc01        // Hack
 kov2hc01        // Hack
+kov2hc02        // Hack
 //kov2phc01       // Hack [It does not work]
 kov2phc02       // Hack
 kovplushc01     // Hack
@@ -724,9 +795,13 @@ kovplushc01     // Hack
 //kovplushc06     // Hack [It does not work]
 //kovplushc07     // Hack [It does not work]
 //kovplushc08     // Hack [It does not work]
+//kovplushc09     // Hack [It does not work]
+//kovplushc10     // Hack [It does not work]
 //kovshphc01      // Hack [It does not work]
 //kovshphc02      // Hack [It does not work]
 //kovshphc03      // Hack [It does not work]
+kovshphc04      // Hack
+kovshphc05      // Hack
 //olds103thc01    // Hack [It does not work]
 //olds103thc02    // Hack [It does not work]
 oldsplushc01    // Hack
@@ -739,6 +814,7 @@ orlegendhc02    // Hack
 grdianshc01     // Hack
 grdianshc02     // Hack
 grdianshc03     // Hack
+grdianshc04     // Hack
 
 @source:taito_f3.cpp
 cleopatrhc01    // Hack
@@ -751,3 +827,9 @@ gseekerhc01     // Hack
 landmakrhc01    // Hack
 lightbrhc01     // Hack
 pbobble3hc01    // Hack
+
+@source:tecmo.cpp
+geminihc01      // Hack
+geminihc02      // Hack
+rygarhc01       // Hack
+silkwormhc01    // Hack

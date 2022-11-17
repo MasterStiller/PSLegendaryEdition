@@ -503,6 +503,7 @@ punisherhc01    // Hack
 punisherhc02    // Hack
 punisherhc03    // Hack
 punisherhc04    // Hack
+striderhc01     // Hack
 tk2hc01         // Hack
 tk2hc02         // Hack
 tk2hc03         // Hack
@@ -515,6 +516,14 @@ tk2hc09         // Hack
 tk2hc10         // Hack
 tk2hc11         // Hack
 tk2hc12         // Hack
+tk2hc13         // Hack
+tk2hc14         // Hack
+tk2hc15         // Hack
+tk2hc16         // Hack
+tk2hc17         // Hack
+tk2hc18         // Hack
+tk2hc19         // Hack
+tk2hc20         // Hack
 //varthhc01       // Hack [It does not work]
 
 @source:cps2.cpp
@@ -527,6 +536,8 @@ ssf2thc03       // Hack
 ssf2thc04       // Hack
 sfa3hc01        // Hack
 sfa3hc02        // Hack
+sfa3hc03        // Hack
+sfa3hc04        // Hack
 mvschc01        // Hack
 mvschc02        // Hack
 
@@ -555,6 +566,7 @@ hookhc08        // Hack
 hookhc09        // Hack
 hookhc10        // Hack
 hookhc11        // Hack
+hookhc12        // Hack
 
 @source:midtunit.cpp
 //nbajamhc01      // Hack [It does not work]
@@ -621,6 +633,10 @@ kof98hc20       // Hack
 kof98hc21       // Hack
 kof98hc22       // Hack
 kof98hc23       // Hack
+kof98hc24       // Hack
+kof98hc25       // Hack
+//kof98hc26       // Hack [It does not work]
+kof98hc27       // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -635,6 +651,9 @@ kof99hc11       // Hack
 kof99hc12       // Hack
 kof99hc13       // Hack
 kof99hc14       // Hack
+kof99hc15       // Hack
+kof99hc16       // Hack
+kof99hc17       // Hack
 kof2000hc01     // Hack
 kof2000hc02     // Hack
 kof2000hc03     // Hack
@@ -779,6 +798,7 @@ svchc04         // Hack
 teothc01        // Hack
 teothc02        // Hack
 teothc03        // Hack
+teothc04        // Hack
 
 @source:pgm.cpp
 ddp2hc01        // Hack
@@ -787,6 +807,12 @@ kov2hc01        // Hack
 kov2hc02        // Hack
 //kov2phc01       // Hack [It does not work]
 kov2phc02       // Hack
+kov2phc03       // Hack
+//kov2phc04       // Hack [It does not work]
+kov2phc05       // Hack
+kov2phc06       // Hack
+kov2phc07       // Hack
+kov2phc08       // Hack
 kovplushc01     // Hack
 //kovplushc02     // Hack [It does not work]
 //kovplushc03     // Hack [It does not work]
@@ -797,11 +823,36 @@ kovplushc01     // Hack
 //kovplushc08     // Hack [It does not work]
 //kovplushc09     // Hack [It does not work]
 //kovplushc10     // Hack [It does not work]
+//kovplushc11     // Hack [It does not work]
+kovplushc12      // Hack
+//kovplushc13      // Hack [It does not work]
+//kovplushc14      // Hack [It does not work]
+//kovplushc15      // Hack [It does not work]
+//kovplushc16      // Hack [It does not work]
+//kovplushc17      // Hack [It does not work]
 //kovshphc01      // Hack [It does not work]
 //kovshphc02      // Hack [It does not work]
 //kovshphc03      // Hack [It does not work]
 kovshphc04      // Hack
 kovshphc05      // Hack
+kovshphc06      // Hack
+kovshphc07      // Hack
+kovshphc08      // Hack
+kovshphc09      // Hack
+kovshphc10      // Hack
+kovshphc11      // Hack
+kovshphc12      // Hack
+kovshphc13      // Hack
+kovshphc14      // Hack
+kovshphc15      // Hack
+kovshphc16      // Hack
+//kovshphc17      // Hack [It does not work]
+//olds100hc01     // Hack [It does not work]
+//olds100hc02     // Hack [It does not work]
+//olds100hc03     // Hack [It does not work]
+olds100hc04     // Hack
+//olds100hc05     // Hack [It does not work]
+olds100hc06     // Hack
 //olds103thc01    // Hack [It does not work]
 //olds103thc02    // Hack [It does not work]
 oldsplushc01    // Hack

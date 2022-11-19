@@ -247,6 +247,9 @@ orlegend        // (c) 1997 Oriental Legend
 martmast        // (c) 2001 Martial Masters
 theglad         // (c) 2003 The Gladiator
 
+@source:raiden2.cpp
+zeroteam        // (c) 1993 Seibu Kaihatsu + Fabtek licen
+
 @source:seta2.cpp
 grdians         // (c) 1995 Banpresto
 
@@ -266,6 +269,9 @@ pbobble3        // 1996.?? E29 (c) 1996 Taito Corporation (World)
 gemini           // (c) 1987 Tecmo
 rygar            // 6002 - (c) 1986 Tecmo
 silkworm         // 6217 - (c) 1988 Tecmo
+
+@source:toaplan1.cpp
+zerowing         // TP-O15 (c) 1989 Toaplan
 
 /****************************************************************
   List of all enabled drivers in the system PSMame Builds Plus.
@@ -524,12 +530,15 @@ tk2hc17         // Hack
 tk2hc18         // Hack
 tk2hc19         // Hack
 tk2hc20         // Hack
+tk2hc21         // Hack
 //varthhc01       // Hack [It does not work]
 
 @source:cps2.cpp
+cybotshc01      // Hack
 ddsomudhc01     // Hack
 ffightaec2      // HomeBrew
 gigawinghc01    // Hack
+sfahc01         // Hack
 ssf2thc01       // Hack
 ssf2thc02       // Hack
 ssf2thc03       // Hack
@@ -538,8 +547,12 @@ sfa3hc01        // Hack
 sfa3hc02        // Hack
 sfa3hc03        // Hack
 sfa3hc04        // Hack
+sfa3hc05        // Hack
+sfa3hc06        // Hack
+sfa3hc07        // Hack
 mvschc01        // Hack
 mvschc02        // Hack
+xmvsfhc01       // Hack
 
 @source:cps3.cpp
 sfiii3hc01      // Hack
@@ -637,6 +650,8 @@ kof98hc24       // Hack
 kof98hc25       // Hack
 //kof98hc26       // Hack [It does not work]
 kof98hc27       // Hack
+kof98hc28       // Hack
+kof98hc29       // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -654,6 +669,13 @@ kof99hc14       // Hack
 kof99hc15       // Hack
 kof99hc16       // Hack
 kof99hc17       // Hack
+kof99hc18       // Hack
+kof99hc19       // Hack
+kof99hc20       // Hack
+kof99hc21       // Hack
+kof99hc22       // Hack
+kof99hc23       // Hack
+kof99hc24       // Hack
 kof2000hc01     // Hack
 kof2000hc02     // Hack
 kof2000hc03     // Hack
@@ -728,6 +750,9 @@ mslug4hc19      // Hack
 mslug4hc20      // Hack
 mslug4hc21      // Hack
 mslug4hc22      // Hack
+mslug4hc23      // Hack
+mslug4hc24      // Hack
+mslug4hc25      // Hack
 mslug5hc01      // Hack
 mslug5hc02      // Hack
 mslug5hc03      // Hack
@@ -789,6 +814,9 @@ mslugxhc16      // Hack
 mslugxhc17      // Hack
 mslugxhc18      // Hack
 mslugxhc19      // Hack
+mslugxhc20      // Hack
+rotdhc01        // Hack
+rotdhc02        // Hack
 sonicwi2hc01    // Hack
 sonicwi3hc01    // Hack
 svchc01         // Hack
@@ -830,6 +858,8 @@ kovplushc12      // Hack
 //kovplushc15      // Hack [It does not work]
 //kovplushc16      // Hack [It does not work]
 //kovplushc17      // Hack [It does not work]
+//kovplushc18      // Hack [It does not work]
+kovplushc19      // Hack
 //kovshphc01      // Hack [It does not work]
 //kovshphc02      // Hack [It does not work]
 //kovshphc03      // Hack [It does not work]
@@ -847,12 +877,12 @@ kovshphc14      // Hack
 kovshphc15      // Hack
 kovshphc16      // Hack
 //kovshphc17      // Hack [It does not work]
-//olds100hc01     // Hack [It does not work]
-//olds100hc02     // Hack [It does not work]
-//olds100hc03     // Hack [It does not work]
-olds100hc04     // Hack
-//olds100hc05     // Hack [It does not work]
-olds100hc06     // Hack
+//olds100ahc01    // Hack [It does not work]
+//olds100ahc02    // Hack [It does not work]
+//olds100ahc03    // Hack [It does not work]
+olds100ahc04     // Hack
+//olds100ahc05    // Hack [It does not work]
+olds100ahc06     // Hack
 //olds103thc01    // Hack [It does not work]
 //olds103thc02    // Hack [It does not work]
 oldsplushc01    // Hack
@@ -860,6 +890,9 @@ oldsplushc02    // Hack
 oldsplushc03    // Hack
 orlegendhc01    // Hack
 orlegendhc02    // Hack
+
+@source:raiden2.cpp
+zeroteamhc01    // Hack
 
 @source:seta2.cpp
 grdianshc01     // Hack
@@ -884,3 +917,6 @@ geminihc01      // Hack
 geminihc02      // Hack
 rygarhc01       // Hack
 silkwormhc01    // Hack
+
+@source:toaplan1.cpp
+zerowinghc01    // Hack

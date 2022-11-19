@@ -825,7 +825,7 @@ files {
 	MAME_DIR .. "src/mame/drivers/cabal.cpp",
 	MAME_DIR .. "src/mame/video/cabal.cpp",
 	MAME_DIR .. "src/mame/video/seibu_crtc.cpp",
-	MAME_DIR .. "src/mame/drivers/raiden2.cpp",
+	MAME_DIR .. "src/hbmame/drivers/raiden2hb.cpp",
 	MAME_DIR .. "src/mame/video/raiden2.cpp",
 	MAME_DIR .. "src/mame/machine/r2crypt.cpp",
 	MAME_DIR .. "src/mame/drivers/r2dx_v33.cpp",
@@ -959,7 +959,7 @@ createMAMEProjects(_target, _subtarget, "toaplan")
 files {
 	MAME_DIR .. "src/mame/drivers/snowbros.cpp",
 	MAME_DIR .. "src/mame/video/snowbros.cpp",
-	MAME_DIR .. "src/mame/drivers/toaplan1.cpp",
+	MAME_DIR .. "src/hbmame/drivers/toaplan1hb.cpp",
 	MAME_DIR .. "src/mame/machine/toaplan1.cpp",
 	MAME_DIR .. "src/mame/video/toaplan1.cpp",
 	MAME_DIR .. "src/mame/drivers/toaplan2.cpp",

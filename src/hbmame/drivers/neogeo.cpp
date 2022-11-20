@@ -2591,6 +2591,12 @@ void neogeo_state::init_ms5pcbd()
 	install_banked_bios();
 }
 
+void neogeo_state::init_mslug6hb()
+{
+	init_neogeo();
+	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size,2);
+}
+
 void neogeo_state::init_pnyaad()
 {
 	init_neogeo();

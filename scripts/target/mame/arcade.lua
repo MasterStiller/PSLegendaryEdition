@@ -1,5 +1,5 @@
 -- license:BSD-3-Clause
--- copyright-holders:MAMEdev Team
+-- copyright-holders:Gaston90
 
 ---------------------------------------------------------------------------
 --
@@ -398,7 +398,7 @@ createMAMEProjects(_target, _subtarget, "cave")
 files {
 	MAME_DIR .. "src/hbmame/drivers/cavehb.cpp",
 	MAME_DIR .. "src/mame/video/cave.cpp",
-	MAME_DIR .. "src/mame/drivers/cv1k.cpp",
+	MAME_DIR .. "src/hbmame/drivers/cv1khb.cpp",
 	MAME_DIR .. "src/mame/video/tmap038.cpp",
 }
 

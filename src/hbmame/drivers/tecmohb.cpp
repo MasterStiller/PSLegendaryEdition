@@ -1,5 +1,5 @@
 // license:BSD-3-Clause
-// copyright-holders:Gaston90
+// copyright-holders:Gaston90 (2016-2022)
 #include "../mame/drivers/tecmo.cpp"
 
 /********************

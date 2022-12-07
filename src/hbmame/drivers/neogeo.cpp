@@ -2378,10 +2378,23 @@ void neogeo_state::init_kf2k1pa()
 	init_kof2001();
 }
 
+void neogeo_state::init_kf2k2mp2hb()
+{
+	init_kof2002();
+	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size, 1);
+}
+
 void neogeo_state::init_kf2k2plc()
 {
 	init_kof2002();
 	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size, 2);
+}
+
+void neogeo_state::init_kof2k2plus()
+{
+	init_neogeo();
+	m_cmc_prot->neogeo_cmc50_m1_decrypt(audiocrypt_region, audiocrypt_region_size, audiocpu_region, audio_region_size);
+	m_pcm2_prot->neo_pcm2_swap(ym_region, ym_region_size, 0);
 }
 
 void neogeo_state::init_kof2k3hd()
@@ -2438,6 +2451,23 @@ void neogeo_state::init_kogd()
 {
 	init_neogeo();
 	m_kog_prot->kog_install_protection(m_maincpu);
+}
+
+void neogeo_state::init_kof10thu()
+{
+	uint32_t tsize = cpuregion_size;
+	uint8_t *rom = cpuregion;
+	uint32_t i, ofst;
+	std::vector<uint8_t> trom( tsize );
+	memcpy( &trom[ 0 ], &rom[ 0 ], tsize );
+	// We unscramble the lower 6 address lines of the program rom.
+	for( i = 0; i < tsize / 2; i++ )
+	{
+		ofst = bitswap<8>( (i & 0x0000ff), 7, 6, 2, 3, 4, 5, 0, 1 ) | (i & 0xffff00);
+		memcpy( &rom[ ofst * 2 ], &trom[ i * 2 ], 2 );
+	}
+
+	init_neogeo();
 }
 
 void neogeo_state::init_kf2k5unh()

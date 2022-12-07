@@ -118,6 +118,7 @@ public:
 	void init_jockeygp();
 	void init_kf10thep();
 	void init_kf2k1pa();
+	void init_kf2k2mp2hb();
 	void init_kf2k2plc();
 	void init_kf2k2mp();
 	void init_kf2k2mp2();
@@ -126,9 +127,10 @@ public:
 	void init_kf2k3upl();
 	void init_kf2k5uni();
 	void init_kof10th();
+	void init_kof10thu();
 	void init_kf2k5unh();
 	void init_kof2k2bd();
-	void init_kof2k2pl17();
+	void init_kof2k2plus();
 	void init_kof2k3hd();
 	void init_kof2k3pcd();
 	void init_kof2k4pls();

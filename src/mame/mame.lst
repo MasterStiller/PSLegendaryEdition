@@ -6,6 +6,7 @@
 
 @source:aerofgt.cpp
 aerofgt         // (c) 1992 Video System Co.
+karatblz        // (c) 1991 Video System Co.
 
 @source:cave.cpp
 agallet         // (c) 1996 Banpresto / Gazelle (country is in EEPROM)
@@ -275,6 +276,7 @@ arabianm        // 1992.?? D29 (c) 1992 Taito Corporation Japan (World)
 cleopatr        // 1996.10 E28 (c) 1996 Taito Corporation (Japan)
 bublbob2        // 1994.?? D90 (c) 1994 Taito Corporation Japan (World)
 dankuga         // 1994.?? D84? (c) 1994 Taito Corporation (Japan)
+dariusg         // 1994.?? D87 (c) 1994 Taito Corporation Japan (World)
 elvactr         // 1995.?? E02 (c) 1994 Taito Corporation Japan (World)
 gekiridn        // 1995.11 E11 (c) 1995 Taito Corporation Japan (World)
 gseeker         // 1992.?? D40 (c) 1992 Taito Corporation Japan (World
@@ -282,6 +284,7 @@ kaiserkn        // 1994.?? D84 (c) 1994 Taito Corporation Japan (World)
 landmakr        // 1998.08 E61 (c) 1998 Taito Corporation (World)
 lightbr         // 1994.03 D69 (c) 1993 Taito Corporation Japan (World)
 spcinv95        // 1995.?? E06 (c) 1995 Taito Corporation Japan (World)
+pbobble2        // 1995.?? E10 (c) 1995 Taito Corporation Japan (World)
 pbobble3        // 1996.?? E29 (c) 1996 Taito Corporation (World)
 
 @source:tecmo.cpp
@@ -476,6 +479,8 @@ kovlsyxqxzlp    // Bootleg
 
 @source:aerofgt.cpp
 aerofgthc01     // Hack
+karatblzhc01    // Hack
+karatblzhc02    // Hack
 
 @source:cave.cpp
 agallethc01     // Hack
@@ -494,6 +499,15 @@ pwrinst2hc01    // Hack
 pwrinst2hc02    // Hack
 sailormnhc01    // Hack
 sailormnhc02    // Hack
+sailormnhc03    // Hack
+sailormnhc04    // Hack
+sailormnhc05    // Hack
+sailormnhc06    // Hack
+sailormnhc07    // Hack
+sailormnhc08    // Hack
+sailormnhc09    // Hack
+sailormnhc10    // Hack
+sailormnhc11    // Hack
 theroeshc01     // Hack
 
 @source:cps1.cpp
@@ -1249,21 +1263,70 @@ uccopshc01      // Hack
 //nbajamhc01      // Hack [It does not work]
 mkhc01          // Hack
 mkhc02          // Hack
+mkhc03          // Hack
+mkhc04          // Hack
 mk2hc01         // Hack
 mk2hc02         // Hack
+mk2hc03         // Hack
+mk2hc04         // Hack
+mk2hc05         // Hack
+mk2hc06         // Hack
+mk2hc07         // Hack
 
 @source:neogeo.cpp
 19yy            // Hack
 19yyhc01        // Hack
+androdunhc01    // Hack
+aofhc01         // Hack
+aof2hc01        // Hack
+aof2hc02        // Hack
+aof3hc01        // Hack
+bjourneyhc01    // Hack
+blazstarhc01    // Hack
+breakershc01    // Hack
+breakrevhc01    // Hack
+breakrevhc02    // Hack
+breakrevhc03    // Hack
+breakrevhc04    // Hack
 cakefght        // Hack
 cthd2k3bhc01    // Hack
 cthd2k3bhc02    // Hack
+ctomadayhc01    // Hack
+doubledrhc01    // Hack
+doubledrhc02    // Hack
+doubledrhc03    // Hack
+doubledrhc04    // Hack
+doubledrhc05    // Hack
+eightmanhc01    // Hack
+fatfursphc01    // Hack
+fatfursphc02    // Hack
+fatfury1hc01    // Hack
+fatfury2hc01    // Hack
+fatfury2hc02    // Hack
+fatfury2hc03    // Hack
+fatfury3hc01    // Hack
+fatfury3hc02    // Hack
+fightfevhc01    // Hack
+flipshothc01    // Hack
+galaxyfghc01    // Hack
+garouhc01       // Hack
+garouhc02       // Hack
+garouhc03       // Hack
+gowcaizrhc01    // Hack
+gowcaizrhc02    // Hack
+gpilotshc01     // Hack
+kabukiklhc01    // Hack
+karnovrhc01     // Hack 
+kizunahc01      // Hack 
+kizunahc02      // Hack 
+kizunahc03      // Hack 
 kof2k4sehc01    // Hack
 kof2k4sehc02    // Hack
 kof2k4sehc03    // Hack
 kof2k4sehc04    // Hack
 kof2k4sehc05    // Hack
 kof2k4sehc06    // Hack
+kof2k4sehc07    // Hack
 kof10thhc01     // Hack
 //kof10thhc02     // Hack [It does not work]
 kof10thhc03     // Hack
@@ -1280,9 +1343,14 @@ kof94hc01       // Hack
 kof94hc02       // Hack
 kof94hc03       // Hack
 kof94hc04       // Hack
+kof94hc05       // Hack
+kof94hc06       // Hack
+kof94hc07       // Hack
+kof94hc08       // Hack
 kof95hc01       // Hack
 kof95hc02       // Hack
 kof95hc03       // Hack
+kof95hc04       // Hack
 kof96hc01       // Hack
 //kof96hc02       // Hack [It does not work]
 kof96hc03       // Hack
@@ -1303,6 +1371,7 @@ kof96hc17       // Hack
 kof96hc18       // Hack
 kof96hc19       // Hack
 kof96hc20       // Hack
+kof96hc21       // Hack
 kof97hc01       // Hack
 kof97hc02       // Hack
 kof97hc03       // Hack
@@ -1553,6 +1622,13 @@ kof97hc247      // Hack
 kof97hc248      // Hack
 kof97hc249      // Hack
 kof97hc250      // Hack
+kof97hc251      // Hack
+kof97hc252      // Hack
+kof97hc253      // Hack
+kof97hc254      // Hack
+kof97hc255      // Hack
+kof97hc256      // Hack
+kof97hc257      // Hack
 kof98hc01       // Hack
 kof98hc02       // Hack
 kof98hc03       // Hack
@@ -1648,6 +1724,9 @@ kof98hc92       // Hack
 kof98hc93       // Hack
 kof98hc94       // Hack
 kof98hc95       // Hack
+kof98hc96       // Hack
+kof98hc97       // Hack
+kof98hc98       // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -1703,6 +1782,9 @@ kof99hc52       // Hack
 kof99hc53       // Hack
 kof99hc54       // Hack
 kof99hc55       // Hack
+kof99hc56       // Hack
+kof99hc57       // Hack
+kof99hc58       // Hack
 kof2000hc01     // Hack
 kof2000hc02     // Hack
 kof2000hc03     // Hack
@@ -1726,6 +1808,7 @@ kof2000hc20     // Hack
 kof2000hc21     // Hack
 kof2000hc22     // Hack
 kof2000hc23     // Hack
+kof2000hc24     // Hack
 //kof2001hc01     // Hack [It does not work]
 //kof2001hc02     // Hack [It does not work]
 //kof2001hc03     // Hack [It does not work]
@@ -1737,6 +1820,7 @@ kof2001hc08     // Hack
 kof2001hc09     // Hack
 kof2001hc10     // Hack
 kof2001hc11     // Hack
+kof2001hc12     // Hack
 kof2002hc01     // Hack
 kof2002hc02     // Hack
 kof2002hc03     // Hack
@@ -1849,6 +1933,7 @@ kof2002hc109    // Hack
 kof2002hc110    // Hack
 kof2002hc111    // Hack
 kof2002hc112    // Hack
+kof2002hc113    // Hack
 kof2003hc01     // Hack
 kof2003hc02     // Hack
 kof2003hc03     // Hack
@@ -1856,10 +1941,31 @@ kof2003hc04     // Hack
 kof2003hc05     // Hack
 kof2003hc06     // Hack
 kof2003hc07     // Hack
+kof2003hc08     // Hack
 koghc01         // Hack
 koghc02         // Hack
 koghc03         // Hack
+lastbladhc01    // Hack
+lastbladhc02    // Hack
+lastbladhc03    // Hack
+lastbladhc04    // Hack
+lastbladhc05    // Hack
+lastbladhc06    // Hack
+lastbladhc07    // Hack
+lastbld2hc01    // Hack
+lastbld2hc02    // Hack
+lastbld2hc03    // Hack
+lastbld2hc04    // Hack
+lastbld2hc05    // Hack
+lresorthc01     // Hack
 magdrop3hc01    // Hack
+magdrop3hc02    // Hack
+magdrop3hc03    // Hack
+maglordhc01     // Hack
+matrimhc01      // Hack  
+matrimhc02      // Hack 
+matrimhc03      // Hack
+miexchnghc01    // Hack 
 mslughc01       // Hack
 mslughc02       // Hack
 mslughc03       // Hack
@@ -1873,7 +1979,9 @@ mslughc10       // Hack
 mslughc11       // Hack
 mslughc12       // Hack
 mslughc13       // Hack
-mslughc14       // Hack
+msluger01       // Hack
+mslugla01       // Hack
+mslugrmxe0s01   // Hack
 mslug2hc01      // Hack
 mslug2hc02      // Hack
 mslug2hc03      // Hack
@@ -1909,8 +2017,30 @@ mslug2hc32      // Hack
 mslug2hc33      // Hack
 mslug2hc34      // Hack
 mslug2hc35      // Hack
-mslug2hc36      // Hack
-mslug2hc37      // Hack
+mslug2er01      // Hack
+mslug2er02      // Hack
+mslug2er03      // Hack
+mslug2at01      // Hack
+mslug2la01      // Hack
+mslug2la02      // Hack
+mslug2la03      // Hack
+mslug2la04      // Hack
+mslug2la05      // Hack
+mslug2lb01      // Hack
+mslug2lb02      // Hack
+mslug2lb03      // Hack
+mslug2lb04      // Hack
+mslug2lb05      // Hack
+mslug2rmxe0s01  // Hack
+mslug2rmxe0s02  // Hack
+mslug2rmxe0s03  // Hack
+mslug2rmxe0s04  // Hack
+mslug2rmxe0s05  // Hack
+mslug2rmxe1s01  // Hack
+mslug2rmxe1s02  // Hack
+mslug2rmxe1s03  // Hack
+mslug2rmxe1s04  // Hack
+mslug2rmxe1s05  // Hack
 mslug3hc01      // Hack
 mslug3hc02      // Hack
 mslug3hc03      // Hack
@@ -1972,11 +2102,89 @@ mslug3hc58      // Hack
 mslug3hc59      // Hack
 mslug3hc60      // Hack
 mslug3hc61      // Hack
-mslug3hc62      // Hack
-mslug3hc63      // Hack
-mslug3hc64      // Hack
-mslug3hc65      // Hack
-mslug3hc66      // Hack
+mslug3er01      // Hack
+mslug3er02      // Hack
+mslug3er03      // Hack
+mslug3er04      // Hack
+mslug3er05      // Hack
+mslug3er06      // Hack
+mslug3er07      // Hack
+mslug3la01      // Hack
+mslug3la02      // Hack
+mslug3la03      // Hack
+mslug3la04      // Hack
+mslug3la05      // Hack
+mslug3lb01      // Hack
+mslug3lb02      // Hack
+mslug3lb03      // Hack
+mslug3lb04      // Hack
+mslug3lb05      // Hack
+mslug3lc01      // Hack
+mslug3lc02      // Hack
+mslug3lc03      // Hack
+mslug3lc04      // Hack
+mslug3lc05      // Hack
+mslug3ld01      // Hack
+mslug3ld02      // Hack
+mslug3ld03      // Hack
+mslug3ld04      // Hack
+mslug3ld05      // Hack
+mslug3le01      // Hack
+mslug3le02      // Hack
+mslug3le03      // Hack
+mslug3le04      // Hack
+mslug3le05      // Hack
+mslug3lf01      // Hack
+mslug3lf02      // Hack
+mslug3lf03      // Hack
+mslug3lf04      // Hack
+mslug3lf05      // Hack
+mslug3lg01      // Hack
+mslug3lg02      // Hack
+mslug3lg03      // Hack
+mslug3lg04      // Hack
+mslug3lg05      // Hack
+mslug3lh01      // Hack
+mslug3lh02      // Hack
+mslug3lh03      // Hack
+mslug3lh04      // Hack
+mslug3lh05      // Hack
+mslug3li01      // Hack
+mslug3li02      // Hack
+mslug3rmxe0s01  // Hack
+mslug3rmxe0s02  // Hack
+mslug3rmxe0s03  // Hack
+mslug3rmxe0s04  // Hack
+mslug3rmxe1s01  // Hack
+mslug3rmxe1s02  // Hack
+mslug3rmxe1s03  // Hack
+mslug3rmxe1s04  // Hack
+mslug3rmxe2s01  // Hack
+mslug3rmxe2s02  // Hack
+mslug3rmxe2s03  // Hack
+mslug3rmxe2s04  // Hack
+mslug3rmxe3s01  // Hack
+mslug3rmxe3s02  // Hack
+mslug3rmxe3s03  // Hack
+mslug3rmxe3s04  // Hack
+mslug3rmxe4s01  // Hack
+mslug3rmxe4s02  // Hack
+mslug3rmxe4s03  // Hack
+mslug3rmxe4s04  // Hack
+mslug3rmxe5s01  // Hack
+mslug3rmxe5s02  // Hack
+mslug3rmxe5s03  // Hack
+mslug3rmxe5s04  // Hack
+mslug3rmxe6s01  // Hack
+mslug3rmxe6s02  // Hack
+mslug3rmxe6s03  // Hack
+mslug3rmxe6s04  // Hack
+mslug3rmxe7s01  // Hack
+mslug3rmxe7s02  // Hack
+mslug3rmxe7s03  // Hack
+mslug3rmxe7s04  // Hack
+mslug3rmxe8s01  // Hack
+mslug3rmxe8s02  // Hack
 mslug4hc01      // Hack
 mslug4hc02      // Hack
 mslug4hc03      // Hack
@@ -2029,6 +2237,30 @@ mslug4hc49      // Hack
 mslug4hc50      // Hack
 mslug4hc51      // Hack
 mslug4hc52      // Hack
+mslug4hc53      // Hack
+mslug4er01      // Hack
+mslug4er02      // Hack
+mslug4la01      // Hack
+mslug4la02      // Hack
+mslug4la03      // Hack
+mslug4la04      // Hack
+mslug4lb01      // Hack
+mslug4lb02      // Hack
+mslug4lb03      // Hack
+mslug4lb04      // Hack
+mslug4lc01      // Hack
+mslug4lc02      // Hack
+mslug4lc03      // Hack
+mslug4lc04      // Hack
+mslug4ld01      // Hack
+mslug4ld02      // Hack
+mslug4ld03      // Hack
+mslug4ld04      // Hack
+mslug4rmxe0s01  // Hack
+mslug4rmxe1s01  // Hack
+mslug4rmxe2s01  // Hack
+mslug4rmxe3s01  // Hack
+mslug4rmxe4s01  // Hack
 mslug5hc01      // Hack
 mslug5hc02      // Hack
 mslug5hc03      // Hack
@@ -2102,6 +2334,16 @@ mslug5hc70      // Hack
 mslug5hc71      // Hack
 mslug5hc72      // Hack
 mslug5hc73      // Hack
+mslug5hc74      // Hack
+mslug5la01      // Hack
+mslug5lb01      // Hack
+mslug5lc01      // Hack
+mslug5rmxe0s01  // Hack
+mslug5rmxe1s01  // Hack
+mslug5rmxe2s01  // Hack
+mslug5rmxe3s01  // Hack
+mslug5rmxe4s01  // Hack
+mslug5rmxe5s01  // Hack
 mslug6hc01      // Hack
 //mslug6hc02      // Hack [Repeated]
 mslug6hc03      // Hack
@@ -2183,44 +2425,226 @@ mslugxhc64      // Hack
 mslugxhc65      // Hack
 mslugxhc66      // Hack
 mslugxhc67      // Hack
-mslugxhc68      // Hack
-mslugxhc69      // Hack
-mslugxhc70      // Hack
-mslugxhc71      // Hack
-mslugxhc72      // Hack
-mslugxhc73      // Hack
-mslugxhc74      // Hack
-mslugxhc75      // Hack
-mslugxhc76      // Hack
-mslugxhc77      // Hack
-mslugxhc78      // Hack
-mslugxhc79      // Hack
-mslugxhc80      // Hack
-mslugxhc81      // Hack
-mslugxhc82      // Hack
-mslugxhc83      // Hack
-mslugxhc84      // Hack
-mslugxhc85      // Hack
-mslugxhc86      // Hack
-mslugxhc87      // Hack
-mslugxhc88      // Hack
-mslugxhc89      // Hack
-mslugxhc90      // Hack
-mslugxhc91      // Hack
-mslugxhc92      // Hack
+mslugxtst01     // Hack
+mslugxtao01     // Hack
+mslugxat01      // Hack
+mslugxat02      // Hack
+mslugxat03      // Hack
+mslugxat04      // Hack
+mslugxat05      // Hack
+mslugxat06      // Hack
+mslugxat07      // Hack
+mslugxat08      // Hack
+mslugxat09      // Hack
+mslugxat10      // Hack
+mslugxer01      // Hack
+mslugxer02      // Hack
+mslugxer03      // Hack
+mslugxer04      // Hack
+mslugxer05      // Hack
+mslugxer06      // Hack
+mslugxer07      // Hack
+mslugxesp01     // Hack
+mslugxesp02     // Hack
+mslugxesp03     // Hack
+mslugxesp04     // Hack
+mslugxesp05     // Hack
+mslugxesp06     // Hack
+mslugxesp07     // Hack
+mslugxla01      // Hack
+mslugxla02      // Hack
+mslugxla03      // Hack
+mslugxlb01      // Hack
+mslugxlb02      // Hack
+mslugxlb03      // Hack
+mslugxlc01      // Hack
+mslugxlc02      // Hack
+mslugxlc03      // Hack
+mslugxld01      // Hack
+mslugxld02      // Hack
+mslugxld03      // Hack
+mslugxle01      // Hack
+mslugxle02      // Hack
+mslugxle03      // Hack
+mslugxlf01      // Hack
+mslugxlf02      // Hack
+mslugxlf03      // Hack
+mslugxlg01      // Hack
+mslugxlg02      // Hack
+mslugxlg03      // Hack
+mslugxlh01      // Hack
+mslugxlh02      // Hack
+mslugxlh03      // Hack
+mslugxrmxe0s01  // Hack
+mslugxrmxe0s02  // Hack
+mslugxrmxe0s03  // Hack
+mslugxrmxe1s01  // Hack
+mslugxrmxe1s02  // Hack
+mslugxrmxe1s03  // Hack
+mslugxrmxe2s01  // Hack
+mslugxrmxe2s02  // Hack
+mslugxrmxe2s03  // Hack
+mslugxrmxe3s01  // Hack
+mslugxrmxe3s02  // Hack
+mslugxrmxe3s03  // Hack
+mslugxrmxe4s01  // Hack
+mslugxrmxe4s02  // Hack
+mslugxrmxe4s03  // Hack
+mslugxrmxe5s01  // Hack
+mslugxrmxe5s02  // Hack
+mslugxrmxe5s03  // Hack
+mslugxrmxe6s01  // Hack
+mslugxrmxe6s02  // Hack
+mslugxrmxe6s03  // Hack
+mslugxrmxe7s01  // Hack
+mslugxrmxe7s02  // Hack
+mslugxrmxe7s03  // Hack
 mslughw         // HomeBrew
+mutnathc01      // Hack
+nam1975hc01     // Hack
+ncombathc01     // Hack
+ncommandhc01    // Hack
+neobombehc01    // Hack
+ninjamashc01    // Hack
+ninjamashc02    // Hack
+nitdhc01        // Hack
+nitdhc02        // Hack
+nitdhc03        // Hack
+pbobblenhc01    // Hack
+pbobblenhc02    // Hack
+ragnagrdhc01    // Hack
+ragnagrdhc02    // Hack
+ragnagrdhc03    // Hack
+ragnagrdhc04    // Hack
+rbffspechc01    // Hack
+rbffspechc02    // Hack
+rbff1hc01       // Hack
+rbff2hc01       // Hack
+rbff2hc02       // Hack
 rotdhc01        // Hack
 rotdhc02        // Hack
+rotdhc03        // Hack
+rotdhc04        // Hack
+rotdhc05        // Hack
+s1945phc01      // Hack
+s1945phc02      // Hack
+samshohc01      // Hack
+samshohc02      // Hack
+samshohc03      // Hack
+samshohc04      // Hack
+samshohc05      // Hack
+samshohc06      // Hack
+samsho2hc01     // Hack
+samsho2hc02     // Hack
+samsho2hc03     // Hack
+samsho2hc04     // Hack
+samsho2hc05     // Hack
+samsho2hc06     // Hack
+samsho2hc07     // Hack
+samsho2hc08     // Hack
+samsho2hc09     // Hack
+samsho2hc10     // Hack
+samsho2hc11     // Hack
+samsho2hc12     // Hack
+samsho2hc13     // Hack
+samsho3hc01     // Hack
+samsho3hc02     // Hack
+samsho3hc03     // Hack
+samsho3hc04     // Hack
+samsho3hc05     // Hack
+samsho3hc06     // Hack
+samsho4hc01     // Hack
+samsho4hc02     // Hack
+samsho4hc03     // Hack
+samsho4hc04     // Hack
+samsho4hc05     // Hack
+samsho4hc06     // Hack
+samsho4hc07     // Hack
+samsho4hc08     // Hack
+samsho4hc09     // Hack
+samsho5hc01     // Hack
+samsho5hc02     // Hack
+samsho5hc03     // Hack
+samsho5hc04     // Hack
+samsho5hc05     // Hack
+samsho5hc06     // Hack
+samsho5hc07     // Hack
+samsho5hc08     // Hack
+samsho5hc09     // Hack
+samsho5hc10     // Hack
+samsho5hc11     // Hack
+samsh5sphc01    // Hack
+samsh5sphc02    // Hack
+samsh5sphc03    // Hack
+samsh5sphc04    // Hack
+samsh5sphc05    // Hack
+samsh5sphc06    // Hack
+samsh5sphc07    // Hack
+samsh5sphc08    // Hack
+savagerehc01    // Hack
+savagerehc02    // Hack
+savagerehc03    // Hack
+savagerehc04    // Hack
+savagerehc05    // Hack
+sdodgebhc01     // Hack
+sdodgebhc02     // Hack
+sengoku3hc01    // Hack
+sengoku3hc02    // Hack
+sengoku3hc03    // Hack
+sengoku3hc04    // Hack
+sengoku3hc05    // Hack
+sengoku3hc06    // Hack
+sengoku3hc07    // Hack
+sengoku3hc08    // Hack
+sengoku3hc09    // Hack
+shocktrohc01    // Hack
+shocktr2hc01    // Hack
+shocktr2hc02    // Hack
 sonicwi2hc01    // Hack
+sonicwi2hc02    // Hack
 sonicwi3hc01    // Hack
+sonicwi3hc02    // Hack
+sonicwi3hc03    // Hack
 svchc01         // Hack
 svchc02         // Hack
 svchc03         // Hack
 svchc04         // Hack
+svchc05         // Hack
+svchc06         // Hack
+svchc07         // Hack
+svchc08         // Hack
+teot            // HomeBrew
 teothc01        // Hack
 teothc02        // Hack
 teothc03        // Hack
-teothc04        // Hack
+spinmasthc01    // Hack
+tophuntrhc01    // Hack
+twinsprihc01    // Hack
+viewpoinhc01    // Hack
+viewpoinhc02    // Hack
+wakuwak7hc01    // Hack
+wakuwak7hc02    // Hack
+wjammershc01    // Hack
+wjammershc02    // Hack
+wh1hc01         // Hack
+wh1hc02         // Hack
+wh2hc01         // Hack
+wh2hc02         // Hack
+wh2hc03         // Hack
+wh2jhc01        // Hack
+wh2jhc02        // Hack
+whphc01         // Hack
+whphc02         // Hack
+zintrckbhc01    // Hack
+
+@source:neogeo.cpp
+cndi            // Intro Demo Music
+dti             // Intro Demo Music
+dwi             // Intro Demo Music
+gbi             // Intro Demo Music
+rci             // Intro Demo Music
+smi             // Intro Demo Music
+tmnti           // Intro Demo Music
 
 @source:pgm.cpp
 ddp2hc01        // Hack
@@ -2992,8 +3416,10 @@ akkanvdrhc01    // Hack
 arabianmhc01    // Hack
 bubsymphhc01    // Hack
 cleopatrhc01    // Hack
+cleopatrhc02    // Hack
 dankugahc01     // Hack
 dankugahc02     // Hack
+dariusghc01     // Hack
 elvactrhc01     // Hack
 gekiridnhc01    // Hack
 gseekerhc01     // Hack
@@ -3001,6 +3427,7 @@ kaiserknhc01    // Hack
 kaiserknhc02    // Hack
 landmakrhc01    // Hack
 lightbrhc01     // Hack
+pbobble2hc01    // Hack
 pbobble3hc01    // Hack
 
 @source:tecmo.cpp

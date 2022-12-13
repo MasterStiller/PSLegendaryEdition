@@ -3374,13 +3374,13 @@ ROM_START( kov2phc56 ) //kov2pswcq
 	ROM_LOAD( "m1200.rom",    0x800000, 0x800000, CRC(b0d88720) SHA1(44ab137e3f8e15b7cb5697ffbd9b1143d8210c4f) )
 ROM_END
 
-ROM_START( kov2phc57 ) //kov2pcthl
+ROM_START( kov2phc57 ) //kov2p
 	ROM_REGION( 0x600000, "maincpu", 0 )
 	PGM_68K_BIOS
-	ROM_LOAD16_WORD_SWAP( "u8_hc57.rom", 0x100000, 0x400000, CRC(44f7966a) SHA1(881bc4b987b9823f268302642704bbdf9ad22023) )
+	ROM_LOAD16_WORD_SWAP( "u8_hc57.rom", 0x100000, 0x400000, CRC(9474fe15) SHA1(c9abe1f2cfc36de77424a7c350ceea4728d08ad7) )
 
 	ROM_REGION( 0x4000, "prot", 0 )
-	ROM_LOAD( "kov2p_igs027a_china_hc01.bin", 0x000000, 0x04000, CRC(06214503) SHA1(ddede08011ab723a92a6da690e38903c173de2fa) )
+	ROM_LOAD( "kov2p_igs027a_china.bin", 0x000000, 0x04000, CRC(19a0bd95) SHA1(83e9f22512832a51d41c588debe8be7adb3b1df7) )
 
 	ROM_REGION32_LE( 0x400000, "user1", 0 )
 	ROM_LOAD( "v200_16m.u23", 0x000000, 0x200000,  CRC(16a0c11f) SHA1(ce449cef76ebd5657d49b57951e2eb0f132e203e) )
@@ -3396,11 +3396,9 @@ ROM_START( kov2phc57 ) //kov2pcthl
 	ROM_LOAD( "a1203.rom",    0x1800000, 0x0800000, CRC(e73cb627) SHA1(4c6e48b845a5d1e8f9899010fbf273d54c2b8899) )
 	ROM_LOAD( "a1204.rom",    0x2000000, 0x0200000, CRC(14b4b5bb) SHA1(d7db5740eec971f2782fb2885ee3af8f2a796550) )
 
-	ROM_REGION( 0x2000000, "sprmask", 0 )
+	ROM_REGION( 0x1000000, "sprmask", 0 )
 	ROM_LOAD( "b1200.rom",   0x0000000, 0x0800000,  CRC(bed7d994) SHA1(019dfba8154256d64cd249eb0fa4c451edce34b8) )
 	ROM_LOAD( "b1201.rom",   0x0800000, 0x0800000,  CRC(f251eb57) SHA1(56a5fc14ab7822f83379cecb26638e5bb266349a) )
-	ROM_LOAD( "b1202_hc57.rom",   0x1000000, 0x0200000,  CRC(8b8d3bf4) SHA1(2b3425cbb739f2cbd247a9050b82fde2415bbccb) )
-	ROM_LOAD( "b1203_hc57.rom",   0x1200000, 0x0200000,  CRC(f2926e49) SHA1(5f807dcd3a2ac8c57fdbf826160f052bf447c0a4) )
 
 	ROM_REGION( 0x1000000, "ics", 0 )
 	PGM_AUDIO_BIOS
@@ -7704,7 +7702,7 @@ ROM_END
 ROM_START( kovplushc121 ) //kovplus2012d
 	ROM_REGION( 0x600000, "maincpu", 0 )
 	PGM_68K_BIOS
-	ROM_LOAD16_WORD_SWAP( "p0600_hc121.119",    0x100000, 0x400000, CRC(4403c58b) SHA1(8d80bc4a312975d0584edb1796ee8a5a13234b88) )
+	ROM_LOAD16_WORD_SWAP( "p0600_hc01.119",    0x100000, 0x400000, CRC(4403c58b) SHA1(8d80bc4a312975d0584edb1796ee8a5a13234b88) )
 
 	ROM_REGION( 0x4000, "prot", 0 )
 	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
@@ -9650,59 +9648,60 @@ ROM_START( kovplushc191 ) //kovplus2015em
 	ROM_LOAD( "m0600_hc52.rom",    0x400000, 0x400000, CRC(01059d4f) SHA1(a18a960afd90e2574b31ef8b347ba1d38a12ef89) )
 ROM_END
 
-ROM_START( kovplushc192 ) //kovplus2015qx
+ROM_START( kovplushc192 ) //kovplus12dw
 	ROM_REGION( 0x600000, "maincpu", 0 )
 	PGM_68K_BIOS
-	ROM_LOAD16_WORD_SWAP( "p0600_hc192.119",    0x100000, 0x454F8A, CRC(ef0a7668) SHA1(783e017a0b054c23e6cdf86d9b50488071a542d0) )
+	ROM_LOAD16_WORD_SWAP( "p0600_hc192.119",    0x100000, 0x400000, CRC(9824be3d) SHA1(5b8859bda13096bba584bedf8be243fb327aaa84) )
 
 	ROM_REGION( 0x4000, "prot", 0 )
 	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
 
-	ROM_REGION( 0xc00000, "tiles", 0 )
+	ROM_REGION( 0xa00000, "tiles", 0 )
 	PGM_VIDEO_BIOS
-	ROM_LOAD( "t0600_hc173.rom",    0x180000, 0x800000, CRC(4fc07af6) SHA1(3f108d9b150ea9c6dc0685e926576724f8489d31) )
-
-	ROM_REGION( 0x2000000, "sprcol", 0 )
-	ROM_LOAD( "a0600.rom",    0x0000000, 0x0800000, CRC(d8167834) SHA1(fa55a99629d03b2ea253392352f70d2c8639a991) )
-	ROM_LOAD( "a0601.rom",    0x0800000, 0x0800000, CRC(ff7a4373) SHA1(7def9fca7513ad5a117da230bebd2e3c78679041) )
-	ROM_LOAD( "a0602.rom",    0x1000000, 0x0800000, CRC(e7a32959) SHA1(3d0ed684dc5b269238890836b2ce7ef46aa5265b) )
-	ROM_LOAD( "a0603.rom",    0x1800000, 0x0400000, CRC(ec31abda) SHA1(ee526655369bae63b0ef0730e9768b765c9950fc) )
-
-	ROM_REGION( 0x1000000, "sprmask", 0 )
-	ROM_LOAD( "b0600.rom",    0x0000000, 0x0800000, CRC(7d3cd059) SHA1(00cf994b63337e0e4ebe96453daf45f24192af1c) )
-	ROM_LOAD( "b0601.rom",    0x0800000, 0x0400000, CRC(a0bb1c2f) SHA1(0542348c6e27779e0a98de16f04f9c18158f2b28) )
-
-	ROM_REGION( 0x800000, "ics", 0 )
-	PGM_AUDIO_BIOS
-	ROM_LOAD( "pgm_m0600.rom",    0x400000, 0x400000, CRC(3ada4fd6) SHA1(4c87adb25d31cbd41f04fbffe31f7bc37173da76) )
-ROM_END
-
-ROM_START( kovplushc193 ) //kovplus2015ws
-	ROM_REGION( 0x600000, "maincpu", 0 )
-	PGM_68K_BIOS
-	ROM_LOAD16_WORD_SWAP( "p0600_hc193.119",    0x100000, 0x400000, CRC(c7a96121) SHA1(42454054ab917357c734b5cdec66f468ef41366b) )
-
-	ROM_REGION( 0x4000, "prot", 0 )
-	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
-
-	ROM_REGION( 0x1400000, "tiles", 0 )
-	PGM_VIDEO_BIOS
-	ROM_LOAD( "t0600_hc179.rom",    0x180000, 0x800000, CRC(77798793) SHA1(365de45c9c81472b8b1948fc12869e89dc5feb73) )
-    ROM_IGNORE( 0x70CBF1 )
+	ROM_LOAD( "t0600_hc18.rom",    0x180000, 0x800000, CRC(253503e6) SHA1(f061f01d59bf6cda65b2e6b79b7d37a87fabea17) )
 
 	ROM_REGION( 0x2000000, "sprcol", 0 )
 	ROM_LOAD( "a0600_hc01.rom",    0x0000000, 0x0800000, CRC(5bd7ea9f) SHA1(0eb33bd0e23441394ae7c6fa28aafe11adf0b22f) )
-	ROM_LOAD( "a0601.rom",    0x0800000, 0x0800000, CRC(ff7a4373) SHA1(7def9fca7513ad5a117da230bebd2e3c78679041) )
-	ROM_LOAD( "a0602_hc01.rom",    0x1000000, 0x0800000, CRC(b64e6473) SHA1(d231b85d1a3466565a90b2bb1489ef3038377fd2) )
-	ROM_LOAD( "a0603.rom",    0x1800000, 0x0400000, CRC(ec31abda) SHA1(ee526655369bae63b0ef0730e9768b765c9950fc) )
+	ROM_LOAD( "a0601.rom",        0x0800000, 0x0800000, CRC(ff7a4373) SHA1(7def9fca7513ad5a117da230bebd2e3c78679041) )
+	ROM_LOAD( "a0602_hc02.rom",    0x1000000, 0x0800000, CRC(f68a56b7) SHA1(fb5a77476cb5a30533a528ddc454517cc6428043) )
+	ROM_LOAD( "a0603.rom",        0x1800000, 0x0400000, CRC(ec31abda) SHA1(ee526655369bae63b0ef0730e9768b765c9950fc) )
 
 	ROM_REGION( 0x1000000, "sprmask", 0 )
 	ROM_LOAD( "b0600_hc01.rom",    0x0000000, 0x0800000, CRC(07d91ea3) SHA1(8713409439eb4a2875baffbda711587f283a652b) )
-	ROM_LOAD( "b0601_hc01.rom",    0x0800000, 0x0400000, CRC(3737c3f7) SHA1(ed01d926ac080991fd5b98b04977dde84152f8e1) )
+	ROM_LOAD( "b0601_hc02.rom",    0x0800000, 0x0400000, CRC(a8fc03a0) SHA1(1e48d52b30463c142221683e1ffa7523fb70a10b) )
 
 	ROM_REGION( 0x800000, "ics", 0 )
 	PGM_AUDIO_BIOS
-	ROM_LOAD( "m0600_hc179.rom",    0x400000, 0x400000, CRC(730640d6) SHA1(d0d7e7c85fd47e4c1cebc7953269979922da869d) )
+	ROM_LOAD( "pgm_m01s_bios=hc01.rom", 0x000000, 0x200000, CRC(692511a5) SHA1(b272fdd0aa3724ba8ff30d2568c3a6b63f1358b3) )
+	ROM_LOAD( "m0600_hc02.rom",    0x400000, 0x400000, CRC(acadac0d) SHA1(f6b195b7cd33a197d377c750a1f9f5bee2900779) )
+ROM_END
+
+ROM_START( kovplushc193 ) //kovplus2012dw
+	ROM_REGION( 0x600000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "p0600_hc193.119", 0x100000, 0x400000, CRC(9824be3d) SHA1(5b8859bda13096bba584bedf8be243fb327aaa84) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0xa00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t0600_hc18.rom",     0x180000, 0x800000, CRC(253503e6) SHA1(f061f01d59bf6cda65b2e6b79b7d37a87fabea17) )
+
+	ROM_REGION( 0x2000000, "sprcol", 0 )
+	ROM_LOAD( "a0600_hc01.rom",    0x0000000, 0x0800000, CRC(5bd7ea9f) SHA1(0eb33bd0e23441394ae7c6fa28aafe11adf0b22f) )
+	ROM_LOAD( "a0601.rom",         0x0800000, 0x0800000, CRC(ff7a4373) SHA1(7def9fca7513ad5a117da230bebd2e3c78679041) )
+	ROM_LOAD( "a0602_hc19.rom",     0x1000000, 0x0800000, CRC(899a0596) SHA1(db6b9f1a075119ffb5ec7199f7d3902634d7c89b) )
+	ROM_LOAD( "a0603.rom",         0x1800000, 0x0400000, CRC(ec31abda) SHA1(ee526655369bae63b0ef0730e9768b765c9950fc) )
+
+	ROM_REGION( 0x1000000, "sprmask", 0 )
+	ROM_LOAD( "b0600_hc01.rom",    0x0000000, 0x0800000, CRC(07d91ea3) SHA1(8713409439eb4a2875baffbda711587f283a652b) )
+	ROM_LOAD( "b0601_hc19.rom",    0x0800000, 0x0400000, CRC(10e4f375) SHA1(20fbe6062183e8936bc8b92d02f4061078316bd7) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "pgm_m01s_bios=hc01.rom", 0x000000, 0x200000, CRC(692511a5) SHA1(b272fdd0aa3724ba8ff30d2568c3a6b63f1358b3) )
+	ROM_LOAD( "m0600_hc01.rom",    0x400000, 0x400000, CRC(7a50501b) SHA1(1af6be69f3133ed56d4a132a1910cf562da83dac) )
 ROM_END
 
 ROM_START( kovplushc194 ) //kovplus2016em
@@ -10319,7 +10318,7 @@ ROM_END
 ROM_START( kovplushc216 )
 	ROM_REGION( 0x600000, "maincpu", 0 )
 	PGM_68K_BIOS
-	ROM_LOAD16_WORD_SWAP( "p0600_hc216.119",    0x100000, 0x400000, CRC(b03480a8) SHA1(91f982396e8026075807ff29c9d9a721fa879f08) )
+	ROM_LOAD16_WORD_SWAP( "p0600_hc216.119", 0x100000, 0x400000, CRC(b03480a8) SHA1(91f982396e8026075807ff29c9d9a721fa879f08) )
 	ROM_IGNORE( 0x54F8A )
 
 	ROM_REGION( 0x4000, "prot", 0 )
@@ -10342,6 +10341,167 @@ ROM_START( kovplushc216 )
 	ROM_REGION( 0x800000, "ics", 0 )
 	PGM_AUDIO_BIOS
 	ROM_LOAD( "m0600.rom",    0x400000, 0x400000, CRC(3ada4fd6) SHA1(4c87adb25d31cbd41f04fbffe31f7bc37173da76) )
+ROM_END
+
+ROM_START( kovplushc217 ) //kovplus2012dw
+	ROM_REGION( 0x600000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "p0600_hc217.119", 0x100000, 0x400000, CRC(9603fec1) SHA1(20be570b8880e7699d41eb59e5358ab910ba5266) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0xa00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t0600_hc18.rom",     0x180000, 0x800000, CRC(253503e6) SHA1(f061f01d59bf6cda65b2e6b79b7d37a87fabea17) )
+
+	ROM_REGION( 0x2000000, "sprcol", 0 )
+	ROM_LOAD( "a0600_hc01.rom",    0x0000000, 0x0800000, CRC(5bd7ea9f) SHA1(0eb33bd0e23441394ae7c6fa28aafe11adf0b22f) )
+	ROM_LOAD( "a0601.rom",         0x0800000, 0x0800000, CRC(ff7a4373) SHA1(7def9fca7513ad5a117da230bebd2e3c78679041) )
+	ROM_LOAD( "a0602_hc19.rom",     0x1000000, 0x0800000, CRC(899a0596) SHA1(db6b9f1a075119ffb5ec7199f7d3902634d7c89b) )
+	ROM_LOAD( "a0603.rom",         0x1800000, 0x0400000, CRC(ec31abda) SHA1(ee526655369bae63b0ef0730e9768b765c9950fc) )
+
+	ROM_REGION( 0x1000000, "sprmask", 0 )
+	ROM_LOAD( "b0600_hc01.rom",    0x0000000, 0x0800000, CRC(07d91ea3) SHA1(8713409439eb4a2875baffbda711587f283a652b) )
+	ROM_LOAD( "b0601_hc19.rom",    0x0800000, 0x0400000, CRC(10e4f375) SHA1(20fbe6062183e8936bc8b92d02f4061078316bd7) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "pgm_m01s_bios=hc01.rom", 0x000000, 0x200000, CRC(692511a5) SHA1(b272fdd0aa3724ba8ff30d2568c3a6b63f1358b3) )
+	ROM_LOAD( "m0600_hc01.rom",    0x400000, 0x400000, CRC(7a50501b) SHA1(1af6be69f3133ed56d4a132a1910cf562da83dac) )
+ROM_END
+
+ROM_START( kovplushc218 ) //kovplusq
+	ROM_REGION( 0x700000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "a0600_hc218.119", 0x100000, 0x600000, CRC(9e4c21bb) SHA1(9256809f3e8afa970bf8566cb41cdd62bc6e4f08) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0xa00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t0600_hc07.rom",    0x180000, 0x800000, CRC(1f2a486c) SHA1(8b7cc23308dd93a8eeb44daa1815e15f2aff87c2) )
+
+	ROM_REGION( 0x3000000, "sprcol", 0 )
+	ROM_LOAD( "a0600_hc218.rom",    0x0000000, 0x2800000, CRC(492c4601) SHA1(457bfa6bdea3bbe2375170e53c51bf7881d54a58) )
+
+	ROM_REGION( 0x2000000, "sprmask", 0 )
+	ROM_LOAD( "b0600_hc218.rom",    0x0000000, 0x2000000, CRC(0267eea8) SHA1(521430dd4889fcc6bb09f2e3e815e5399269295c) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "m0600.rom",    0x400000, 0x400000, CRC(3ada4fd6) SHA1(4c87adb25d31cbd41f04fbffe31f7bc37173da76) )
+ROM_END
+
+ROM_START( kovplushc219 ) //kovplus12dw
+	ROM_REGION( 0x600000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "p0600_hc18.119", 0x100000, 0x400000, CRC(56928cb8) SHA1(3a3d17ea7133ad4e59549b7677638effeb32851e) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0xa00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t0600_hc01.rom",    0x180000, 0x800000, CRC(842b7711) SHA1(b999d55e6e304b4057c66d57bf970f7b181ddac8) )
+
+	ROM_REGION( 0x2000000, "sprcol", 0 )
+	ROM_LOAD( "a0600_hc01.rom",    0x0000000, 0x0800000, CRC(5bd7ea9f) SHA1(0eb33bd0e23441394ae7c6fa28aafe11adf0b22f) )
+	ROM_LOAD( "a0601.rom",        0x0800000, 0x0800000, CRC(ff7a4373) SHA1(7def9fca7513ad5a117da230bebd2e3c78679041) )
+	ROM_LOAD( "a0602_hc02.rom",    0x1000000, 0x0800000, CRC(f68a56b7) SHA1(fb5a77476cb5a30533a528ddc454517cc6428043) )
+	ROM_LOAD( "a0603.rom",        0x1800000, 0x0400000, CRC(ec31abda) SHA1(ee526655369bae63b0ef0730e9768b765c9950fc) )
+
+	ROM_REGION( 0x1000000, "sprmask", 0 )
+	ROM_LOAD( "b0600_hc01.rom",    0x0000000, 0x0800000, CRC(07d91ea3) SHA1(8713409439eb4a2875baffbda711587f283a652b) )
+	ROM_LOAD( "b0601_hc02.rom",    0x0800000, 0x0400000, CRC(a8fc03a0) SHA1(1e48d52b30463c142221683e1ffa7523fb70a10b) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "pgm_m01s_bios=hc01.rom", 0x000000, 0x200000, CRC(692511a5) SHA1(b272fdd0aa3724ba8ff30d2568c3a6b63f1358b3) )
+	ROM_LOAD( "m0600_hc02.rom",    0x400000, 0x400000, CRC(acadac0d) SHA1(f6b195b7cd33a197d377c750a1f9f5bee2900779) )
+ROM_END
+
+ROM_START( kovplushc220 ) //kovplus2012dw
+	ROM_REGION( 0x600000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "p0600_hc220.119", 0x100000, 0x400000, CRC(215f80e8) SHA1(aca1a272c2b3fa91b8238e6f4d217cb8569bda5f) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0xa00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t0600_hc18.rom",     0x180000, 0x800000, CRC(253503e6) SHA1(f061f01d59bf6cda65b2e6b79b7d37a87fabea17) )
+
+	ROM_REGION( 0x2000000, "sprcol", 0 )
+	ROM_LOAD( "a0600_hc01.rom",    0x0000000, 0x0800000, CRC(5bd7ea9f) SHA1(0eb33bd0e23441394ae7c6fa28aafe11adf0b22f) )
+	ROM_LOAD( "a0601.rom",         0x0800000, 0x0800000, CRC(ff7a4373) SHA1(7def9fca7513ad5a117da230bebd2e3c78679041) )
+	ROM_LOAD( "a0602_hc19.rom",     0x1000000, 0x0800000, CRC(899a0596) SHA1(db6b9f1a075119ffb5ec7199f7d3902634d7c89b) )
+	ROM_LOAD( "a0603.rom",         0x1800000, 0x0400000, CRC(ec31abda) SHA1(ee526655369bae63b0ef0730e9768b765c9950fc) )
+
+	ROM_REGION( 0x1000000, "sprmask", 0 )
+	ROM_LOAD( "b0600_hc01.rom",    0x0000000, 0x0800000, CRC(07d91ea3) SHA1(8713409439eb4a2875baffbda711587f283a652b) )
+	ROM_LOAD( "b0601_hc19.rom",    0x0800000, 0x0400000, CRC(10e4f375) SHA1(20fbe6062183e8936bc8b92d02f4061078316bd7) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "pgm_m01s_bios=hc01.rom", 0x000000, 0x200000, CRC(692511a5) SHA1(b272fdd0aa3724ba8ff30d2568c3a6b63f1358b3) )
+	ROM_LOAD( "m0600_hc01.rom",    0x400000, 0x400000, CRC(7a50501b) SHA1(1af6be69f3133ed56d4a132a1910cf562da83dac) )
+ROM_END
+
+ROM_START( kovplushc221 ) //kovplus20tx
+	ROM_REGION( 0x600000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "p0600_hc221.119", 0x100000, 0x400000, CRC(c3282afc) SHA1(912d7570637b447ba09056ac59739b1c1fcbb874) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0xa00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t0600_hc221.rom",     0x180000, 0x800000, CRC(b6b6f72f) SHA1(1def7c812d0ba01f084c4178dc498f60b4c44a23) )
+
+	ROM_REGION( 0x2000000, "sprcol", 0 )
+	ROM_LOAD( "a0600_hc100.rom",  0x0000000, 0x0800000, CRC(783df23c) SHA1(5458a1b84d0d52ef0490bec0b1fe5b503b7965fc) )
+	ROM_LOAD( "a0601_hc17.rom",   0x0800000, 0x0800000, CRC(551e3563) SHA1(377951b13508103796baeb4097670aff187d1696) )
+	ROM_LOAD( "a0602_hc147.rom",  0x1000000, 0x0800000, CRC(58615616) SHA1(3d088bc88e0905e4a4a74d2feb839bc1db0fdbdd) )
+	ROM_LOAD( "a0603_hc100.rom",  0x1800000, 0x0400000, CRC(4d755da5) SHA1(8b04020578e96030b86359a9f0ba892adb703bf5) )
+
+	ROM_REGION( 0x1000000, "sprmask", 0 )
+	ROM_LOAD( "b0600_hc100.rom",    0x0000000, 0x0800000, CRC(e3bf000f) SHA1(154753a31913b931878ea3aafbb677f7d6174a54) )
+	ROM_LOAD( "b0601_hc147.rom",    0x0800000, 0x0400000, CRC(c91abed0) SHA1(d91b9bcacf1806967984f0b6f0249e4196d6d6d9) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "m0600_hc221.rom",    0x400000, 0x400000, CRC(68fa1b32) SHA1(4117803d37e1661aa24edf681c7061e02065ccf4) )
+ROM_END
+
+ROM_START( kovplushc222 ) //kovplus20tx
+	ROM_REGION( 0x600000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "p0600_hc222.119", 0x100000, 0x400000, CRC(c7b59288) SHA1(46e0d870008a244960637d6dd0c1f5d5ecb6143a) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "kov_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0xa00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t0600_hc221.rom",     0x180000, 0x800000, CRC(b6b6f72f) SHA1(1def7c812d0ba01f084c4178dc498f60b4c44a23) )
+
+	ROM_REGION( 0x2000000, "sprcol", 0 )
+	ROM_LOAD( "a0600_hc100.rom",  0x0000000, 0x0800000, CRC(783df23c) SHA1(5458a1b84d0d52ef0490bec0b1fe5b503b7965fc) )
+	ROM_LOAD( "a0601_hc17.rom",   0x0800000, 0x0800000, CRC(551e3563) SHA1(377951b13508103796baeb4097670aff187d1696) )
+	ROM_LOAD( "a0602_hc147.rom",  0x1000000, 0x0800000, CRC(58615616) SHA1(3d088bc88e0905e4a4a74d2feb839bc1db0fdbdd) )
+	ROM_LOAD( "a0603_hc100.rom",  0x1800000, 0x0400000, CRC(4d755da5) SHA1(8b04020578e96030b86359a9f0ba892adb703bf5) )
+
+	ROM_REGION( 0x1000000, "sprmask", 0 )
+	ROM_LOAD( "b0600_hc100.rom",    0x0000000, 0x0800000, CRC(e3bf000f) SHA1(154753a31913b931878ea3aafbb677f7d6174a54) )
+	ROM_LOAD( "b0601_hc147.rom",    0x0800000, 0x0400000, CRC(c91abed0) SHA1(d91b9bcacf1806967984f0b6f0249e4196d6d6d9) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "m0600_hc221.rom",    0x400000, 0x400000, CRC(68fa1b32) SHA1(4117803d37e1661aa24edf681c7061e02065ccf4) )
 ROM_END
 
 ROM_START( kovshhc01 )
@@ -20147,6 +20307,35 @@ ROM_START( oldsplushc23 ) //oldsplusnew
 	ROM_LOAD( "m05301.rom",   0x400000, 0x400000, CRC(86ec83bc) SHA1(067cb7ec449eacd1f49298f45a364368934db5dd) )
 ROM_END
 
+ROM_START( oldsplushc24 ) //oldsplusok
+	ROM_REGION( 0x600000, "maincpu", 0 )
+	PGM_68K_BIOS
+	ROM_LOAD16_WORD_SWAP( "p05301_hc24.rom",   0x100000, 0x400000, CRC(80eb8fda) SHA1(918007d3dba2bd3f85fb1ff8331fc81eea653a92) )
+
+	ROM_REGION( 0x4000, "prot", 0 )
+	ROM_LOAD( "oldsplus_igs027a.bin", 0x000000, 0x04000, NO_DUMP )
+
+	ROM_REGION( 0x800000, "user1", ROMREGION_ERASE00 )
+
+	ROM_REGION( 0xc00000, "tiles", 0 )
+	PGM_VIDEO_BIOS
+	ROM_LOAD( "t05301.rom",   0x180000, 0x800000, CRC(8257bbb0) SHA1(b48067b7e7081a15fddf21739b641d677c2df3d9) )
+
+	ROM_REGION( 0x2000000, "sprcol", 0 )
+	ROM_LOAD( "a05301.rom",   0x0000000, 0x0800000, CRC(57946fd2) SHA1(5d79bc71a1881f3099821a9b255a5f271e0eeff6) )
+	ROM_LOAD( "a05302.rom",   0x0800000, 0x0800000, CRC(3459a0b8) SHA1(94ab6f980b5582f1db9bb12019d03f0b6e0a06df) )
+	ROM_LOAD( "a05303.rom",   0x1000000, 0x0800000, CRC(13475d85) SHA1(4683a3bf304fdc15ffb1c61b7957ad68b023fa33) )
+	ROM_LOAD( "a05304.rom",   0x1800000, 0x0800000, CRC(f03ef7a6) SHA1(c18b1b622b430d5e031e65daa6819b84c3e12ef5) )
+
+	ROM_REGION( 0x1000000, "sprmask", 0 )
+	ROM_LOAD( "b05301.rom",   0x0000000, 0x0800000, CRC(fd98f503) SHA1(02046ab1aa89f63bff149003d9d61776e025a92a) )
+	ROM_LOAD( "b05302.rom",   0x0800000, 0x0800000, CRC(9f6094a8) SHA1(69f6f2003ab975eae13ea6b5c2ffa40df6e6bdf6) )
+
+	ROM_REGION( 0x800000, "ics", 0 )
+	PGM_AUDIO_BIOS
+	ROM_LOAD( "m05301.rom",   0x400000, 0x400000, CRC(86ec83bc) SHA1(067cb7ec449eacd1f49298f45a364368934db5dd) )
+ROM_END
+
 ROM_START( orlegendhc01 )
 	ROM_REGION( 0x600000, "maincpu", 0 )
 	PGM_68K_BIOS
@@ -21789,7 +21978,7 @@ GAME( 2018, kov2phc53,        kov2p,       pgm_arm_type2,          kov2,      pg
 GAME( 2018, kov2phc54,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Kowloon Legend 2018-09-24)", MACHINE_SUPPORTS_SAVE )
 GAME( 2018, kov2phc55,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Soul Stripping 2018-10-30)", MACHINE_SUPPORTS_SAVE )
 GAME( 2019, kov2phc56,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Shenwu Legend 2019 2019-01-20)", MACHINE_SUPPORTS_SAVE )
-//GAME( 2019, kov2phc57,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Cangtian Route 2019-01-20)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kov2phc57,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (1V4 Version 2022-04-18)", MACHINE_SUPPORTS_SAVE )
 GAME( 2018, kov2phc58,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Unknown Hack 2018-03-15)", MACHINE_SUPPORTS_SAVE )
 GAME( 2018, kov2phc59,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Unknown Hack 2018-07-21)", MACHINE_SUPPORTS_SAVE )
 GAME( 2019, kov2phc60,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Ching Ying 2019-01-05)", MACHINE_SUPPORTS_SAVE )
@@ -21822,7 +22011,7 @@ GAME( 2019, kov2phc86,        kov2p,       pgm_arm_type2,          kov2,      pg
 GAME( 2016, kov2phc87,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Qun Mo Luan Wu Fu Mo Edition 2016)", MACHINE_SUPPORTS_SAVE )
 GAME( 2015, kov2phc88,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Ming Yue Hua Cai Edition 2015)", MACHINE_SUPPORTS_SAVE )
 GAME( 2016, kov2phc89,        kov2p,       pgm_arm_type2,          kov2,      pgm_arm_type2_state,  init_kov2p,      ROT0,   "hack",       "Knights of Valour 2 Plus (Tian Wai Shen Bing Edition 2016)", MACHINE_SUPPORTS_SAVE )
-//GAME( 2022, kovplushc01,      kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Warriors Classic 2022-06-30)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc01,      kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Warriors Classic 2022-06-30)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, kovplushc02,      kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Peerless Edition 2022-06-28)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
 GAME( 2021, kovplushc03,      kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Devour the world 2021-08-22)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
 GAME( 2022, kovplushc04,      kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Peerless Edition 2022-06-28)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
@@ -22013,8 +22202,8 @@ GAME( 2016, kovplushc188,     kovplus,     pgm_arm_type1_sim,      sango,     pg
 GAME( 2015, kovplushc189,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus 2012 (Orthodox 2012 Nightmare 2015-12-23)", MACHINE_SUPPORTS_SAVE )
 GAME( 2012, kovplushc190,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus 2012 (Wars Musou 2012-07-12)", MACHINE_SUPPORTS_SAVE )
 GAME( 2015, kovplushc191,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus 2015 (Authentic 2015 Nightmare 2015-07-07)", MACHINE_SUPPORTS_SAVE )
-//GAME( 2015, kovplushc192,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus 2015 (Authentic 2015 2015-01-10)", MACHINE_SUPPORTS_SAVE )
-//GAME( 2015, kovplushc193,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus 2015 (Wars Musou 2015 2015-08-09)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc192,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Peerless Edition 2022-05-11)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc193,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Warriors Classic 2022-05-08)", MACHINE_SUPPORTS_SAVE )
 GAME( 2016, kovplushc194,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Nightmare Coming 2016 2016-03-18)", MACHINE_SUPPORTS_SAVE )
 GAME( 2015, kovplushc195,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (2015 Authentic Six Swords Legend 2015-12-23)", MACHINE_SUPPORTS_SAVE )
 GAME( 2015, kovplushc196,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Liu Jian Chuan Shuo 2015 2015-08-18)", MACHINE_SUPPORTS_SAVE )
@@ -22037,7 +22226,13 @@ GAME( 2016, kovplushc212,     kovplus,     pgm_arm_type1_sim,      sango,     pg
 GAME( 1999, kovplushc213,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Qin Shuang Qing Shang 2016-05-26)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
 GAME( 1999, kovplushc214,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Three Wars Legend Moye)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
 GAME( 2015, kovplushc215,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Zhen Wu Shuang Qun Xiong Luan Wu 2015-07-01)", MACHINE_SUPPORTS_SAVE )
-GAME( 2015, kovplushc216,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Liu Bei Legend New Edition 2015-08-11)", MACHINE_SUPPORTS_SAVE )
+GAME( 2015, kovplushc216,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Liu Bei Legend New Edition 2015-08-11)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc217,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Warriors Classic 2022-05-03)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc218,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (A New Biography of Heroes 2022-03-22)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc219,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Peerless Edition 2022-04-13)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc220,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus (Warriors Classic 2022-05-03)", MACHINE_NOT_WORKING | MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc221,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus 2012 (Flurry of Heroes 2020 2022-03-16)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, kovplushc222,     kovplus,     pgm_arm_type1_sim,      sango,     pgm_arm_type1_state,  init_kov,        ROT0,   "hack",       "Knights of Valour Plus 2012 (Flurry of Heroes Repair Version 2020 2022-03-17)", MACHINE_SUPPORTS_SAVE )
 GAME( 2016, kovshhc01,        kovsh,       pgm_arm_type1,          kovsh,     pgm_arm_type1_state,  init_kovsh,      ROT0,   "hack",       "Knights of Valour Super Heroes (FY 2016 4th Edition)", MACHINE_SUPPORTS_SAVE )   
 GAME( 2015, kovshhc02,        kovsh,       pgm_arm_type1,          kovsh,     pgm_arm_type1_state,  init_kovsh,      ROT0,   "hack",       "Knights of Valour Super Heroes (The King Of Fighters Edition 2015-01-17)", MACHINE_SUPPORTS_SAVE ) 
 GAME( 1999, kovshhc03,        kovsh,       pgm_arm_type1,          kovsh,     pgm_arm_type1_state,  init_kovsh,      ROT0,   "hack",       "Knights of Valour Super Heroes (Unknow Hacks Data)", MACHINE_SUPPORTS_SAVE )
@@ -22360,6 +22555,7 @@ GAME( 2020, oldsplushc20,     oldsplus,    pgm_arm_type1_sim,      oldsplus,  pg
 GAME( 2020, oldsplushc21,     oldsplus,    pgm_arm_type1_sim,      oldsplus,  pgm_arm_type1_state,  init_oldsplus,   ROT0,   "hack",       "Oriental Legend 2 (Xinqun Magic Ranwu 208 2020-06-09)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, oldsplushc22,     oldsplus,    pgm_arm_type1_sim,      oldsplus,  pgm_arm_type1_state,  init_oldsplus,   ROT0,   "hack",       "Oriental Legend 2 (New Group Demon Flurry 215 2020-10-20)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, oldsplushc23,     oldsplus,    pgm_arm_type1_sim,      oldsplus,  pgm_arm_type1_state,  init_oldsplus,   ROT0,   "hack",       "Oriental Legend 2 (One Key Edition 215 2020-12-10)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, oldsplushc24,     oldsplus,    pgm_arm_type1_sim,      oldsplus,  pgm_arm_type1_state,  init_oldsplus,   ROT0,   "hack",       "Oriental Legend 2 (Deluxe Edition 2021-10-28)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, orlegendhc01,     orlegend,    pgm_asic3,              orlegend,  pgm_asic3_state,      init_orlegend,   ROT0,   "hack",       "Oriental Legend (Dream Returning to Seek Immortals 2022-08-08)", MACHINE_SUPPORTS_SAVE )                 
 GAME( 1997, orlegendhc02,     orlegend,    pgm_asic3,              orlegend,  pgm_asic3_state,      init_orlegend,   ROT0,   "hack",       "Oriental Legend Plus", MACHINE_SUPPORTS_SAVE )                 
 GAME( 2013, orlegendhc03,     orlegend,    pgm_asic3,              orlegend,  pgm_asic3_state,      init_orlegend,   ROT0,   "hack",       "Oriental Legend (Enhanced Edition 2013-02-11)", MACHINE_SUPPORTS_SAVE )

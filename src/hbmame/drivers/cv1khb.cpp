@@ -92,6 +92,6 @@ ROM_END
 GAME( 2007, deathsmlhc01,   deathsml,        cv1k,     cv1k, cv1k_state,       init_deathsml,  ROT0,    "hack",   "Death Smiles (Ex Super Version)", 0 )
 GAME( 2012, ddpsdoj,        0,               cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "Cave",   "DoDonPachi SaiDaiOuJou (clean dump)", 0 )
 GAME( 2012, ddpsdojo,       ddpsdoj,         cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "Cave",   "DoDonPachi SaiDaiOuJou (dirty dump)", 0 )
-GAME( 2021, sdojak,         0,               cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "Cave",   "DoDonPachi SaiDaiOuJou & Knuckles (2021/12/01)", 0 )
+GAME( 2021, sdojak,         0,               cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "Cave",   "DoDonPachi SaiDaiOuJou & Knuckles (2021-12-01)", 0 )
 GAME( 2021, sdoja,          sdojak,          cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "hack",   "DoDonPachi SaiDaiOuJou hack", 0 )
 GAME( 2022, sdojb,          sdojak,          cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "hack",   "DoDonPachi SaiDaiOuJou Saya Type B (2022-01-06)", 0 )

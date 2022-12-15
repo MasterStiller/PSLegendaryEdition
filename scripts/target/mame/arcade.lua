@@ -367,7 +367,7 @@ files {
 
 createMAMEProjects(_target, _subtarget, "atlus")
 files {
-	MAME_DIR .. "src/mame/drivers/powerins.cpp",
+	MAME_DIR .. "src/hbmame/drivers/powerinshb.cpp",
 	MAME_DIR .. "src/mame/video/powerins.cpp",
 }
 
@@ -610,7 +610,7 @@ files {
 	MAME_DIR .. "src/hbmame/drivers/midtunithb.cpp",
 	MAME_DIR .. "src/mame/machine/midtunit.cpp",
 	MAME_DIR .. "src/mame/video/midtunit.cpp",
-	MAME_DIR .. "src/mame/drivers/midwunit.cpp",
+	MAME_DIR .. "src/hbmame/drivers/midwunithb.cpp",
 	MAME_DIR .. "src/mame/machine/midwunit.cpp",
 	MAME_DIR .. "src/mame/drivers/midyunit.cpp",
 	MAME_DIR .. "src/mame/machine/midyunit.cpp",

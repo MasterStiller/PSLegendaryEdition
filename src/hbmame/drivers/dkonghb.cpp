@@ -122,9 +122,39 @@ ROM_START( dkonghc04 ) //dkwizardry
 	ROM_LOAD( "v-5e_hc04.bpr",     0x0200, 0x0100, CRC(c24f2312) SHA1(61dfcec8ecaa7a38ed222f2d3c4d6695db6f33b1) )
 ROM_END
 
+ROM_START( dkonghc05 ) //dkongbp1
+	ROM_REGION( 0x10000, "maincpu", 0 )
+	ROM_LOAD( "c_5et_g_hc05.bin",  0x0000, 0x1000, CRC(c80c0431) SHA1(446e897150d027f797edbe30d0502f5f5a652ba7) )
+	ROM_LOAD( "c_5ct_g_hc05.bin",  0x1000, 0x1000, CRC(c742739c) SHA1(a143af813f7c23b6bab483ad2610e686ebc568da) )
+	ROM_LOAD( "c_5bt_g_hc05.bin",  0x2000, 0x1000, CRC(a46859ec) SHA1(bbe8a32b7396f6347ce8b4a77b760277fb965551) )
+	ROM_LOAD( "c_5at_g_hc05.bin",  0x3000, 0x1000, CRC(4742a48e) SHA1(ddef0c7e25cbeba37a387de1d72583a2861dbbf4) )
+	ROM_LOAD( "diag.bin",     0x4000, 0x1000, NO_DUMP )
+
+	ROM_REGION( 0x1800, "soundcpu", 0 )
+	ROM_LOAD( "s_3i_b_hc05.bin",   0x0000, 0x0800, CRC(7590f5ee) SHA1(b08245ce86d2c2de1b0d000743b7e9fcdf2ee215) )
+	ROM_RELOAD(               0x0800, 0x0800 )
+	ROM_LOAD( "s_3j_b.bin",   0x1000, 0x0800, CRC(4743fe92) SHA1(6c82b57637c0212a580591397e6a5a1718f19fd2) )
+
+	ROM_REGION( 0x1000, "gfx1", 0 )
+	ROM_LOAD( "v_5h_b_hc05.bin",   0x0000, 0x0800, CRC(caf8820b) SHA1(b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c) )
+	ROM_LOAD( "v_3pt_hc05.bin",    0x0800, 0x0800, CRC(b0cd1e84) SHA1(16f8404114e3f62e0789819f6a65f34189b595bc) )
+
+	ROM_REGION( 0x2000, "gfx2", 0 )
+	ROM_LOAD( "l_4m_b_hc05.bin",   0x0000, 0x0800, CRC(1b46aae1) SHA1(f08c57f2c85df81180444cab76acb4f367d71619) )
+	ROM_LOAD( "l_4n_b_hc05.bin",   0x0800, 0x0800, CRC(fbaaa6f0) SHA1(e61e92418270fb81d9fd33da0a92970d458f69e4) )
+	ROM_LOAD( "l_4r_b_hc05.bin",   0x1000, 0x0800, CRC(919362a0) SHA1(5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f) )
+	ROM_LOAD( "l_4s_b_hc05.bin",   0x1800, 0x0800, CRC(d57098ca) SHA1(b746b0e137844e0e1cb715df065bbf7a3246f2e9) )
+
+	ROM_REGION( 0x0300, "proms", 0 )
+	ROM_LOAD( "c-2k_hc05.bpr",     0x0000, 0x0100, CRC(4826ce71) SHA1(5fe7d63ce7adece81ab8930196434410fbe4e241) )
+	ROM_LOAD( "c-2j_hc05.bpr",     0x0100, 0x0100, CRC(4a7a511b) SHA1(c0d3ee62e5f6e22d24603ab24403b206d043956f) )
+	ROM_LOAD( "v-5e.bpr",     0x0200, 0x0100, CRC(b869b8f5) SHA1(c2bdccbf2654b64ea55cd589fd21323a9178a660) ) /* character color codes on a per-column basis */
+ROM_END
+
 /*    YEAR  NAME           PARENT        MACHINE    INPUT                     INIT       MONITOR    COMPANY       FULLNAME FLAGS */
 // Hack/Homebrow
 GAME( 2021, dkonghc01,     dkong,        dkong2b,   dkong,    dkong_state, empty_init,    ROT270,   "hack",       "Donkey Kong (Duel v1.02 2021-11-10)",    MACHINE_SUPPORTS_SAVE )
 GAME( 2021, dkonghc02,     dkong,        dkong2b,   dkong,    dkong_state, empty_init,    ROT270,   "hack",       "Donkey Kong (40th Anniversary Edition 2021-03-02)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, dkonghc03,     dkong,        dkong2b,   dkong,    dkong_state, empty_init,    ROT270,   "hack",       "Donkey Kong (RNDMZR v1.00 2022-05-22)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, dkonghc04,     dkong,        dkong2b,   dkong,    dkong_state, empty_init,    ROT270,   "hack",       "Donkey Kong (Wizardry v1.03 2022-05-22)", MACHINE_SUPPORTS_SAVE )
+GAME( 2021, dkonghc05,     dkong,        dkong2b,   dkong,    dkong_state, empty_init,    ROT270,   "hack",       "Donkey Kong (Carnival 1.07 2021-06-14)", MACHINE_SUPPORTS_SAVE )

@@ -1117,6 +1117,12 @@ static const struct CPS1config cps1_config_table[]=
 	{"wofch",       CPS_B_21_DEF, mapper_TK263B },
 
     /* PSMAME BUILDS PLUS */
+   {"sf2cehc40",   CPS_B_21_DEF, mapper_S9263B, 0x36, 0, 0, 1 },
+   {"sf2hfhc01",   CPS_B_21_DEF, mapper_S9263B, 0x36 },
+   {"sf2hfhc02",   CPS_B_21_DEF, mapper_S9263B, 0x36 },
+   {"sf2hfhc03",   CPS_B_21_DEF, mapper_S9263B, 0x36 },
+   {"sf2hfhc04",   CPS_B_21_DEF, mapper_S9263B, 0x36 },
+   {"sf2hfhc05",   CPS_B_21_DEF, mapper_S9263B, 0x36 },
    {"mswordhc01",  CPS_B_13,     mapper_MS24B },
    {"forgottnhc01",CPS_B_01,     mapper_LW621 },
 
@@ -1685,7 +1691,8 @@ void cps_state::cps1_get_video_base()
 	// HBMAME start
 	int layercontrol=0, videocontrol=0, scroll1xoff=0, scroll2xoff=0, scroll3xoff=0;
 
-	if (BIT(m_scrollx1, 7))
+	u8 kludge = m_bootleg_kludge & 15;
+/*	if (BIT(m_scrollx1, 7))
 		scroll1xoff = 0 - (m_scrollx1 & 0x7f);
 	else
 		scroll1xoff = m_scrollx1;
@@ -1700,7 +1707,7 @@ void cps_state::cps1_get_video_base()
 	else
 		scroll3xoff = m_scrollx3;
 	// HBMAME end
-
+*/
 	/* Re-calculate the VIDEO RAM base */
 	if (m_scroll1 != cps1_base(CPS1_SCROLL1_BASE, m_scroll_size))
 	{
@@ -1720,12 +1727,50 @@ void cps_state::cps1_get_video_base()
 
 	// HBMAME start
 	/* Some of the sf2 hacks use only sprite port 0x9100 and the scroll layers are offset */
-	uint8_t kludge = m_bootleg_kludge & 15;
-	if (kludge == 0x01 || kludge == 0x02)
-		m_cps_a_regs[CPS1_OBJ_BASE] = 0x9100;
-	else
-	if (kludge == 0x08) // 3wondersb
+	if (kludge == 0x01) // HBMAME
 	{
+		m_cps_a_regs[CPS1_OBJ_BASE] = 0x9100;
+		scroll1xoff = -0x0c;
+		scroll2xoff = -0x0e;
+		scroll3xoff = -0x10;
+	}
+// HBMAME start
+	else
+	if (kludge == 0x0E)
+	{
+		scroll1xoff = 0xffba;
+		scroll2xoff = 0xffc0;
+		scroll3xoff = 0xffba;
+	}
+	else
+	if (kludge == 0x0F)
+	{
+		scroll1xoff = 0xffc0;
+		scroll2xoff = 0xffc0;
+		scroll3xoff = 0xffc0;
+	}
+// HBMAME end
+	else
+	if (kludge == 2)
+	{
+		m_cps_a_regs[CPS1_OBJ_BASE] = 0x9100;
+		scroll1xoff = -0x0c;
+		scroll2xoff = -0x10;
+		scroll3xoff = -0x10;
+	}
+	else
+	if (kludge == 3)
+	{
+		scroll1xoff = -0x08;
+		scroll2xoff = -0x0b;
+		scroll3xoff = -0x0c;
+	}
+	else
+	if (m_bootleg_kludge == 0x08) // 3wondersb
+	{
+//		scroll1xoff = 0x4;
+//		scroll2xoff = 0x6;
+//		scroll3xoff = 0xa;
 		m_cps_b_regs[0x30/2] = 0x3f;
 		m_cps_a_regs[CPS1_VIDEOCONTROL] = 0x3e;
 		m_cps_a_regs[CPS1_SCROLL2_BASE] = 0x90c0;
@@ -2216,7 +2261,7 @@ void cps_state::cps1_render_sprites( screen_device &screen, bitmap_ind16 &bitmap
 	uint16_t *base = m_buffered_obj.get();
 
 	/* some sf2 hacks draw the sprites in reverse order */
-	if (BIT(m_bootleg_kludge, 6)) // HBMAME
+	if ((m_bootleg_kludge == 1) || (m_bootleg_kludge == 2) || (m_bootleg_kludge == 3) || (BIT(m_bootleg_kludge, 6)))
 	{
 		base += m_last_sprite_offset;
 		baseadd = -4;

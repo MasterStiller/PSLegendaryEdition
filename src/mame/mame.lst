@@ -368,7 +368,7 @@ sf2yyc6	        // Bootleg
 sf2ceeabl	    // Bootleg
 sf2cejab2	    // Bootleg
 sf2cebr	        // Bootleg
-sf2h11	        // Bootleg
+sf2m11	        // Bootleg
 sf2ceh	        // Bootleg
 sf2cn	        // Bootleg
 sf2ly	        // Bootleg
@@ -939,6 +939,11 @@ dinohc289       // Hack
 dinohc290       // Hack
 dinohc291       // Hack
 dinohc292       // Hack
+dinohc293       // Hack
+dinohc294       // Hack
+dinohc295       // Hack
+dinohc296       // Hack
+dinohc297       // Hack
 forgottnhc01    // Hack
 ffighthc01      // Hack
 ffighthc02      // Hack
@@ -1057,6 +1062,77 @@ sf2cehc37       // Hack
 sf2cehc38       // Hack
 sf2cehc39       // Hack
 sf2cehc40       // Hack
+sf2cehc41       // Hack
+sf2cehc42       // Hack
+sf2cehc43       // Hack
+sf2cehc44       // Hack
+sf2cehc45       // Hack
+sf2cehc46       // Hack
+sf2cehc47       // Hack
+sf2cehc48       // Hack
+sf2cehc49       // Hack
+sf2cehc50       // Hack
+sf2cehc51       // Hack
+sf2cehc52       // Hack
+sf2cehc53       // Hack
+sf2cehc54       // Hack
+sf2cehc55       // Hack
+sf2cehc56       // Hack
+sf2cehc57       // Hack
+sf2cehc58       // Hack
+//sf2cehc59       // Hack [It does not work]
+sf2cehc60       // Hack
+sf2cehc61       // Hack
+sf2cehc62       // Hack
+sf2cehc63       // Hack
+//sf2cehc64       // Hack [It does not work]
+sf2cehc65       // Hack
+//sf2cehc66       // Hack [It does not work]
+sf2cehc67       // Hack
+sf2cehc68       // Hack
+sf2cehc69       // Hack
+sf2cehc70       // Hack
+sf2cehc71       // Hack
+sf2cehc72       // Hack
+sf2cehc73       // Hack
+sf2cehc74       // Hack
+sf2cehc75       // Hack
+sf2cehc76       // Hack
+sf2cehc77       // Hack
+//sf2cehc78       // Hack [It does not work]
+sf2cehc79       // Hack
+sf2cehc80       // Hack
+sf2cehc81       // Hack
+sf2cehc82       // Hack
+sf2cehc83       // Hack
+sf2cehc84       // Hack
+sf2cehc85       // Hack
+sf2cehc86       // Hack
+sf2cehc87       // Hack
+sf2cehc88       // Hack
+sf2cehc89       // Hack
+sf2cehc90       // Hack
+//sf2cehc91       // Hack [It does not work]
+//sf2cehc92       // Hack [It does not work]
+sf2cehc93       // Hack
+sf2cehc94       // Hack
+sf2cehc95       // Hack
+sf2cehc96       // Hack
+sf2cehc97       // Hack
+sf2cehc98       // Hack
+sf2cehc99       // Hack
+//sf2cehc100      // Hack [It does not work]
+sf2cehc101      // Hack
+sf2cehc102      // Hack
+sf2cehc103      // Hack
+sf2cehc104      // Hack
+sf2cehc105      // Hack
+sf2cehc106      // Hack
+sf2cehc107      // Hack
+sf2cehc108      // Hack
+sf2cehc109      // Hack
+sf2cehc110      // Hack
+sf2cehc111      // Hack
 sf2hc01         // Hack
 sf2hc02         // Hack
 sf2hc03         // Hack
@@ -1071,6 +1147,8 @@ sf2hfhc02       // Hack
 sf2hfhc03       // Hack
 sf2hfhc04       // Hack
 sf2hfhc05       // Hack
+sf2hfhc06       // Hack
+sf2hfhc07       // Hack
 striderhc01     // Hack
 tk2hc01         // Hack
 tk2hc02         // Hack
@@ -1170,6 +1248,7 @@ tk2hc95         // Hack
 tk2hc96         // Hack
 tk2hc97         // Hack
 tk2hc98         // Hack
+tk2hc99         // Hack
 tk2chc01        // Hack
 tk2chc02        // Hack
 tk2chc03        // Hack
@@ -1200,6 +1279,8 @@ sk3hc06         // Hack
 sk3hc07         // Hack
 sk3hc08         // Hack
 sk3hc09         // Hack
+sk3hc10         // Hack
+sk3hc11         // Hack
 wofhc01         // Hack
 wofhc02         // Hack
 wofhc03         // Hack
@@ -1319,11 +1400,14 @@ ssf2thc11       // Hack
 ssf2thc12       // Hack
 ssf2thc13       // Hack
 ssf2thc14       // Hack
+ssf2thc15       // Hack
 ssf2hc01        // Hack
 ssf2hc02        // Hack
 ssf2hc03        // Hack
 ssf2hc04        // Hack
 ssf2hc05        // Hack
+ssf2hc06        // Hack
+ssf2hc07        // Hack
 spf2thc01       // Hack
 spf2thc02       // Hack
 xmcotahc01      // Hack
@@ -1386,6 +1470,11 @@ dkonghc19       // Hack
 dkonghc20       // Hack
 dkonghc21       // Hack
 dkonghc22       // Hack
+
+@source:fcrash.cpp
+sf2mdthc01      // Hack
+sf2mdthc02      // Hack
+sf2mdthc03      // Hack
 
 @source:m92.cpp
 hookhc01        // Hack
@@ -1977,6 +2066,10 @@ kof98hc99       // Hack
 kof98hc100      // Hack
 kof98hc101      // Hack
 kof98hc102      // Hack
+kof98hc103      // Hack
+kof98hc104      // Hack
+kof98hc105      // Hack
+kof98hc106      // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -2219,6 +2312,10 @@ kof2002hc128    // Hack
 kof2002hc129    // Hack
 kof2002hc130    // Hack
 kof2002hc131    // Hack
+kof2002hc132    // Hack
+kof2002hc133    // Hack
+kof2002hc134    // Hack
+kof2002hc135    // Hack
 
 kof2003hc01     // Hack
 kof2003hc02     // Hack
@@ -3332,8 +3429,10 @@ kovplushc222     // Hack
 //kovplushc228     // Hack [It does not work]
 //kovplushc229     // Hack [It does not work]
 //kovplushc230     // Hack [It does not work]
-kovplushc231     // Hack [It does not work]
-kovplushc232     // Hack [It does not work]
+kovplushc231     // Hack
+kovplushc232     // Hack
+kovplushc233     // Hack
+kovplushc234     // Hack
 kovshhc01        // Hack
 kovshhc02        // Hack
 kovshhc03        // Hack
@@ -3734,6 +3833,8 @@ zeroteamhc09    // Hack
 zeroteamhc10    // Hack
 zeroteamhc11    // Hack
 zeroteamhc12    // Hack
+zeroteamhc13    // Hack
+zeroteamhc14    // Hack
 
 @source:powerins.cpp
 powerinshc01    // Hack

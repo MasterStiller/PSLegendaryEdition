@@ -703,6 +703,39 @@ ROM_START( ddtodhc02 )
 	ROM_LOAD( "phoenix.key",  0x000000, 0x000014, CRC(2cf772b0) SHA1(eff33c65a4f3862c231f9e4d6fefa7b34398dbf2) )
 ROM_END
 
+ROM_START( ddtodhc03 ) //ddtodd
+	ROM_REGION( CODE_SIZE, "maincpu", 0 )
+	ROM_LOAD16_WORD_SWAP( "daded_hc03.03c", 0x000000, 0x80000, CRC(748d17d3) SHA1(43c1fc9352dbf4e62b78e9eb7003480eb915cd82) )
+	ROM_LOAD16_WORD_SWAP( "daded.04c", 0x080000, 0x80000, CRC(306f14fc) SHA1(b684ee72acc3087ada20b2d13202366c3cff1014) )
+	ROM_LOAD16_WORD_SWAP( "daded.05c", 0x100000, 0x80000, CRC(8c6b8328) SHA1(ab5d2c608bd3cdb298a9743d819616bf2df02ddd) )
+	ROM_LOAD16_WORD_SWAP( "dad_hc03.06a",   0x180000, 0x80000, CRC(1005b2d7) SHA1(00c3d60f1582b9143ff2dcb385c886809a4b14a3) )
+	ROM_LOAD16_WORD_SWAP( "dadd.07a",  0x200000, 0x80000, CRC(0f0df6cc) SHA1(5da5f989ed71faf5e2950fdf9650d94918616ae4) )
+
+	ROM_REGION16_BE( CODE_SIZE, "user1", 0 )
+	ROM_FILL( 0x000000, 0x100000, 0x00 )
+
+	ROM_REGION( 0xc00000, "gfx", 0 )
+	ROMX_LOAD( "dad.13m",   0x000000, 0x200000, CRC(da3cb7d6) SHA1(d59bb53d5f32889eb6eb7f8b1c8781948c97283d) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "dad.15m",   0x000002, 0x200000, CRC(92b63172) SHA1(9bed7dbbb17729f2ad3d318396f5335c0bd39937) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "dad.17m",   0x000004, 0x200000, CRC(b98757f5) SHA1(3eead22e097906bf0e1e151cd0a9c75abc5a32d4) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "dad.19m",   0x000006, 0x200000, CRC(8121ce46) SHA1(40c4dc969318d38f0c6d5401c9c64371f51aa12c) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "dad.14m",   0x800000, 0x100000, CRC(837e6f3f) SHA1(c060183474fba0e82d765b9f282b84838550dff6) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "dad.16m",   0x800002, 0x100000, CRC(f0916bdb) SHA1(9354d258dd26cbbf12c78ecfc277c357cbdb360e) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "dad.18m",   0x800004, 0x100000, CRC(cef393ef) SHA1(830b33c86cc24776d17ad65fa89a3b16c40446a1) , ROM_GROUPWORD | ROM_SKIP(6) )
+	ROMX_LOAD( "dad.20m",   0x800006, 0x100000, CRC(8953fe9e) SHA1(f4795beb006335d13e3934aa9760e775eb0bb950) , ROM_GROUPWORD | ROM_SKIP(6) )
+
+	ROM_REGION( QSOUND_SIZE, "audiocpu", 0 )
+	ROM_LOAD( "dad.01",   0x00000, 0x08000, CRC(3f5e2424) SHA1(4aa744576bc6752c43a90a27a816ebd90076b248) )
+	ROM_CONTINUE(         0x10000, 0x18000 )
+
+	ROM_REGION( 0x400000, "qsound", 0 )
+	ROM_LOAD16_WORD_SWAP( "dad.11m",   0x000000, 0x200000, CRC(0c499b67) SHA1(a8ebd8a1cd6dece8344b7cb0439d85843fb97616) )
+	ROM_LOAD16_WORD_SWAP( "dad.12m",   0x200000, 0x200000, CRC(2f0b5a4e) SHA1(8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2) )
+
+	ROM_REGION( 0x20, "key", 0 )
+	ROM_LOAD( "phoenix.key",  0x000000, 0x000014, CRC(2cf772b0) SHA1(eff33c65a4f3862c231f9e4d6fefa7b34398dbf2) )
+ROM_END
+
 ROM_START( dstlkhc01 ) //dstlkl
 	ROM_REGION( CODE_SIZE, "maincpu", 0 )
 	ROM_LOAD16_WORD_SWAP( "vame_hc01.03a", 0x000000, 0x80000, CRC(062da6f1) SHA1(6f470b5a68d70f066fbb29e88d819496de611713) )
@@ -3963,6 +3996,7 @@ GAME( 2018, ddsomhc05,   ddsom,        dead_cps2,    cps2_4p4b, cps2_state, init
 GAME( 2009, ddsomhc06,   ddsom,        cps2,         cps2_4p4b, cps2_state, init_cps2,     ROT0,   "hack",        "Dungeons & Dragons: Shadow over Mystara (1v4 Players 2009-06-29)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, ddtodhc01,   ddtod,        cps2,         cps2_4p4b, cps2_state, init_cps2,     ROT0,   "hack",        "Dungeons & Dragons: Tower of Doom (Full Attack Edition 2020-08-31)", MACHINE_SUPPORTS_SAVE )
 GAME( 2018, ddtodhc02,   ddtod,        dead_cps2,    cps2_4p4b, cps2_state, init_cps2,     ROT0,   "hack",        "Dungeons & Dragons: Tower of Doom (Plus)", MACHINE_SUPPORTS_SAVE )
+GAME( 2021, ddtodhc03,   ddtod,        dead_cps2,    cps2_4p4b, cps2_state, init_cps2,     ROT0,   "hack",        "Dungeons & Dragons: Tower of Doom (Ex Super Version 2021-04-11)", MACHINE_SUPPORTS_SAVE )
 GAME( 2016, dstlkhc01,   dstlk,        cps2,         cps2_2p6b, cps2_state, init_cps2,     ROT0,   "hack",        "Darkstalkers: The Night Warriors (Simplify Edition 2016-12-06)", MACHINE_SUPPORTS_SAVE )
 GAME( 2006, dstlkhc02,   dstlk,        cps2,         cps2_2p6b, cps2_state, init_cps2,     ROT0,   "hack",        "Vampire: The Night Warriors (Enable hidden characters)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, ffightaec2,  0,            dead_cps2,    cps2_3p3b, cps2_state, init_cps2,     ROT0,   "HomeBrew",    "Fight Fight Anniversary Edition (CPS2 hardware)", MACHINE_SUPPORTS_SAVE )

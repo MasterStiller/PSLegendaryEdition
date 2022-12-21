@@ -957,12 +957,12 @@ files {
 
 createMAMEProjects(_target, _subtarget, "toaplan")
 files {
-	MAME_DIR .. "src/mame/drivers/snowbros.cpp",
+	MAME_DIR .. "src/hbmame/drivers/snowbroshb.cpp",
 	MAME_DIR .. "src/mame/video/snowbros.cpp",
 	MAME_DIR .. "src/hbmame/drivers/toaplan1hb.cpp",
 	MAME_DIR .. "src/mame/machine/toaplan1.cpp",
 	MAME_DIR .. "src/mame/video/toaplan1.cpp",
-	MAME_DIR .. "src/mame/drivers/toaplan2.cpp",
+	MAME_DIR .. "src/hbmame/drivers/toaplan2hb.cpp",
 	MAME_DIR .. "src/mame/video/toaplan2.cpp",
 	MAME_DIR .. "src/mame/video/gp9001.cpp",
 	MAME_DIR .. "src/mame/drivers/twincobr.cpp",

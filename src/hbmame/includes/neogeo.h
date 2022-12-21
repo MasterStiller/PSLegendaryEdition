@@ -159,6 +159,7 @@ public:
 	void init_mslug3b6();
 	void init_mslug3h();
 	void init_mslug3n();
+	void init_mslug3fr();
 	void init_mslug4();
 	void init_mslug4hb();
 	void init_mslug5();
@@ -182,6 +183,7 @@ public:
 	void init_s1945p();
 	void init_sam5hb();
 	void init_sam5sphb();
+	void init_sam5sphb2();
 	void init_samsh5sp();
 	void init_samsho5();
 	void init_samsho5b();

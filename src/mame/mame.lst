@@ -965,6 +965,13 @@ dinohc306       // Hack
 dinohc307       // Hack
 dinohc308       // Hack
 dinohc309       // Hack
+dinohc310       // Hack
+dinohc311       // Hack
+dinohc312       // Hack
+dinohc313       // Hack
+dinohc314       // Hack
+dinohc315       // Hack
+dinohc316       // Hack
 forgottnhc01    // Hack
 ffighthc01      // Hack
 ffighthc02      // Hack
@@ -1463,6 +1470,8 @@ sfiii3hc05      // Hack
 sfiii3hc06      // Hack
 sfiii3hc07      // Hack
 sfiii3hc08      // Hack
+sfiii3hc09      // Hack
+sfiii3hc10      // Hack
 
 @source:cv1k.cpp
 deathsmlhc01    // Hack
@@ -1542,6 +1551,7 @@ hookhc33        // Hack
 hookhc34        // Hack
 hookhc35        // Hack
 hookhc36        // Hack
+hookhc37        // Hack
 nbbatmanhc01    // Hack
 nbbatmanhc02    // Hack
 nbbatmanhc03    // Hack
@@ -1605,6 +1615,7 @@ umk3hc27        // Hack
 umk3hc28        // Hack
 umk3hc29        // Hack
 umk3hc30        // Hack
+umk3hc31        // Hack
 umk3plushc01    // Hack
 umk3plushc02    // Hack
 wwfmaniahc01    // Hack
@@ -1648,6 +1659,7 @@ fatfury2hc02    // Hack
 fatfury2hc03    // Hack
 fatfury3hc01    // Hack
 fatfury3hc02    // Hack
+fatfury3hc03    // Hack
 fightfevhc01    // Hack
 flipshothc01    // Hack
 galaxyfghc01    // Hack
@@ -1713,7 +1725,7 @@ kof96hc14       // Hack
 kof96hc15       // Hack
 kof96hc16       // Hack
 kof96hc17       // Hack
-//kof96hc18       // Hack [Duplicate]
+kof96hc18       // Hack
 //kof96hc19       // Hack [Duplicate]
 kof96hc20       // Hack
 kof96hc21       // Hack
@@ -1749,7 +1761,7 @@ kof97hc29       // Hack
 kof97hc30       // Hack
 kof97hc31       // Hack
 kof97hc32       // Hack
-//kof97hc33       // Hack [Duplicate]
+kof97hc33       // Hack
 kof97hc34       // Hack
 kof97hc35       // Hack
 //kof97hc36       // Hack [Duplicate]
@@ -2057,7 +2069,7 @@ kof98hc59       // Hack
 kof98hc60       // Hack
 kof98hc61       // Hack
 kof98hc62       // Hack
-//kof98hc63       // Hack [Duplicate]
+kof98hc63       // Hack
 kof98hc64       // Hack
 kof98hc65       // Hack
 kof98hc66       // Hack
@@ -2090,7 +2102,7 @@ kof98hc92       // Hack
 kof98hc93       // Hack
 kof98hc94       // Hack
 kof98hc95       // Hack
-//kof98hc96       // Hack [Duplicate]
+kof98hc96       // Hack
 kof98hc97       // Hack
 kof98hc98       // Hack
 kof98hc99       // Hack
@@ -2173,6 +2185,8 @@ kof99hc63       // Hack
 kof99hc64       // Hack
 kof99hc65       // Hack
 kof99hc66       // Hack
+kof99hc67       // Hack
+kof99hc68       // Hack
 kof2000hc01     // Hack
 kof2000hc02     // Hack
 kof2000hc03     // Hack
@@ -2226,6 +2240,8 @@ kof2001hc20     // Hack
 kof2001hc21     // Hack
 kof2001hc22     // Hack
 kof2001hc23     // Hack
+kof2001hc24     // Hack
+kof2001hc25     // Hack
 
 kof2002hc01     // Hack
 kof2002hc02     // Hack
@@ -2371,6 +2387,8 @@ kof2002hc141    // Hack
 kof2002hc142    // Hack
 kof2002hc143    // Hack
 kof2002hc144    // Hack
+kof2002hc145    // Hack
+kof2002hc146    // Hack
 
 kof2003hc01     // Hack
 kof2003hc02     // Hack
@@ -2396,6 +2414,7 @@ lastbld2hc02    // Hack
 lastbld2hc03    // Hack
 lastbld2hc04    // Hack
 lastbld2hc05    // Hack
+lastbld2hc06    // Hack
 looptris        // HomeBrow
 lresorthc01     // Hack
 ltorb           // HomeBrow
@@ -2543,6 +2562,7 @@ mslug3hc58      // Hack
 mslug3hc59      // Hack
 mslug3hc60      // Hack
 mslug3hc61      // Hack
+mslug3hc62      // Hack
 mslug3er01      // Hack
 mslug3er02      // Hack
 mslug3er03      // Hack
@@ -2680,6 +2700,7 @@ mslug4hc51      // Hack
 mslug4hc52      // Hack
 mslug4hc53      // Hack
 mslug4hc54      // Hack
+mslug4hc55      // Hack
 mslug4er01      // Hack
 mslug4er02      // Hack
 mslug4la01      // Hack
@@ -2785,6 +2806,7 @@ mslug5hc79      // Hack
 mslug5hc80      // Hack
 mslug5hc81      // Hack
 mslug5hc82      // Hack
+mslug5hc83      // Hack
 mslug5la01      // Hack
 mslug5lb01      // Hack
 mslug5lc01      // Hack
@@ -2963,6 +2985,7 @@ ninjamashc01    // Hack
 ninjamashc02    // Hack
 ninjamashc03    // Hack
 ninjamashc04    // Hack
+ninjamashc05    // Hack
 nitdhc01        // Hack
 nitdhc02        // Hack
 nitdhc03        // Hack
@@ -3166,6 +3189,7 @@ kov2hc28        // Hack
 kov2hc29        // Hack
 kov2hc30        // Hack
 kov2hc31        // Hack
+//kov2hc32        // Hack [It does not work]
 //kov2phc01       // Hack [It does not work]
 kov2phc02       // Hack
 kov2phc03       // Hack
@@ -3258,6 +3282,7 @@ kov2phc89       // Hack
 //kov2phc90       // Hack [It does not work]
 kov2phc91       // Hack
 kov2phc92       // Hack
+kov2phc93       // Hack
 kovplushc01     // Hack
 //kovplushc02     // Hack [It does not work]
 //kovplushc03     // Hack [It does not work]
@@ -3501,6 +3526,16 @@ kovplushc240     // Hack
 //kovplushc241     // Hack [It does not work]
 //kovplushc242     // Hack [It does not work]
 kovplushc243     // Hack
+//kovplushc244     // Hack [It does not work]
+//kovplushc245     // Hack [It does not work]
+//kovplushc246     // Hack [It does not work]
+//kovplushc247     // Hack [It does not work]
+//kovplushc248     // Hack [It does not work]
+//kovplushc249     // Hack [It does not work]
+//kovplushc250     // Hack [It does not work]
+kovplushc251     // Hack [It does not work]
+//kovplushc252     // Hack [It does not work]
+//kovplushc253     // Hack [It does not work]
 kovshhc01        // Hack
 kovshhc02        // Hack
 kovshhc03        // Hack
@@ -3715,6 +3750,10 @@ kovshphc156     // Hack
 kovshphc157     // Hack
 kovshphc158     // Hack
 kovshphc159     // Hack
+//kovshphc160     // Hack [It does not work]
+kovshphc161     // Hack
+kovshphc162     // Hack
+kovshphc163     // Hack
 martmasthc01    // Hack
 martmasthc02    // Hack
 martmasthc03    // Hack
@@ -3838,6 +3877,8 @@ oldsplushc22    // Hack
 oldsplushc23    // Hack
 oldsplushc24    // Hack
 oldsplushc25    // Hack
+oldsplushc26    // Hack
+oldsplushc27    // Hack
 orlegendhc01    // Hack
 orlegendhc02    // Hack
 orlegendhc03    // Hack
@@ -3915,6 +3956,13 @@ zeroteamhc16    // Hack
 zeroteamhc17    // Hack
 zeroteamhc18    // Hack
 zeroteamhc19    // Hack
+zeroteamhc20    // Hack
+zeroteamhc21    // Hack
+zeroteamhc22    // Hack
+zeroteamhc23    // Hack
+zeroteamhc24    // Hack
+zeroteamhc25    // Hack
+zeroteamhc26    // Hack
 
 @source:powerins.cpp
 powerinshc01    // Hack
@@ -3969,6 +4017,8 @@ grdianshc39     // Hack
 grdianshc40     // Hack
 grdianshc41     // Hack
 grdianshc42     // Hack
+grdianshc43     // Hack
+grdianshc44     // Hack
 
 @source:snowbros.cpp
 snowbroshc01    // Hack

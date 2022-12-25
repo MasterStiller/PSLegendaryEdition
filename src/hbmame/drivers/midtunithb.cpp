@@ -136,7 +136,7 @@ ROM_START( mkhc03 )
 	ROM_LOAD32_BYTE( "mkt-uj22.bin", 0x400003, 0x80000, CRC(5e12523b) SHA1(468f93ef9bb6addb45c1c939d24b6511f255426a) )
 ROM_END
 
-ROM_START( mkhc04 ) //mkk
+ROM_START( mkhc04 ) //mkk, mkr4
 	ROM_REGION( 0x50000, "adpcm:cpu", 0 )
 	ROM_LOAD( "sl1_mortal_kombat_u3_sound_rom.u3", 0x10000, 0x40000, CRC(c615844c) SHA1(5732f9053a5f73b0cc3b0166d7dc4430829d5bc7) )
 
@@ -419,7 +419,7 @@ ROM_START( mk2hc07 ) //mk2k
 	ROM_LOAD32_BYTE( "l1_mortal_kombat_ii_game_rom_uj22.uj22", 0x800003, 0x100000, CRC(8891d785) SHA1(fd460df1ef8f4306ea42f7dc41488a80fd2c8f53) )
 ROM_END
 
-ROM_START( mk2hc08 ) //mk2k
+ROM_START( mk2hc08 ) //mk2k, mk2r11
 	ROM_REGION16_LE( 0xc00000, "dcs", ROMREGION_ERASEFF )
 	ROM_LOAD16_BYTE( "l1_mortal_kombat_ii_sound_rom_u2.u2", 0x000000, 0x80000, CRC(5f23d71d) SHA1(54c2afef243759e0f3dbe2907edbc4302f5c8bad) )
 	ROM_RELOAD(                0x100000, 0x80000 )

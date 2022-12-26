@@ -1524,6 +1524,52 @@ ROM_START( umk3hc32 ) //umk3uk
 	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u110_game_rom_hc14.u110",  0x1400003, 0x100000, CRC(88f78828) SHA1(95f83c2f3d7026c2f592bb5de3142613d2a7e6ce) )
 ROM_END
 
+ROM_START( umk3hc33 ) //umk3uk
+	ROM_REGION16_LE( 0x800000, "dcs", ROMREGION_ERASEFF )
+	ROM_LOAD16_BYTE( "l2.0_mortal_kombat_3_u2_ultimate.u2",  0x000000, 0x100000, CRC(3838cfe5) SHA1(e3d2901f3bae1362742fc6ee0aa31c9f63b4dfa3) )
+	ROM_LOAD16_BYTE( "l1_mortal_kombat_3_u3_music_spch.u3",  0x200000, 0x100000, CRC(856fe411) SHA1(6165ebecfce7500e948d84492ffa19eed7f47091) )
+	ROM_LOAD16_BYTE( "l1_mortal_kombat_3_u4_music_spch.u4",  0x400000, 0x100000, CRC(428a406f) SHA1(e70ec83cd054de0da1e178720ed0035b8887f797) )
+	ROM_LOAD16_BYTE( "l1_mortal_kombat_3_u5_music_spch.u5",  0x600000, 0x100000, CRC(3b98a09f) SHA1(edf1d02a56dcf3349e6b4bb4097acfe7592305f4) )
+
+	ROM_REGION16_LE( 0x100000, "maincpu", 0 )
+	ROM_LOAD16_BYTE( "l1.2_mortal_kombat_3_u54_ultimate_hc33.u54", 0x00000, 0x80000, CRC(14d9ece8) SHA1(1873be5be036db660cfbd9e1ee2921f9282101fd) )
+	ROM_LOAD16_BYTE( "l1.2_mortal_kombat_3_u63_ultimate_hc33.u63", 0x00001, 0x80000, CRC(336117ae) SHA1(4a481447ebb149c8deee9942c642c0de600773f4) )
+
+	ROM_REGION( 0x1009, "serial_security:pic", 0 )
+	ROM_LOAD( "463_mk3_ultimate.u64",  0x0000, 0x1009, CRC(4f425218) SHA1(7f26045ed2c9ca94fadcb673ce10f28208aa720e) )
+
+	ROM_REGION( 0x2400000, "gfxrom", 0 )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u133_game_rom_hc14.u133",  0x0000000, 0x100000, CRC(62c6f8ab) SHA1(cfe77e21cb25b4513411658051b849e3c0dd728c) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u132_game_rom_hc14.u132",  0x0000001, 0x100000, CRC(87d977dc) SHA1(3bd6ded7c212621c3f45e29fa90a19b1c7abaac6) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u131_game_rom_hc14.u131",  0x0000002, 0x100000, CRC(483cbc7b) SHA1(39d03642ea62f8623b76ecf084a390db7c366dcd) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u130_game_rom_hc14.u130",  0x0000003, 0x100000, CRC(ecf63628) SHA1(3efeda0a59f110e6ab17247b1fed7965291ec885) )
+
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u129_game_rom.u129",  0x0400000, 0x100000, CRC(a8b41803) SHA1(9697e35e8bb51d6d36b1d7ae47377b446e57682f) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u128_game_rom.u128",  0x0400001, 0x100000, CRC(b410d72f) SHA1(ac5c1c6f744186540f4ab100d9bd4ce6007e600b) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u127_game_rom.u127",  0x0400002, 0x100000, CRC(bd985be7) SHA1(f5183abea2e5eb2c2c8cefa72c9ed321679f5128) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u126_game_rom.u126",  0x0400003, 0x100000, CRC(e7c32cf4) SHA1(94ea7b2eed7dae66f5dd676c20d6b360140e3e0e) )
+
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u125_game_rom_hc14.u125",  0x0800000, 0x100000, CRC(78e8b9e5) SHA1(9a5f87e896c023b70b74a40c4fcb82e46cd8b1cb) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u124_game_rom_hc14.u124",  0x0800001, 0x100000, CRC(1137536c) SHA1(8aee7855a454eeb68e51205ba47e94a0a2915ee3) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u123_game_rom_hc14.u123",  0x0800002, 0x100000, CRC(6a65e954) SHA1(b04e64f361500093450a1a648dad13412282bda1) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u122_game_rom_hc14.u122",  0x0800003, 0x100000, CRC(e6274718) SHA1(66bc57f4e05af9b27caa89fb0a3bd5aef3892117) )
+
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u121_game_rom_hc23.u121",  0x0c00000, 0x100000, CRC(efd4084c) SHA1(f8ac8227443abcc313c358c4dbb34ad896ad7b70) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u120_game_rom_hc23.u120",  0x0c00001, 0x100000, CRC(42a6c0e6) SHA1(853dce49454a86745ec4034130d6720457d703a1) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u119_game_rom_hc23.u119",  0x0c00002, 0x100000, CRC(948d4aa7) SHA1(e506327edcba86cb56d8ecb787e75babf4019a71) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u118_game_rom_hc23.u118",  0x0c00003, 0x100000, CRC(ab7ca588) SHA1(f7c539183d203ec9f48ee27ba8a9dc2efc4d5035) )
+
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u117_game_rom_hc33.u117",  0x1000000, 0x100000, CRC(00c36b29) SHA1(b4ba1746467c54e803e0ddfc8ddffdd524e9340a) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u116_game_rom_hc33.u116",  0x1000001, 0x100000, CRC(8128d475) SHA1(be533df564f38691a8777ffed0fc09535a6aa82d) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u115_game_rom_hc33.u115",  0x1000002, 0x100000, CRC(6ec6376c) SHA1(6e75564b6b2155000ec97db14199b14af344d575) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u114_game_rom_hc33.u114",  0x1000003, 0x100000, CRC(7f22d1fd) SHA1(4cf0a8930bb690c895f5a045b3726fd7697a09a6) )
+
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u113_game_rom_hc14.u113",  0x1400000, 0x100000, CRC(b352019b) SHA1(fa4e902e5750cf542ac5b566caa27d790ceb2544) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u112_game_rom_hc14.u112",  0x1400001, 0x100000, CRC(71143b7c) SHA1(5e97e54406002aa2297879a7b358f1d263593ffe) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u111_game_rom_hc14.u111",  0x1400002, 0x100000, CRC(09821226) SHA1(740aa13569e59963ee87f32c39b558cb53f8a81d) )
+	ROM_LOAD32_BYTE( "l1_mortal_kombat_3_u110_game_rom_hc14.u110",  0x1400003, 0x100000, CRC(88f78828) SHA1(95f83c2f3d7026c2f592bb5de3142613d2a7e6ce) )
+ROM_END
+
 ROM_START( umk3plushc01 ) //umk3plus
 	ROM_REGION16_LE( 0x800000, "dcs", ROMREGION_ERASEFF )
 	ROM_LOAD16_BYTE( "l2.0_mortal_kombat_3_u2_ultimate.u2", 0x000000, 0x100000, CRC(3838cfe5) SHA1(e3d2901f3bae1362742fc6ee0aa31c9f63b4dfa3) ) /* verified labeled as L2.0 */
@@ -1686,6 +1732,7 @@ GAME( 2022, umk3hc29,       umk3,      wunit_picemu, mk3,      midwunit_state, i
 GAME( 2021, umk3hc30,       umk3,      wunit_picemu, mk3,      midwunit_state, init_umk3,     ROT0, "hack",     "Ultimate Mortal Kombat 3 (UK Edition 2021-07-27)", MACHINE_SUPPORTS_SAVE )
 GAME( 2021, umk3hc31,       umk3,      wunit_picemu, mk3,      midwunit_state, init_umk3,     ROT0, "hack",     "Ultimate Mortal Kombat 3 (UK Edition 2021-07-20)", MACHINE_SUPPORTS_SAVE )
 GAME( 2021, umk3hc32,       umk3,      wunit_picemu, mk3,      midwunit_state, init_umk3,     ROT0, "hack",     "Ultimate Mortal Kombat 3 (UK Edition 2021-04-30)", MACHINE_SUPPORTS_SAVE )
+GAME( 2021, umk3hc33,       umk3,      wunit_picemu, mk3,      midwunit_state, init_umk3,     ROT0, "hack",     "Ultimate Mortal Kombat 3 (UK Edition 2021-03-31)", MACHINE_SUPPORTS_SAVE )
 GAME( 2019, umk3plushc01,   umk3,      wunit_picsim, mk3,      midwunit_state, init_mk3,      ROT0, "hack",     "Ultimate Mortal Kombat 3 (Plus Beta 1 2019-09-21)", MACHINE_SUPPORTS_SAVE )
 GAME( 2022, umk3plushc02,   umk3,      wunit_picsim, mk3,      midwunit_state, init_mk3,      ROT0, "hack",     "Ultimate Mortal Kombat 3 (Plus Beta 2 2022-03-07)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, wwfmaniahc01,   wwfmania,  wunit_picsim, wwfmania, midwunit_state, init_wwfmania, ROT0, "hack",     "WWF: Wrestlemania (Acid Clown Edition SP2 2020-12-03)", MACHINE_SUPPORTS_SAVE )

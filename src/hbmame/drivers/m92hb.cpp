@@ -1492,7 +1492,7 @@ GAME( 2021, hookhc23,     hook,      hook,          hook,      m92_state, empty_
 GAME( 2021, hookhc24,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (SW Version 2021-05-21)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)
 GAME( 2021, hookhc25,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (Dragon Slayer 2021-08-25)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)
 GAME( 2021, hookhc26,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (Hook's Counterattack 2021-11-13)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)
-GAME( 2022, hookhc27,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (Swan Version 2022-01-10)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)
+GAME( 2022, hookhc27,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (SW Version 2022-01-10)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)
 GAME( 2022, hookhc28,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (Dragon Slayer 2022-01-13)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)
 GAME( 2022, hookhc29,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (Dragon Slayer 2022-01-29)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)
 GAME( 2021, hookhc30,     hook,      hook,          hook,      m92_state, empty_init,    ROT0,   "hack",         "Hook (Dragon Slayer 2021-12-29)", MACHINE_SUPPORTS_SAVE | MACHINE_NO_COCKTAIL)

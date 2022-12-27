@@ -512,6 +512,8 @@ files {
 	MAME_DIR .. "src/mame/drivers/itech8.cpp",
 	MAME_DIR .. "src/mame/machine/itech8.cpp",
 	MAME_DIR .. "src/mame/video/itech8.cpp",
+	MAME_DIR .. "src/mame/drivers/itech32.cpp",
+	MAME_DIR .. "src/mame/video/itech32.cpp",
 }
 
 createMAMEProjects(_target, _subtarget, "jaleco")
@@ -545,7 +547,7 @@ files {
 	MAME_DIR .. "src/mame/drivers/1943.cpp",
 	MAME_DIR .. "src/mame/video/1943.cpp",
 	MAME_DIR .. "src/mame/audio/hyprolyb.cpp",
-	MAME_DIR .. "src/mame/drivers/mystwarr.cpp",
+	MAME_DIR .. "src/hbmame/drivers/mystwarrhb.cpp",
 	MAME_DIR .. "src/mame/video/mystwarr.cpp",
 	MAME_DIR .. "src/mame/drivers/nemesis.cpp",
 	MAME_DIR .. "src/mame/video/nemesis.cpp",
@@ -890,7 +892,7 @@ files {
 	MAME_DIR .. "src/mame/video/retofinv.cpp",
 	MAME_DIR .. "src/mame/drivers/taito_b.cpp",
 	MAME_DIR .. "src/mame/video/taito_b.cpp",
-	MAME_DIR .. "src/mame/drivers/taito_f2.cpp",
+	MAME_DIR .. "src/hbmame/drivers/taito_f2hb.cpp",
 	MAME_DIR .. "src/mame/video/taito_f2.cpp",
 	MAME_DIR .. "src/hbmame/drivers/taito_f3hb.cpp",
 	MAME_DIR .. "src/mame/video/taito_f3.cpp",

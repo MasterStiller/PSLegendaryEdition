@@ -977,7 +977,7 @@ files {
 
 createMAMEProjects(_target, _subtarget, "unico")
 files {
-	MAME_DIR .. "src/mame/drivers/silkroad.cpp",
+	MAME_DIR .. "src/hbmame/drivers/silkroadhb.cpp",
 	MAME_DIR .. "src/mame/video/silkroad.cpp",
 }
 

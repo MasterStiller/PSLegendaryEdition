@@ -156,12 +156,12 @@ ROM_START( grdianshc06 ) //grdiansy
 	ROM_LOAD( "u32.bin", 0x000000, 0x100000, CRC(cf0f3017) SHA1(8376d3a674f71aec72f52c72758fbc53d9feb1a1) )
 ROM_END
 
-ROM_START( grdianshc07 )
+ROM_START( grdianshc07 ) //grdiansy
 	ROM_REGION( 0x200000, "maincpu", 0 )
-	ROM_LOAD16_BYTE( "u2_hc07.bin", 0x000000, 0x080000, CRC(d0424f67) SHA1(5f019365c74b83230be37023ab0637a7a1cb410c) )
-	ROM_LOAD16_BYTE( "u3_hc07.bin", 0x000001, 0x080000, CRC(6eb7501e) SHA1(8dabc28d9c260c765c088d8e1d57ce3ada6a9c26) )
-	ROM_LOAD16_BYTE( "u4_hc07.bin", 0x100000, 0x080000, CRC(a79c6c3a) SHA1(07045ceb12c9462a0ac09c1cbb049c1702d22a9e) )
-	ROM_LOAD16_BYTE( "u5_hc07.bin", 0x100001, 0x080000, CRC(dcd32e22) SHA1(8ba85bf46efa1dd6b7434fa2b549b5f5b41611d8) )
+	ROM_LOAD16_BYTE( "u2_hc27.bin", 0x000000, 0x080000, CRC(04b90809) SHA1(7c8ab1038b6ec7108003a7b1a3fbb1a7acffafa2) )
+	ROM_LOAD16_BYTE( "u3_hc07.bin", 0x000001, 0x080000, CRC(b6602bfc) SHA1(544bfeccfb83b07cc7f398da5b5ecc4d9c83c10a) )
+	ROM_LOAD16_BYTE( "u4.bin", 0x100000, 0x080000, CRC(bb52447b) SHA1(61433f683210ab2bc2cf1cc4b5b7a39cc5b6493d) )
+	ROM_LOAD16_BYTE( "u5.bin", 0x100001, 0x080000, CRC(9c164a3b) SHA1(6d688c7af9e7e8e8d54b2e4dfbf41f59c79242eb) )
 
 	ROM_REGION( 0x2000000, "sprites", ROMREGION_ERASE)
 	ROM_LOAD64_WORD( "u16.bin",  0x0000000, 0x400000, CRC(6a65f265) SHA1(6cad11f718f8bbcff464d41eb4717460769237ed) )
@@ -181,10 +181,10 @@ ROM_START( grdianshc07 )
 	ROM_LOAD( "u32.bin", 0x000000, 0x100000, CRC(cf0f3017) SHA1(8376d3a674f71aec72f52c72758fbc53d9feb1a1) )
 ROM_END
 
-ROM_START( grdianshc08 )
+ROM_START( grdianshc08 ) //grdiansw
 	ROM_REGION( 0x200000, "maincpu", 0 )
-	ROM_LOAD16_BYTE( "u2_hc08.bin", 0x000000, 0x080000, CRC(41f674c7) SHA1(a6d8b3812070ead3b612fc470b87b617f4642d83) )
-	ROM_LOAD16_BYTE( "u3_hc08.bin", 0x000001, 0x080000, CRC(133c6b61) SHA1(6f1c62525a227578d6799b4757c4c52741e1ebe2) )
+	ROM_LOAD16_BYTE( "u2_hc08.bin", 0x000000, 0x080000, CRC(8424adea) SHA1(1a1308c188bbad982162b5ddc8ddc17841e40c28) )
+	ROM_LOAD16_BYTE( "u3_hc08.bin", 0x000001, 0x080000, CRC(d48f67e4) SHA1(45c4f33fb3c0bad3e7a82f23240caa230e01d3f9) )
 	ROM_LOAD16_BYTE( "u4.bin", 0x100000, 0x080000, CRC(bb52447b) SHA1(61433f683210ab2bc2cf1cc4b5b7a39cc5b6493d) )
 	ROM_LOAD16_BYTE( "u5.bin", 0x100001, 0x080000, CRC(9c164a3b) SHA1(6d688c7af9e7e8e8d54b2e4dfbf41f59c79242eb) )
 
@@ -1231,6 +1231,31 @@ ROM_START( grdianshc49 ) //grdianssy
 	ROM_LOAD( "u32.bin", 0x000000, 0x100000, CRC(cf0f3017) SHA1(8376d3a674f71aec72f52c72758fbc53d9feb1a1) )
 ROM_END
 
+ROM_START( grdianshc50 ) //grdianssy
+	ROM_REGION( 0x200000, "maincpu", 0 )
+	ROM_LOAD16_BYTE( "u2_hc50.bin", 0x000000, 0x080000, CRC(e5cd1894) SHA1(1ab983a1e2506c20266e8eeefe5241deb2161c46) )
+	ROM_LOAD16_BYTE( "u3_hc50.bin", 0x000001, 0x080000, CRC(12715e50) SHA1(48a32aafcad43a5b9bd3192deccbc3d289512372) )
+	ROM_LOAD16_BYTE( "u4.bin", 0x100000, 0x080000, CRC(bb52447b) SHA1(61433f683210ab2bc2cf1cc4b5b7a39cc5b6493d) )
+	ROM_LOAD16_BYTE( "u5.bin", 0x100001, 0x080000, CRC(9c164a3b) SHA1(6d688c7af9e7e8e8d54b2e4dfbf41f59c79242eb) )
+
+	ROM_REGION( 0x2000000, "sprites", ROMREGION_ERASE)
+	ROM_LOAD64_WORD( "u16.bin",  0x0000000, 0x400000, CRC(6a65f265) SHA1(6cad11f718f8bbcff464d41eb4717460769237ed) )
+	ROM_LOAD64_WORD( "u15.bin",  0x0000002, 0x400000, CRC(01672dcd) SHA1(f61f60e3343cc5b6ccee391ee529966a141566db) )
+	ROM_LOAD64_WORD( "u18.bin",  0x0000004, 0x400000, CRC(967babf4) SHA1(42a6311576417c44aeaceb8ba6bb3cd7794e4882) )
+	ROM_LOAD64_WORD( "u17.bin",  0x0000006, 0x400000, CRC(0fad0629) SHA1(1bdc8e7c5e39e83d327f14a672ec81b049112da6) )
+	ROM_LOAD64_WORD( "u20.bin",  0x1800000, 0x200000, CRC(a7226ab7) SHA1(408580dd35c568ffef1ebbd87359e3ec1f867020) )
+	ROM_CONTINUE(                0x1000000, 0x200000 )
+	ROM_LOAD64_WORD( "u19.bin",  0x1800002, 0x200000, CRC(c0c998a0) SHA1(498fb1877527ed37412537f06a2c39ff0c60f146) )
+	ROM_CONTINUE(                0x1000002, 0x200000 )
+	ROM_LOAD64_WORD( "u22.bin",  0x1800004, 0x200000, CRC(6239997a) SHA1(87b6d6f30f152f625f82fd858c1290176c7e156e) )
+	ROM_CONTINUE(                0x1000004, 0x200000 )
+	ROM_LOAD64_WORD( "u21.bin",  0x1800006, 0x200000, CRC(6f95e466) SHA1(28482fad16a3ac9302f152d81552e6f84a44f3e4) )
+	ROM_CONTINUE(                0x1000006, 0x200000 )
+
+	ROM_REGION( 0x100000, "x1snd", 0 )
+	ROM_LOAD( "u32.bin", 0x000000, 0x100000, CRC(cf0f3017) SHA1(8376d3a674f71aec72f52c72758fbc53d9feb1a1) )
+ROM_END
+
 /*    YEAR     NAME         PARENT          MACHINE    INPUT                       INIT      MONITOR COMPANY     FULLNAME FLAGS */
 // Hack/Homebrow
 GAME( 2022, grdianshc01,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (God Moon Edition 2022-07-05)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
@@ -1239,10 +1264,10 @@ GAME( 2022, grdianshc03,   grdians,        grdians,  grdians,  seta2_state,    e
 GAME( 2022, grdianshc04,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Heart Dream Edition 2022-06-06)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2018, grdianshc05,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2018-05-05)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2018, grdianshc06,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2018-06-06)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
-GAME( 1995, grdianshc07,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Blood Blue Initial Lengthening)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
-GAME( 1995, grdianshc08,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Ex Super Version V1)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
-GAME( 2010, grdianshc09,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Ex Super Version V2)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
-GAME( 2010, grdianshc10,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Ex Super Version V3)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
+GAME( 2020, grdianshc07,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2020-12-01)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
+GAME( 2020, grdianshc08,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2020-12-28)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
+//GAME( 2010, grdianshc09,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Ex Super Version V2)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
+//GAME( 2010, grdianshc10,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Ex Super Version V3)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2019, grdianshc11,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Robust Version 2019-01-11)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2018, grdianshc12,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2018-12-10)",  MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2018, grdianshc13,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Plus 2018-07-26)",  MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
@@ -1282,3 +1307,4 @@ GAME( 2021, grdianshc46,   grdians,        grdians,  grdians,  seta2_state,    e
 GAME( 2021, grdianshc47,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Robust Edition 2021-05-05)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2021, grdianshc48,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2021-03-04)",  MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2021, grdianshc49,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (God Moon Edition 2021-03-27)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
+GAME( 2021, grdianshc50,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (God Moon Edition 2021-02-11)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )

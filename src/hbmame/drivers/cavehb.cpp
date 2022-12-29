@@ -680,7 +680,7 @@ ROM_START( sailormnhc04 )
 	ROM_LOAD16_WORD( "sailormn_taiwan.nv", 0x0000, 0x0080, CRC(6c7e8c2a) SHA1(68ef4e6593e4c12e6488a20dcc6dda920b01de67) )
 ROM_END
 
-ROM_START( sailormnhc05 ) //sailormnoh
+ROM_START( sailormnhc05 ) //sailormnoh, sailormnjee
 	ROM_REGION( 0x400000, "maincpu", 0 )
 	ROM_LOAD16_WORD_SWAP( "bpsm945_hc05.u45", 0x000000, 0x080000, CRC(e77a6fbe) SHA1(0fd65be4585fac68c73dd0d1141ca3283d087523) )
 	ROM_LOAD16_WORD_SWAP( "bpsm.u46",     0x200000, 0x200000, CRC(32084e80) SHA1(0ac503190d95009620b5ad7e7e0e63324f6fa4eb) )
@@ -1102,7 +1102,7 @@ GAME( 2022, sailormnhc01,   sailormn,       sailormn,     cave,     cave_state, 
 GAME( 2022, sailormnhc02,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Reign of Terror 2022-04-15)", MACHINE_SUPPORTS_SAVE )
 GAME( 2018, sailormnhc03,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Increases The Difficulty 2018-04-19)", MACHINE_SUPPORTS_SAVE )
 GAME( 2009, sailormnhc04,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Enhanced Magic 2009-02-24)", MACHINE_SUPPORTS_SAVE )
-GAME( 2019, sailormnhc05,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Enhanced Edition 2019-12-15)", MACHINE_SUPPORTS_SAVE )
+GAME( 2019, sailormnhc05,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Ultimate Enhanced Edition 2019-12-15)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, sailormnhc06,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Enemy Demon Revised Edition 2020-05-13)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, sailormnhc07,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Enemy Demon Revised Edition 2020-05-24)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, sailormnhc08,   sailormn,       sailormn,     cave,     cave_state, init_sailormn,  ROT0,   "hack",       "Pretty Soldier Sailor Moon (Rabbit Edition 2020-09-17)", MACHINE_SUPPORTS_SAVE )

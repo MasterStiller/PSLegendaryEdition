@@ -375,7 +375,7 @@ createMAMEProjects(_target, _subtarget, "capcom")
 files {
 	MAME_DIR .. "src/mame/drivers/sf.cpp",
 	MAME_DIR .. "src/mame/video/sf.cpp",
-	MAME_DIR .. "src/mame/drivers/1942.cpp",
+	MAME_DIR .. "src/hbmame/drivers/1942hb.cpp",
 	MAME_DIR .. "src/mame/video/1942.cpp",
 	MAME_DIR .. "src/mame/audio/nl_1942.cpp",
 	MAME_DIR .. "src/mame/drivers/blktiger.cpp",
@@ -538,7 +538,7 @@ files {
 
 createMAMEProjects(_target, _subtarget, "konami")
 files {
-	MAME_DIR .. "src/mame/drivers/contra.cpp",
+	MAME_DIR .. "src/hbmame/drivers/contrahb.cpp",
 	MAME_DIR .. "src/mame/video/contra.cpp",
 	MAME_DIR .. "src/mame/drivers/dbz.cpp",
 	MAME_DIR .. "src/mame/video/dbz.cpp",
@@ -830,7 +830,7 @@ files {
 	MAME_DIR .. "src/hbmame/drivers/raiden2hb.cpp",
 	MAME_DIR .. "src/mame/video/raiden2.cpp",
 	MAME_DIR .. "src/mame/machine/r2crypt.cpp",
-	MAME_DIR .. "src/mame/drivers/r2dx_v33.cpp",
+	MAME_DIR .. "src/hbmame/drivers/r2dx_v33hb.cpp",
 	MAME_DIR .. "src/mame/machine/seibucop/seibucop.cpp",
 	MAME_DIR .. "src/mame/machine/seibucop/seibucop_dma.hxx",
 	MAME_DIR .. "src/mame/machine/seibucop/seibucop_cmd.hxx",
@@ -880,7 +880,7 @@ files {
 	MAME_DIR .. "src/mame/video/arkanoid.cpp",
 	MAME_DIR .. "src/mame/drivers/asuka.cpp",
 	MAME_DIR .. "src/mame/video/asuka.cpp",
-	MAME_DIR .. "src/mame/drivers/bublbobl.cpp",
+	MAME_DIR .. "src/hbmame/drivers/bublboblhb.cpp",
 	MAME_DIR .. "src/mame/machine/bublbobl.cpp",
 	MAME_DIR .. "src/mame/video/bublbobl.cpp",
 	MAME_DIR .. "src/mame/drivers/flstory.cpp",

@@ -1,5 +1,5 @@
-// license:BSD-3-Clause
-// copyright-holders:Gaston90 (2016-2022)
+// Proyecto Shadow Legendary Edition
+// copyright-holders:Gaston90 (2016 - 2023)
 #include "../mame/drivers/raiden2.cpp"
 
 /********************
@@ -2078,6 +2078,117 @@ ROM_START( zeroteamhc56 ) //zeroteama
 	ROM_LOAD( "v3c004x.ami18cv8pc-25.u0310.jed", 0x0000, 0x288, NO_DUMP)
 ROM_END
 
+ROM_START( zeroteamhc57 ) //zeroteams
+	ROM_REGION( 0x200000, "maincpu", 0 )
+	ROM_LOAD32_BYTE("seibu__1.u024_hc57.5k", 0x000000, 0x40000, CRC(286ff957) SHA1(7c4e48bde9e0716e78dca8976a1accdeeb715611) )
+	ROM_LOAD32_BYTE("seibu__3.u023_hc57.6k", 0x000002, 0x40000, CRC(30e17cfe) SHA1(eb469112b1c5a43cd1a9243e6118be46175a2133) )
+	ROM_LOAD32_BYTE("seibu__2.u025_hc57.6l", 0x000001, 0x40000, CRC(7de45f3e) SHA1(06cfc163c5daf012f366201d003e1a5040ebf7d5) )
+	ROM_LOAD32_BYTE("seibu__4.u026_hc57.5l", 0x000003, 0x40000, CRC(b167a451) SHA1(33c744028bd2def8cfb33c19142e0d56806e6c03) )
+
+	ROM_REGION( 0x40000, "user2", 0 )
+	ROM_LOAD( "copx-d2.u0313.6n",   0x00000, 0x40000, CRC(a6732ff9) SHA1(c4856ec77869d9098da24b1bb3d7d58bb74b4cda) )
+
+	ROM_REGION( 0x20000, "audiocpu", ROMREGION_ERASEFF )
+	ROM_LOAD( "5_sel.bin",  0x000000, 0x08000, CRC(ed91046c) SHA1(de815c999aeeb814d3f091d5a9ac34ea9a388ddb) )
+	ROM_CONTINUE(0x10000,0x8000)
+	ROM_COPY( "audiocpu", 0x000000, 0x018000, 0x08000 )
+
+	ROM_REGION( 0x020000, "gfx1", 0 )
+	ROM_LOAD16_BYTE( "7.u072.5s",   0x000000,   0x010000,   CRC(9f6aa0f0) SHA1(1caad7092c07723d12a07aa363ae2aa69cb6be0d) )
+	ROM_LOAD16_BYTE( "8.u077.5r",   0x000001,   0x010000,   CRC(68f7dddc) SHA1(6938fa974c6ef028751982fdabd6a3820b0d30a8) )
+
+	ROM_REGION( 0x400000, "gfx2", 0 )
+	ROM_LOAD( "musha_back-1.u075.4s",   0x000000, 0x100000, CRC(8b7f9219) SHA1(3412b6f8a4fe245e521ddcf185a53f2f4520eb57) )
+	ROM_LOAD( "musha_back-2.u0714.2s",   0x100000, 0x080000, CRC(ce61c952) SHA1(52a843c8ba428b121fab933dd3b313b2894d80ac) )
+
+	ROM_REGION32_LE( 0x800000, "gfx3", ROMREGION_ERASEFF )
+	ROM_LOAD32_WORD( "musha_obj-1.u0811.6f",  0x000000, 0x200000, CRC(45be8029) SHA1(adc164f9dede9a86b96a4d709e9cba7d2ad0e564) )
+	ROM_LOAD32_WORD( "musha_obj-2.u082.5f",  0x000002, 0x200000, CRC(cb61c19d) SHA1(151a2ce9c32f3321a974819e9b165dddc31c8153) )
+
+	ROM_REGION( 0x100000, "oki", 0 )
+	ROM_LOAD( "6.u105.4a", 0x00000, 0x40000,  CRC(48be32b1) SHA1(969d2191a3c46871ee8bf93088b3cecce3eccf0c) )
+
+	ROM_REGION( 0x10000, "pals", 0 )
+	ROM_LOAD( "v3c001.pal.u0310.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c002.tibpal16l8-25.u0322.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c003.ami18cv8p-15.u0619.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c004x.ami18cv8pc-25.u0310.jed", 0x0000, 0x288, NO_DUMP)
+ROM_END
+
+ROM_START( zeroteamhc58 ) //zeroteamb
+	ROM_REGION( 0x200000, "maincpu", 0 )
+	ROM_LOAD32_BYTE("seibu__1.u024_hc46.5k", 0x000000, 0x40000, CRC(c1c66888) SHA1(eb746efd7fea9a258d34c85cc8a739e029ba54d6) )
+	ROM_LOAD32_BYTE("seibu__3.u023_hc58.6k", 0x000002, 0x40000, CRC(f5c02ca4) SHA1(2d0e561b51db5f358f75b0990dc2b4cd43ee8424) )
+	ROM_LOAD32_BYTE("seibu__2.u025_hc46.6l", 0x000001, 0x40000, CRC(8ff58607) SHA1(bfb811ce3d3b645f23a17e36d6277440e2ff454f) )
+	ROM_LOAD32_BYTE("seibu__4.u026_hc58.5l", 0x000003, 0x40000, CRC(58d7c48e) SHA1(8ae055bb869e6a4fb789a0419d3c6ac45a24a312) )
+
+	ROM_REGION( 0x40000, "user2", 0 )
+	ROM_LOAD( "copx-d2.u0313.6n",   0x00000, 0x40000, CRC(a6732ff9) SHA1(c4856ec77869d9098da24b1bb3d7d58bb74b4cda) )
+
+	ROM_REGION( 0x20000, "audiocpu", ROMREGION_ERASEFF )
+	ROM_LOAD( "seibu__5.u1110.5b",  0x000000, 0x08000, CRC(7ec1fbc3) SHA1(48299d6530f641b18764cc49e283c347d0918a47) )
+	ROM_CONTINUE(0x10000,0x8000)
+	ROM_COPY( "audiocpu", 0x000000, 0x018000, 0x08000 )
+
+	ROM_REGION( 0x020000, "gfx1", 0 )
+	ROM_LOAD16_BYTE( "seibu__7.u072.5s",    0x000000,   0x010000,   CRC(9f6aa0f0) SHA1(1caad7092c07723d12a07aa363ae2aa69cb6be0d) )
+	ROM_LOAD16_BYTE( "seibu__8.u077.5r",    0x000001,   0x010000,   CRC(68f7dddc) SHA1(6938fa974c6ef028751982fdabd6a3820b0d30a8) )
+
+	ROM_REGION( 0x400000, "gfx2", 0 )
+	ROM_LOAD( "musha_back-1.u075.4s",   0x000000, 0x100000, CRC(8b7f9219) SHA1(3412b6f8a4fe245e521ddcf185a53f2f4520eb57) )
+	ROM_LOAD( "musha_back-2.u0714.2s",   0x100000, 0x080000, CRC(ce61c952) SHA1(52a843c8ba428b121fab933dd3b313b2894d80ac) )
+
+	ROM_REGION32_LE( 0x800000, "gfx3", ROMREGION_ERASEFF )
+	ROM_LOAD32_WORD( "musha_obj-1.u0811.6f",  0x000000, 0x200000, CRC(45be8029) SHA1(adc164f9dede9a86b96a4d709e9cba7d2ad0e564) )
+	ROM_LOAD32_WORD( "musha_obj-2.u082.5f",  0x000002, 0x200000, CRC(cb61c19d) SHA1(151a2ce9c32f3321a974819e9b165dddc31c8153) )
+
+	ROM_REGION( 0x100000, "oki", 0 )
+	ROM_LOAD( "seibu__6.u105.4a", 0x00000, 0x40000,  CRC(48be32b1) SHA1(969d2191a3c46871ee8bf93088b3cecce3eccf0c) )
+
+	ROM_REGION( 0x10000, "pals", 0 )
+	ROM_LOAD( "v3c001.pal.u0310.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c002.tibpal16l8-25.u0322.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c003.ami18cv8p-15.u0619.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c004x.ami18cv8pc-25.u0310.jed", 0x0000, 0x288, NO_DUMP)
+ROM_END
+
+ROM_START( zeroteamhc59 ) //zeroteama
+	ROM_REGION( 0x200000, "maincpu", 0 )
+	ROM_LOAD32_BYTE("seibu__1.u024_hc59.5k", 0x000000, 0x40000, CRC(1cc010de) SHA1(290d9e6971bcb6e550343163fbeceeedfaf6ca71) )
+	ROM_LOAD32_BYTE("seibu__3.u023_hc59.6k", 0x000002, 0x40000, CRC(ac5e62dc) SHA1(eaf0902f21adfb26d67c32d4ebcf1c1aca5581dc) )
+	ROM_LOAD32_BYTE("seibu__2.u025_hc59.6l", 0x000001, 0x40000, CRC(4fefb1f4) SHA1(a5ad2b38c1c12134645442d71fa4d76e976a9ab2) )
+	ROM_LOAD32_BYTE("seibu__4.u026_hc59.5l", 0x000003, 0x40000, CRC(55029d97) SHA1(92a9994371d9c6ea2c1e4464812e34146cbfa285) )
+
+	ROM_REGION( 0x40000, "user2", 0 )
+	ROM_LOAD( "copx-d2.u0313.6n",   0x00000, 0x40000, CRC(a6732ff9) SHA1(c4856ec77869d9098da24b1bb3d7d58bb74b4cda) )
+
+	ROM_REGION( 0x20000, "audiocpu", ROMREGION_ERASEFF )
+	ROM_LOAD( "seibu__5.u1110.5b",  0x000000, 0x08000, CRC(7ec1fbc3) SHA1(48299d6530f641b18764cc49e283c347d0918a47) )
+	ROM_CONTINUE(0x10000,0x8000)
+	ROM_COPY( "audiocpu", 0x000000, 0x018000, 0x08000 )
+
+	ROM_REGION( 0x020000, "gfx1", 0 )
+	ROM_LOAD16_BYTE( "seibu__7.u072.5s",    0x000000,   0x010000,   CRC(9f6aa0f0) SHA1(1caad7092c07723d12a07aa363ae2aa69cb6be0d) )
+	ROM_LOAD16_BYTE( "seibu__8.u077.5r",    0x000001,   0x010000,   CRC(68f7dddc) SHA1(6938fa974c6ef028751982fdabd6a3820b0d30a8) )
+
+	ROM_REGION( 0x400000, "gfx2", 0 )
+	ROM_LOAD( "musha_back-1.u075.4s",   0x000000, 0x100000, CRC(8b7f9219) SHA1(3412b6f8a4fe245e521ddcf185a53f2f4520eb57) )
+	ROM_LOAD( "musha_back-2.u0714.2s",   0x100000, 0x080000, CRC(ce61c952) SHA1(52a843c8ba428b121fab933dd3b313b2894d80ac) )
+
+	ROM_REGION32_LE( 0x800000, "gfx3", ROMREGION_ERASEFF )
+	ROM_LOAD32_WORD( "musha_obj-1.u0811.6f",  0x000000, 0x200000, CRC(45be8029) SHA1(adc164f9dede9a86b96a4d709e9cba7d2ad0e564) )
+	ROM_LOAD32_WORD( "musha_obj-2.u082.5f",  0x000002, 0x200000, CRC(cb61c19d) SHA1(151a2ce9c32f3321a974819e9b165dddc31c8153) )
+
+	ROM_REGION( 0x100000, "oki", 0 )
+	ROM_LOAD( "seibu__6.u105.4a", 0x00000, 0x40000,  CRC(48be32b1) SHA1(969d2191a3c46871ee8bf93088b3cecce3eccf0c) )
+
+	ROM_REGION( 0x10000, "pals", 0 )
+	ROM_LOAD( "v3c001.pal.u0310.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c002.tibpal16l8-25.u0322.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c003.ami18cv8p-15.u0619.jed", 0x0000, 0x288, NO_DUMP)
+	ROM_LOAD( "v3c004x.ami18cv8pc-25.u0310.jed", 0x0000, 0x288, NO_DUMP)
+ROM_END
+
 /*    YEAR  NAME              PARENT            MACHINE             INPUT                       INIT           MONITOR COMPANY       FULLNAME FLAGS */
 // Hack/Homebrow
 GAME( 2022, zeroteamhc01,     zeroteam,         zeroteam,         zeroteam, raiden2_state, init_zeroteam,      ROT0,  "hack",        "Zero Team USA (Special Attack Team Question Mark Version 2022-05-11)", MACHINE_SUPPORTS_SAVE )
@@ -2136,3 +2247,6 @@ GAME( 2021, zeroteamhc53,     zeroteam,         zeroteam,         zeroteam, raid
 GAME( 2021, zeroteamhc54,     zeroteam,         zeroteam,         zeroteam, raiden2_state, init_zeroteam,      ROT0,  "hack",        "Zero Team Selection (Yanshen Version 2021-12-12)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, zeroteamhc55,     zeroteam,         zeroteam,         zeroteam, raiden2_state, init_zeroteam,      ROT0,  "hack",        "Zero Team USA (Youtian Version 2020-12-29)", MACHINE_SUPPORTS_SAVE )
 GAME( 2020, zeroteamhc56,     zeroteam,         zeroteam,         zeroteam, raiden2_state, init_zeroteam,      ROT0,  "hack",        "Zero Team USA (Unlimited Cannon Version 2020-12-28)", MACHINE_SUPPORTS_SAVE )
+GAME( 2020, zeroteamhc57,     zeroteam,         zeroteam,         zeroteam, raiden2_state, init_zeroteam,      ROT0,  "hack",        "Zero Team Selection (Yanshen Version 2020-08-29)", MACHINE_SUPPORTS_SAVE )
+GAME( 2021, zeroteamhc58,     zeroteam,         zeroteam,         zeroteam, raiden2_state, init_zeroteam,      ROT0,  "hack",        "Zero Team USA (New Nightmare Edition 2020-05-24)", MACHINE_SUPPORTS_SAVE )
+GAME( 2022, zeroteamhc59,     zeroteam,         zeroteam,         zeroteam, raiden2_state, init_zeroteam,      ROT0,  "hack",        "Zero Team USA (Unlimited Cannon Version 2022-01-13)", MACHINE_SUPPORTS_SAVE )

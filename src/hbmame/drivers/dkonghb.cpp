@@ -1,5 +1,5 @@
-// license:BSD-3-Clause
-// copyright-holders:Gaston90
+// Proyecto Shadow Legendary Edition
+// copyright-holders:Gaston90 (2016 - 2023)
 #include "../mame/drivers/dkong.cpp"
 
 /********************

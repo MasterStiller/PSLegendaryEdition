@@ -1,5 +1,5 @@
-// license:BSD-3-Clause
-// copyright-holders:Gaston90 (2016-2022)
+// Proyecto Shadow Legendary Edition
+// copyright-holders:Gaston90 (2016 - 2023)
 #include "../mame/drivers/cv1k.cpp"
 
 /********************
@@ -32,6 +32,19 @@ ROM_START( ddpsdoj )
 	ROM_IGNORE( 0x000100 )
 	ROM_LOAD16_WORD_SWAP("u24", 0x400000, 0x400000, CRC(f593045b) SHA1(91b92870d0dd2a7817cb0059cc750e2393686f4c) )
 	ROM_IGNORE( 0x000100 )
+ROM_END
+
+ROM_START( ibarahc01 ) //ibara
+	ROM_REGION( 0x400000, "maincpu", ROMREGION_ERASEFF)
+	ROM_LOAD16_WORD_SWAP( "u4_hc01", 0x000000, 0x200000, CRC(d5fb6657) SHA1(4b2c9057cc765054232f520ee1c93495bc6b301e) )
+	ROM_RELOAD(0x200000,0x200000)
+
+	ROM_REGION( 0x8400000, "game", ROMREGION_ERASEFF)
+	ROM_LOAD( "u2", 0x000000, 0x8400000, CRC(55840976) SHA1(4982bdce84f9603adfed7a618f18bc80359ab81e) )
+
+	ROM_REGION( 0x800000, "ymz770", ROMREGION_ERASEFF)
+	ROM_LOAD16_WORD_SWAP( "u23", 0x000000, 0x400000, CRC(ee5e585d) SHA1(7eeba4ee693060e927f8c46b16e39227c6a62392) )
+	ROM_LOAD16_WORD_SWAP( "u24", 0x400000, 0x400000, CRC(f0aa3cb6) SHA1(f9d137cd879e718811b2d21a0af2a9c6b7dca2f9) )
 ROM_END
 
 ROM_START( ddpsdojo )
@@ -90,8 +103,9 @@ ROM_END
 /*    YEAR     NAME         PARENT          MACHINE    INPUT                       INIT       MONITOR   COMPANY   FULLNAME FLAGS */
 // Hack/Homebrow
 GAME( 2007, deathsmlhc01,   deathsml,        cv1k,     cv1k, cv1k_state,       init_deathsml,  ROT0,    "hack",   "Death Smiles (Ex Super Version)", 0 )
-GAME( 2012, ddpsdoj,        0,               cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "Cave",   "DoDonPachi SaiDaiOuJou (clean dump)", 0 )
-GAME( 2012, ddpsdojo,       ddpsdoj,         cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "Cave",   "DoDonPachi SaiDaiOuJou (dirty dump)", 0 )
-GAME( 2021, sdojak,         0,               cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "Cave",   "DoDonPachi SaiDaiOuJou & Knuckles (2021-12-01)", 0 )
+GAME( 2012, ddpsdoj,        0,               cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "hack",   "DoDonPachi SaiDaiOuJou (clean dump)", 0 )
+GAME( 2012, ddpsdojo,       ddpsdoj,         cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "hack",   "DoDonPachi SaiDaiOuJou (dirty dump)", 0 )
+GAME( 2022, ibarahc01,      ibara,           cv1k,     cv1ks,cv1k_state,       init_ibara,     ROT270,  "hack",   "Ibara (Revised Edition 2022-10-31)", 0 )
+GAME( 2021, sdojak,         0,               cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "hack",   "DoDonPachi SaiDaiOuJou & Knuckles (2021-12-01)", 0 )
 GAME( 2021, sdoja,          sdojak,          cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "hack",   "DoDonPachi SaiDaiOuJou hack", 0 )
 GAME( 2022, sdojb,          sdojak,          cv1k_d,   cv1k, cv1k_state,       init_dpddfk,    ROT270,  "hack",   "DoDonPachi SaiDaiOuJou Saya Type B (2022-01-06)", 0 )

@@ -12806,5 +12806,5 @@ GAME( 1995, sfach,       sfzch,    cps1_12MHz, sfzch,    cps_state, init_cps1,  
 GAME( 1995, sfzbch,      sfzch,    cps1_12MHz, sfzch,    cps_state, init_cps1,     ROT0,   "Capcom", "Street Fighter Zero (CPS Changer, Brazil 950727)", MACHINE_SUPPORTS_SAVE )
 
 // Ken Sei Mogura: Street Fighter II - see kenseim.c
-// HBMAME
+// PSLEGENDARY EDITION
 #include "cps1hb.cpp"

@@ -10,8 +10,8 @@
 
 #include "emu.h"
 
-#define APPNAME                 "PSMame Builds Plus"
-#define APPNAME_LOWER           "PSMame Builds Plus"
+#define APPNAME                 "PSLEGENDARY EDITION"
+#define APPNAME_LOWER           "PSLEGENDARY EDITION"
 #define CONFIGNAME              "mame"
 #define COPYRIGHT               "Copyright Nicola Salmoria\nand the MAME team\nhttp://mamedev.org"
 #define COPYRIGHT_INFO          "Copyright Nicola Salmoria and the MAME team"

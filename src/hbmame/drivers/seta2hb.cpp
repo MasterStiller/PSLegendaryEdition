@@ -1,5 +1,5 @@
-// license:BSD-3-Clause
-// copyright-holders:Gaston90 (2016-2022)
+// Proyecto Shadow Legendary Edition
+// copyright-holders:Gaston90 (2016 - 2023)
 #include "../mame/drivers/seta2.cpp"
 
 /********************
@@ -206,10 +206,10 @@ ROM_START( grdianshc08 ) //grdiansw
 	ROM_LOAD( "u32.bin", 0x000000, 0x100000, CRC(cf0f3017) SHA1(8376d3a674f71aec72f52c72758fbc53d9feb1a1) )
 ROM_END
 
-ROM_START( grdianshc09 )
+ROM_START( grdianshc09 ) //grdianslbs
 	ROM_REGION( 0x200000, "maincpu", 0 )
-	ROM_LOAD16_BYTE( "u2_hc09.bin", 0x000000, 0x080000, CRC(964316ae) SHA1(25822572b949140c8ff3791c92b5015868a324ae) )
-	ROM_LOAD16_BYTE( "u3_hc09.bin", 0x000001, 0x080000, CRC(25d2c68c) SHA1(a192ce399cf790ea611a6775c6c5174c2bad8d6f) )
+	ROM_LOAD16_BYTE( "u2_hc09.bin", 0x000000, 0x080000, CRC(a2e89715) SHA1(af4ad713550270853676d3834174581ec5b4e511) )
+	ROM_LOAD16_BYTE( "u3_hc09.bin", 0x000001, 0x080000, CRC(df5b58bc) SHA1(a0704883a61f205c6fe400d99aaa2558de20a74c) )
 	ROM_LOAD16_BYTE( "u4.bin", 0x100000, 0x080000, CRC(bb52447b) SHA1(61433f683210ab2bc2cf1cc4b5b7a39cc5b6493d) )
 	ROM_LOAD16_BYTE( "u5.bin", 0x100001, 0x080000, CRC(9c164a3b) SHA1(6d688c7af9e7e8e8d54b2e4dfbf41f59c79242eb) )
 
@@ -1266,7 +1266,7 @@ GAME( 2018, grdianshc05,   grdians,        grdians,  grdians,  seta2_state,    e
 GAME( 2018, grdianshc06,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2018-06-06)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2020, grdianshc07,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2020-12-01)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2020, grdianshc08,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2020-12-28)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
-//GAME( 2010, grdianshc09,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Ex Super Version V2)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
+GAME( 2022, grdianshc09,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Robust Edition 2022-10-14)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 //GAME( 2010, grdianshc10,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Ex Super Version V3)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2019, grdianshc11,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Robust Version 2019-01-11)", MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )
 GAME( 2018, grdianshc12,   grdians,        grdians,  grdians,  seta2_state,    empty_init,    ROT0,   "hack",    "Guardians (Warriors Edition 2018-12-10)",  MACHINE_NO_COCKTAIL | MACHINE_IMPERFECT_GRAPHICS )

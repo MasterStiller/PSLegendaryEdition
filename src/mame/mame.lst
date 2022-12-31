@@ -4,9 +4,15 @@
   List of all enabled drivers in the system.
 ***********************************************/
 
+@source:1942.cpp
+1942            // 12/1984 (c) 1984
+
 @source:aerofgt.cpp
 aerofgt         // (c) 1992 Video System Co.
 karatblz        // (c) 1991 Video System Co.
+
+@source:bublbobl.cpp
+bublbobl        // A78 (c) 1986 Taito Corporation
 
 @source:cave.cpp
 agallet         // (c) 1996 Banpresto / Gazelle (country is in EEPROM)
@@ -20,6 +26,9 @@ plegends        // (c) 1994 Atlus
 pwrinst2        // (c) 1994 Atlus
 sailormn        // (c) 1995 Banpresto (Ver. 95/03/22B, country is in EEPROM)
 theroes         // (c) 2001 Primetek Investments
+
+@source:contra.cpp
+contra          // GX633 (c) 1987
 
 @source:cps1.cpp
 3wonders        // 20/05/1991 (c) 1991 (World)
@@ -88,33 +97,15 @@ jojon           // 28/01/1999 (c) 1998 (Asia)
 
 @source:cv1k.cpp
 akatana         // (c) 2010 Cave (AMI license) - 2010/ 8/13 MASTER VER.
-ddpdfk          // (c) 2008 Cave (AMI license) - 2008/06/23  MASTER VER 1.5
-dfkbl           // (c) 2010 Cave (AMI license) - 2010/1/18 BLACK LABEL
-dsmbl           // (c) 2008 Cave (AMI license) - 2008/10/06 MEGABLACK LABEL VER
 deathsml	    // (c) 2007 Cave (AMI license) - 2007/10/09 MASTER VER
-espgal2         // (c) 2005 Cave (AMI license) - 2005/11/14 MASTER VER
-espgal2a        //
-futari15        // (c) 2006 Cave (AMI license) - 2006/12/8.MASTER VER. 1.54.
-futaribl        // (c) 2007 Cave (AMI license) - 2009/11/27 INTERNATIONAL BL - Another Ver
-futariblj       // (c) 2007 Cave (AMI license) - 2007/12/11 BLACK LABEL VER
 ibara           // (c) 2005 Cave (AMI license) - 2005/03/22 MASTER VER..
-ibarablk        // (c) 2005 Cave (AMI license) - 2006/02/06. MASTER VER.
-mmpork          // (c) 2007 Cave (AMI license) - 2007/ 4/17 MASTER VER.
-mushisam        // (c) 2004 Cave (AMI license) - 2004/10/12.MASTER VER.
-pinkswts        // (c) 2006 Cave (AMI license) - 2006/04/06 MASTER VER....
-pinkswtssc      // bootleg
 
 @source:deco_mlc.cpp
 avengrgs        // MCG (c) 1995 Data East Corporation (World)
 
 @source:dkong.cpp
 dkong           // (c) 1981 Nintendo of America
-dkong3          // (c) 1983 Nintendo of America
-dkong3b         // bootleg
-dkong3j         // (c) 1983 Nintendo
 dkongf          // hack from Jeff's Romhack
-dkongjr         // (c) 1982 Nintendo of America
-dkongjrj        // (c) 1982 Nintendo
 dkongpe         // hack Pauline Edition
 dkongx          // hack
 dkongx11        // hack
@@ -142,23 +133,17 @@ viostorm        // GX168 (c) 1993 (Europe)
 
 @source:neogeo.cpp
 neogeo          // NeoGeo MV-6F
-2020bb			// 0030 (c) 1991 SNK / Pallas
-3countb			// 0043 (c) 1993 SNK
-alpham2			// 0007 (c) 1991 SNK
 androdun		// 0049 (c) 1992 Visco
 aof			    // 0044 (c) 1992 SNK
 aof2			// 0056 (c) 1994 SNK
 aof3			// 0096 (c) 1996 SNK
 b2b			    // 0071 (c) 2000 Visco (released by NCI in 2010)
-bakatono		// 0036 (c) 1991 Monolith Corp.
 bangbead		// 0259 (c) 2000 Visco
 bjourney		// 0022 (c) 1990 Alpha Denshi Co.
 blazstar		// 0239 (c) 1998 Yumekobo
 breakers		// 0230 (c) 1996 Visco
 breakrev		// 0245 (c) 1998 Visco
-bstars			// 0002 (c) 1990 SNK
 burningf		// 0018 (c) 1991 SNK
-crsword			// 0037 (c) 1991 Alpha Denshi Co.
 ctomaday		// 0249 (c) 1999 Visco
 cyberlip		// 0010 (c) 1990 SNK
 doubledr		// 0082 (c) 1995 Technos
@@ -167,7 +152,6 @@ fatfury1		// 0033 (c) 1991 SNK
 fatfury2		// 0047 (c) 1992 SNK
 fatfury3		// 0069 (c) 1995 SNK
 fatfursp		// 0058 (c) 1993 SNK
-fbfrenzy		// 0034 (c) 1992 SNK
 fightfev		// 0060 (c) 1994 Viccom
 flipshot		// 0247 (c) 1998 Visco
 galaxyfg		// 0078 (c) 1995 Sunsoft
@@ -176,9 +160,7 @@ garou			// 0253 (c) 1999 SNK
 goalx3			// 0209 (c) 1995 Visco
 gowcaizr		// 0094 (c) 1995 Technos
 gpilots			// 0020 (c) 1991 SNK
-ironclad		// 0220 (c) 1996 Saurus - Choutetsu Brikin'ger - Iron clad (protoype)
 jockeygp		//
-joyjoy			// 0021 (c) 1990 SNK
 kabukikl		// 0092 (c) 1995 Hudson
 karnovr			// 0066 (c) 1994 Data East Corporation
 kizuna			// 0216 (c) 1996 SNK
@@ -194,18 +176,13 @@ kof2002			// 0265 (c) 2002 Eolith / Playmore
 kof2003			// 0271 (c) 2003 Playmore
 kf2k3pcb        // 0271 (c) 2003 Playmore - JAMMA PCB
 kof2k4se		// bootleg of kof2002
-kotm			// 0016 (c) 1991 SNK
-kotm2			// 0039 (c) 1992 SNK
 lastblad		// 0234 (c) 1997 SNK
 lastbld2		// 0243 (c) 1998 SNK
-lasthope		//
-lbowling		// 0019 (c) 1990 SNK
 lresort			// 0024 (c) 1992 SNK
 magdrop3		// 0233 (c) 1997 Data East Corporation
 maglord			// 0005 (c) 1990 Alpha Denshi Co.
 matrim			// 0266 (c) 2003 Atlus
 miexchng		// 0231 (c) 1997 Face
-minasan			// 0027 (c) 1990 Monolith Corp.
 ms5pcb          // 0268 (c) 2003 Playmore - JAMMA PCB
 mslug			// 0201 (c) 1996 Nazca
 mslug2			// 0241 (c) 1998 SNK
@@ -219,20 +196,15 @@ ncombat			// 0009 (c) 1990 Alpha Denshi Co.
 ncommand		// 0050 (c) 1992 Alpha Denshi Co.
 neobombe		// 0093 (c) 1997 Hudson
 neocup98		// 0244 (c) 1998 SNK
-neodrift		// 0213 (c) 1996 Visco
 ninjamas		// 0217 (c) 1996 ADK / SNK
 nitd			// 0260 (c) 2000 Eleven / Gavaking
 pbobblen		// 0083 (c) 1994 Taito
 pnyaa			// 0267 (c) 2003 Aiky / Taito
 preisle2		// 0255 (c) 1999 Yumekobo
-pulstar			// 0089 (c) 1995 Aicom
-puzzledp		// 0202 (c) 1995 Taito (Visco license)
 ragnagrd		// 0218 (c) 1996 Saurus
 rbff1			// 0095 (c) 1995 SNK
 rbff2			// 0240 (c) 1998 SNK
 rbffspec		// 0223 (c) 1996 SNK
-ridhero			// 0006 (c) 1990 SNK
-roboarmy		// 0032 (c) 1991 SNK
 rotd			// 0264 (c) 2002 Evoga
 s1945p			// 0254 (c) 1999 Psikyo
 samsho			// 0045 (c) 1993 SNK
@@ -243,27 +215,15 @@ samsho5			// 0270 (c) 2003 Playmore
 samsh5sp		// 0272 (c) 2004 Playmore
 savagere		// 0059 (c) 1995 SNK
 sdodgeb			// 0208 (c) 1996 Technos
-sengoku			// 0017 (c) 1991 SNK
-sengoku2		// 0040 (c) 1993 SNK
 sengoku3		// 0261 (c) 2001 Noise Factory / SNK
 shocktr2		// 0246 (c) 1998 Saurus
 shocktro		// 0238 (c) 1997 Saurus
-socbrawl		// 0031 (c) 1991 SNK
 sonicwi2		// 0075 (c) 1994 Video System Co.
 sonicwi3		// 0097 (c) 1995 Video System Co.
 spinmast		// 0062 (c) 1993 Data East Corporation
-ssideki			// 0052 (c) 1992 SNK
-ssideki4		// 0215 (c) 1996 SNK
-stakwin			// 0088 (c) 1995 Saurus  //broken in mame, works here
-strhoop			// 0079 (c) 1994 Data East Corporation
-superspy		// 0011 (c) 1990 SNK
 svc			    // 0269 (c) 2003 Playmore / Capcom
 tophuntr		// 0046 (c) 1994 SNK
-tpgolf			// 0003 (c) 1990 SNK
-trally			// 0038 (c) 1991 Alpha Denshi Co.
-turfmast		// 0200 (c) 1996 Nazca
 twinspri		// 0224 (c) 1996 ADK
-tws96			// 0051 (c) 1992 Sammy
 viewpoin		// 0051 (c) 1992 Sammy
 wakuwak7		// 0225 (c) 1996 Sunsoft
 wh1			    // 0053 (c) 1992 Alpha Denshi Co.
@@ -278,15 +238,7 @@ zupapa			// 0070 Zupapa - released in 2001, 1994 prototype probably exists
 pgm             // Base Unit
 ddp2            // (c) 2001 DoDonPachi 2 - Bee Storm
 ddp3            // (c) 2002 DoDonPachi Dai-Ou-Jou / DoDonPachi III
-ket             // (c) 2002 Ketsui
 killbld         // (c) 1998 The Killing Blade
-ketarr          // hack
-ketarr10        // hack
-ketarr15        // hack
-ketarr151       // hack
-ketarrf	        // hack
-ketarrs15       // hack
-ketarrs151      // hack
 kovplus         // (c) 1999 Knights of Valor Plus
 kov             // (c) 1999 Knights of Valor
 kov2            // (c) 2000 Knights of Valor 
@@ -298,6 +250,9 @@ oldsplus        // (c) 2004 Oriental Legend Super Plus
 orlegend        // (c) 1997 Oriental Legend
 martmast        // (c) 2001 Martial Masters
 theglad         // (c) 2003 The Gladiator
+
+@source:r2dx_v33.cpp
+nzeroteam       // (c) 1997 Seibu Kaihatsu
 
 @source:raiden2.cpp
 zeroteam        // (c) 1993 Seibu Kaihatsu + Fabtek licen
@@ -538,10 +493,17 @@ kovlsyxqxzlp    // Bootleg
   Hack And Homebrow
 ***********************/
 
+@source:1942.cpp
+1942hc01        // Hack
+1942hc02        // Hack
+
 @source:aerofgt.cpp
 aerofgthc01     // Hack
 karatblzhc01    // Hack
 karatblzhc02    // Hack
+
+@source:bublbobl.cpp
+bublboblhc01    // Hack
 
 @source:cave.cpp
 agallethc01     // Hack
@@ -572,6 +534,9 @@ sailormnhc11    // Hack
 sailormnhc12    // Hack
 sailormnhc13    // Hack
 theroeshc01     // Hack
+
+@source:contra.cpp
+contrahc01      // Hack
 
 @source:cps1.cpp
 captcommhc01    // Hack
@@ -685,6 +650,13 @@ captcommhc108   // Hack
 captcommhc109   // Hack
 captcommhc110   // Hack
 captcommhc111   // Hack
+captcommhc112   // Hack
+captcommhc113   // Hack
+captcommhc114   // Hack
+captcommhc115   // Hack
+captcommhc116   // Hack
+captcommhc117   // Hack
+captcommhc118   // Hack
 dinohc01        // Hack
 dinohc02        // Hack
 dinohc03        // Hack
@@ -716,15 +688,15 @@ dinohc28        // Hack
 dinohc29        // Hack
 dinohc30        // Hack
 dinohc31        // Hack
-//dinohc32        // Hack
+dinohc32        // Hack
 dinohc33        // Hack
 dinohc34        // Hack
 dinohc35        // Hack
 dinohc36        // Hack
 dinohc37        // Hack
-//dinohc38        // Hack
-//dinohc39        // Hack
-//dinohc40        // Hack
+dinohc38        // Hack
+dinohc39        // Hack
+dinohc40        // Hack
 dinohc41        // Hack
 dinohc42        // Hack
 dinohc43        // Hack
@@ -878,7 +850,7 @@ dinohc190       // Hack
 dinohc191       // Hack
 dinohc192       // Hack
 dinohc193       // Hack
-//dinohc194       // Hack
+dinohc194       // Hack
 dinohc195       // Hack
 dinohc196       // Hack
 dinohc197       // Hack
@@ -1050,6 +1022,7 @@ dinohc362       // Hack
 dinohc363       // Hack
 //dinohc364       // Hack [It does not work]
 dinohc365       // Hack
+dinohc366       // Hack
 forgottnhc01    // Hack
 ffighthc01      // Hack
 ffighthc02      // Hack
@@ -1080,6 +1053,9 @@ kodhc15         // Hack
 kodhc16         // Hack
 kodhc17         // Hack
 kodhc18         // Hack
+kodhc19         // Hack
+kodhc20         // Hack
+//kodhc21        // Hack [It does not work]
 knightshc01     // Hack
 knightshc02     // Hack
 knightshc03     // Hack
@@ -1139,6 +1115,8 @@ punisherhc36    // Hack
 punisherhc37    // Hack
 punisherhc38    // Hack
 punisherhc39    // Hack
+punisherhc40    // Hack
+punisherhc41    // Hack
 sf2cehc01       // Hack
 sf2cehc02       // Hack
 sf2cehc03       // Hack
@@ -1258,6 +1236,11 @@ sf2cehc116      // Hack
 sf2cehc117      // Hack
 sf2cehc118      // Hack
 sf2cehc119      // Hack
+sf2cehc120      // Hack
+sf2cehc121      // Hack
+sf2cehc122      // Hack
+sf2cehc123      // Hack
+sf2cehc124      // Hack
 sf2hc01         // Hack
 sf2hc02         // Hack
 sf2hc03         // Hack
@@ -1393,6 +1376,7 @@ tk2hc115        // Hack
 tk2hc116        // Hack
 tk2hc117        // Hack
 tk2hc118        // Hack
+tk2hc119        // Hack
 tk2chc01        // Hack
 tk2chc02        // Hack
 tk2chc03        // Hack
@@ -1599,6 +1583,7 @@ sfiii3hc10      // Hack
 deathsmlhc01    // Hack
 ddpsdoj         // Hack
 ddpsdojo        // Hack
+ibarahc01       // Hack
 sdojak          // Hack
 sdoja           // Hack
 sdojb           // Hack
@@ -1679,6 +1664,7 @@ hookhc39        // Hack
 hookhc40        // Hack
 hookhc41        // Hack
 hookhc42        // Hack
+hookhc43        // Hack
 nbbatmanhc01    // Hack
 nbbatmanhc02    // Hack
 nbbatmanhc03    // Hack
@@ -1690,6 +1676,7 @@ nbbatmanhc08    // Hack
 nbbatmanhc09    // Hack
 nbbatmanhc10    // Hack
 nbbatmanhc11    // Hack
+nbbatmanhc12    // Hack
 uccopshc01      // Hack
 
 @source:midtunit.cpp
@@ -1813,6 +1800,7 @@ ganryuhc01      // Hack
 gowcaizrhc01    // Hack
 gowcaizrhc02    // Hack
 gpilotshc01     // Hack
+hypernoid       // HomeBrow
 kabukiklhc01    // Hack
 karnovrhc01     // Hack 
 kizunahc01      // Hack 
@@ -1839,6 +1827,7 @@ kof10thhc10     // Hack
 kof10thhc11     // Hack
 kof10thhc12     // Hack
 kof10thhc13     // Hack
+kof10thhc14     // Hack
 kof94hc01       // Hack
 kof94hc02       // Hack
 kof94hc03       // Hack
@@ -1978,9 +1967,9 @@ kof97hc103      // Hack
 kof97hc104      // Hack
 kof97hc105      // Hack
 kof97hc106      // Hack
-//kof97hc107      // Hack
-//kof97hc108      // Hack
-//kof97hc109      // Hack
+kof97hc107      // Hack
+kof97hc108      // Hack
+kof97hc109      // Hack
 //kof97hc110      // Hack
 //kof97hc111      // Hack
 //kof97hc112      // Hack
@@ -2021,7 +2010,7 @@ kof97hc146      // Hack
 kof97hc147      // Hack
 kof97hc148      // Hack
 kof97hc149      // Hack
-//kof97hc150      // Hack
+kof97hc150      // Hack
 kof97hc151      // Hack
 kof97hc152      // Hack
 kof97hc153      // Hack
@@ -2345,6 +2334,9 @@ kof99hc73       // Hack
 kof99hc74       // Hack
 kof99hc75       // Hack
 kof99hc76       // Hack
+kof99hc77       // Hack
+kof99hc78       // Hack
+kof99hc79       // Hack
 kof2000hc01     // Hack
 kof2000hc02     // Hack
 kof2000hc03     // Hack
@@ -2434,14 +2426,14 @@ kof2002hc28     // Hack
 kof2002hc29     // Hack
 kof2002hc30     // Hack
 kof2002hc31     // Hack
-//kof2002hc32     // Hack
-//kof2002hc33     // Hack
+kof2002hc32     // Hack
+kof2002hc33     // Hack
 kof2002hc34     // Hack
 kof2002hc35     // Hack
 kof2002hc36     // Hack
-//kof2002hc37     // Hack
-//kof2002hc38     // Hack
-//kof2002hc39     // Hack
+kof2002hc37     // Hack
+kof2002hc38     // Hack
+kof2002hc39     // Hack
 //kof2002hc40     // Hack
 //kof2002hc41     // Hack
 kof2002hc42     // Hack
@@ -2568,6 +2560,8 @@ kof2003hc08     // Hack
 //kof2003hc09     // Hack [It does not work]
 kof2003hc10     // Hack
 kof2003hc11     // Hack
+kof2003hc12     // Hack
+kof2003hc13     // Hack
 koghc01         // Hack
 koghc02         // Hack
 koghc03         // Hack
@@ -2709,7 +2703,7 @@ mslug3hc32      // Hack
 mslug3hc33      // Hack
 mslug3hc34      // Hack
 mslug3hc35      // Hack
-//mslug3hc36      // Hack [Duplicate]
+mslug3hc36      // Hack
 mslug3hc37      // Hack
 mslug3hc38      // Hack
 mslug3hc39      // Hack
@@ -2737,6 +2731,8 @@ mslug3hc60      // Hack
 mslug3hc61      // Hack
 mslug3hc62      // Hack
 mslug3hc63      // Hack
+mslug3hc64      // Hack
+mslug3hc65      // Hack
 mslug3er01      // Hack
 mslug3er02      // Hack
 mslug3er03      // Hack
@@ -2986,6 +2982,9 @@ mslug5hc80      // Hack
 mslug5hc81      // Hack
 mslug5hc82      // Hack
 mslug5hc83      // Hack
+mslug5hc84      // Hack
+mslug5hc85      // Hack
+mslug5hc86      // Hack
 mslug5la01      // Hack
 mslug5lb01      // Hack
 mslug5lc01      // Hack
@@ -3009,6 +3008,8 @@ mslug6hc11      // Hack
 mslug6hc12      // Hack
 mslug6hc13      // Hack
 mslug6hc14      // Hack
+mslug6hc15      // Hack
+mslug6hc16      // Hack
 mslugxhc01      // Hack
 mslugxhc02      // Hack
 mslugxhc03      // Hack
@@ -3082,6 +3083,9 @@ mslugxhc70      // Hack
 mslugxhc71      // Hack
 mslugxhc72      // Hack
 mslugxhc73      // Hack
+//mslugxhc74      // Hack [It does not work]
+mslugxhc75      // Hack
+mslugxhc76      // Hack
 mslugxtst01     // Hack
 mslugxtao01     // Hack
 mslugxat01      // Hack
@@ -3174,9 +3178,13 @@ ninjamashc06    // Hack
 nitdhc01        // Hack
 nitdhc02        // Hack
 nitdhc03        // Hack
+neotris         // HomeBrew
+neotet          // HomeBrew
 nsmb            // HomeBrew
+nsmbd           // HomeBrew
 pbobblenhc01    // Hack
 pbobblenhc02    // Hack
+proneon         // HomeBrew
 ragnagrdhc01    // Hack
 ragnagrdhc02    // Hack
 ragnagrdhc03    // Hack
@@ -3291,6 +3299,7 @@ svchc10         // Hack
 svchc11         // Hack
 svchc12         // Hack
 timesup         // HomeBrew
+timesupd        // HomeBrew
 teot            // HomeBrew
 teothc01        // HomeBrew
 teothc02        // HomeBrew
@@ -3392,6 +3401,8 @@ kov2hc37        // Hack
 kov2hc38        // Hack
 kov2hc39        // Hack
 kov2hc40        // Hack
+kov2hc41        // Hack
+kov2hc42        // Hack
 //kov2phc01       // Hack [It does not work]
 kov2phc02       // Hack
 kov2phc03       // Hack
@@ -3511,6 +3522,12 @@ kov2phc116       // Hack
 kov2phc117       // Hack
 kov2phc118       // Hack
 kov2phc119       // Hack
+kov2phc120       // Hack
+kov2phc121       // Hack
+kov2phc122       // Hack
+kov2phc123       // Hack
+//kov2phc124       // Hack [It does not work]
+//kov2phc125       // Hack [It does not work]
 kovplushc01      // Hack
 //kovplushc02     // Hack [It does not work]
 //kovplushc03     // Hack [It does not work]
@@ -3793,6 +3810,13 @@ kovplushc278     // Hack [It does not work]
 //kovplushc280     // Hack [It does not work]
 kovplushc281     // Hack
 //kovplushc282     // Hack [It does not work]
+kovplushc283     // Hack
+//kovplushc284     // Hack [It does not work]
+kovplushc285     // Hack
+//kovplushc286     // Hack [It does not work]
+//kovplushc287     // Hack [It does not work]
+//kovplushc288     // Hack [It does not work]
+//kovplushc289     // Hack [It does not work]
 kovshhc01        // Hack
 kovshhc02        // Hack
 kovshhc03        // Hack
@@ -4053,6 +4077,12 @@ kovshphc189     // Hack
 //kovshphc198     // Hack
 kovshphc199     // Hack
 kovshphc200     // Hack
+kovshphc201     // Hack
+//kovshphc202     // Hack [It does not work]
+kovshphc203     // Hack
+kovshphc204     // Hack
+kovshphc205     // Hack
+//kovshphc206     // Hack [It does not work]
 martmasthc01    // Hack
 martmasthc02    // Hack
 martmasthc03    // Hack
@@ -4150,6 +4180,9 @@ olds100ahc89     // Hack
 //olds100ahc92     // Hack [It does not work]
 olds100ahc93     // Hack
 //olds100ahc94     // Hack
+olds100ahc95     // Hack
+//olds100ahc96     // Hack [It does not work]
+//olds100ahc97     // Hack [It does not work]
 //olds103thc01    // Hack [It does not work]
 //olds103thc02    // Hack [It does not work]
 olds103thc03    // Hack
@@ -4158,6 +4191,7 @@ olds103thc05    // Hack
 //olds103thc06    // Hack [It does not work]
 olds103thc07    // Hack
 olds103thc08    // Hack
+//olds103thc09    // Hack [It does not work]
 oldsplushc01    // Hack
 oldsplushc02    // Hack
 oldsplushc03    // Hack
@@ -4190,6 +4224,8 @@ oldsplushc29    // Hack
 //oldsplushc30    // Hack [It does not work]
 //oldsplushc31    // Hack [It does not work]
 oldsplushc32    // Hack
+oldsplushc33    // Hack
+oldsplushc34    // Hack
 orlegendhc01    // Hack
 orlegendhc02    // Hack
 orlegendhc03    // Hack
@@ -4242,12 +4278,16 @@ orlegendhc49    // Hack
 orlegendhc50    // Hack
 orlegendhc51    // Hack
 orlegendhc52    // Hack
+orlegendhc53    // Hack
 thegladhc01     // Hack
 thegladhc02     // Hack
 thegladhc03     // Hack
 thegladhc04     // Hack
 thegladhc05     // Hack
 thegladhc06     // Hack
+
+@source:r2dx_v33.cpp
+nzeroteamhc01   // Hack
 
 @source:raiden2.cpp
 zeroteamhc01    // Hack
@@ -4306,6 +4346,9 @@ zeroteamhc53    // Hack
 zeroteamhc54    // Hack
 zeroteamhc55    // Hack
 zeroteamhc56    // Hack
+zeroteamhc57    // Hack
+zeroteamhc58    // Hack
+zeroteamhc59    // Hack
 
 @source:powerins.cpp
 powerinshc01    // Hack
@@ -4326,7 +4369,7 @@ grdianshc05     // Hack
 grdianshc06     // Hack
 grdianshc07     // Hack
 grdianshc08     // Hack
-//grdianshc09     // Hack
+grdianshc09     // Hack
 //grdianshc10     // Hack
 grdianshc11     // Hack
 grdianshc12     // Hack

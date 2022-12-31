@@ -1,22 +1,11 @@
-﻿What's new in PSMame Builds Plus
-================================
+﻿What's new in PSLEGENDARY EDITION
+==================================
 
-2022-1X-XX
+2023-0X-XX
 
 - Added UNIVERSE BIOS v4.0 NeoGeo MVS System.
 - Added Roms NeoGeo, Cps1 Decrypted And Bootleg.
 
 New Games
 ---------------------------------
-captcommhc01
-captcommhc02
-dinohc01
-dinohc02
-dinohc03
-dinohc04
-dinohc05
-dinohc06
-punisherhc01
-tk2hc01
-tk2hc02
-tk2hc03
+Added New +1500 Roms Hack

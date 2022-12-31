@@ -111,13 +111,13 @@ elif build == "hbmame":
 else:
     # MAME
     author = "Gaston90"
-    comments = "Proyecto Shadow Dark Power Plus"
+    comments = "Proyecto Shadow Legendary Edition"
     company_name = "MAME Team"
-    file_description = "PSDark Power plus"
-    internal_name = "PSDark Power plus"
-    original_filename = "PSDark Power plus"
-    product_name = "PSDark Power plus"
-    bundle_identifier = "org.mamedev.PSDarkPowerplus"
+    file_description = "PSLEGENDARY EDITION"
+    internal_name = "PSLEGENDARY EDITION"
+    original_filename = "PSLEGENDARY EDITION"
+    product_name = "PSLEGENDARY EDITION"
+    bundle_identifier = "org.mamedev.PSDarkPower"
 
 if outfmt == 'rc':
     fp.write('VS_VERSION_INFO VERSIONINFO\n')

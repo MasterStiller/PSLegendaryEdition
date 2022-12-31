@@ -78,11 +78,11 @@
 #endif
 
 #ifdef PTR64
-#define MAMEUINAME			"PSMame Builds Plus"
+#define MAMEUINAME			"PSLEGENDARY EDITION X64"
 #else
-#define MAMEUINAME			"PSMame Builds Plus"
+#define MAMEUINAME			"PSLEGENDARY EDITION X32"
 #endif
-#define MAMENAME			"PSMame Builds Plus"
+#define MAMENAME			"PSLEGENDARY EDITION"
 
 #define MAME_VERSION		"1.0"
 #define MAMEUIFX_VERSION	MAME_VERSION " (" __DATE__")"

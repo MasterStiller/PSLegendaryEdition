@@ -2606,6 +2606,8 @@ mslughc11       // Hack
 mslughc12       // Hack
 mslughc13       // Hack
 mslughc14       // Hack
+mslughc15       // Hack
+mslughc16       // Hack
 msluger01       // Hack
 mslugla01       // Hack
 mslugrmxe0s01   // Hack
@@ -2644,6 +2646,7 @@ mslug2hc32      // Hack
 mslug2hc33      // Hack
 mslug2hc34      // Hack
 mslug2hc35      // Hack
+mslug2hc36      // Hack
 mslug2er01      // Hack
 mslug2er02      // Hack
 mslug2er03      // Hack
@@ -2733,6 +2736,8 @@ mslug3hc62      // Hack
 mslug3hc63      // Hack
 mslug3hc64      // Hack
 mslug3hc65      // Hack
+mslug3hc66      // Hack
+mslug3hc67      // Hack
 mslug3er01      // Hack
 mslug3er02      // Hack
 mslug3er03      // Hack
@@ -2838,7 +2843,7 @@ mslug4hc19      // Hack
 mslug4hc20      // Hack
 mslug4hc21      // Hack
 mslug4hc22      // Hack
-mslug4hc23      // Hack
+//mslug4hc23      // Hack [Repeated]
 mslug4hc24      // Hack
 mslug4hc25      // Hack
 mslug4hc26      // Hack
@@ -2876,6 +2881,12 @@ mslug4hc57      // Hack
 mslug4hc58      // Hack
 mslug4hc59      // Hack
 mslug4hc60      // Hack
+mslug4hc61      // Hack
+mslug4hc62      // Hack
+//mslug4hc63      // Hack [Repeated]
+mslug4hc64      // Hack
+mslug4hc65      // Hack
+mslug4hc66      // Hack
 mslug4er01      // Hack
 mslug4er02      // Hack
 mslug4la01      // Hack
@@ -2985,6 +2996,10 @@ mslug5hc83      // Hack
 mslug5hc84      // Hack
 mslug5hc85      // Hack
 mslug5hc86      // Hack
+mslug5hc87      // Hack
+mslug5hc88      // Hack
+mslug5hc89      // Hack
+mslug5hc90      // Hack
 mslug5la01      // Hack
 mslug5lb01      // Hack
 mslug5lc01      // Hack
@@ -3086,6 +3101,16 @@ mslugxhc73      // Hack
 //mslugxhc74      // Hack [It does not work]
 mslugxhc75      // Hack
 mslugxhc76      // Hack
+mslugxhc77      // Hack
+mslugxhc78      // Hack
+mslugxhc79      // Hack
+mslugxhc80      // Hack
+mslugxhc81      // Hack
+mslugxhc82      // Hack
+mslugxhc83      // Hack
+mslugxhc84      // Hack
+mslugxhc85      // Hack
+mslugxhc86      // Hack
 mslugxtst01     // Hack
 mslugxtao01     // Hack
 mslugxat01      // Hack

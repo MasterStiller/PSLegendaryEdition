@@ -117,7 +117,7 @@ else:
     internal_name = "PSLEGENDARY EDITION"
     original_filename = "PSLEGENDARY EDITION"
     product_name = "PSLEGENDARY EDITION"
-    bundle_identifier = "org.mamedev.PSDarkPower"
+    bundle_identifier = "org.mamedev.PSLegendaryEdition"
 
 if outfmt == 'rc':
     fp.write('VS_VERSION_INFO VERSIONINFO\n')

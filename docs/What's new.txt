@@ -1,8 +1,9 @@
 ﻿What's new in PSLEGENDARY EDITION
 ==================================
 
-2023-0X-XX
+2023-01-05
 
+- Added Missing Roms To Fix Bike Graphics In Chun-Li Stage
 - Added UNIVERSE BIOS v4.0 NeoGeo MVS System.
 - Added Roms NeoGeo, Cps1 Decrypted And Bootleg.
 

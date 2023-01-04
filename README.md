@@ -5,7 +5,7 @@ It's called Project Shadow Legendary Edition, it's a project that started in the
 
 It is being used as the base system of the project PSMame Plus Metal Slug Forever Special Edition version 0.215 [HBMAME].
 
-Clarification this does not replace the version of HBMAME I recommend that you continue using it, since my project is incomplete, why? I only focus on updating all the hack roms that have been published in the year 2020 - 2023, it would become an unofficial expansion of the HBMAME emulator.
+Clarification this does not replace the version of HBMAME I recommend that you continue using it, since my project is incomplete, why? I only focus on updating all the hack roms that have been published in the year 2020 - 2023.
 
 
 What has been optimized in this version?

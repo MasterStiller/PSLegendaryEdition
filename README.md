@@ -1,7 +1,9 @@
 # PSLEGENDARY EDITION 
 What is PSLEGENDARY EDITION?
 
-It's called Project Shadow Legendary Edition, it's a project that started in the middle of 2016, it was one of the first projects I've started to develop using the source code of version 0.175 [HBMAME], at that time I called it PSMame Builds Plus, now I am focusing on updating the rest of the hack roms that could not be included in the HBMAME version in the 2020 year. It is being used as the base system of the project PSMame Plus Metal Slug Forever Special Edition version 0.215 [HBMAME].
+It's called Project Shadow Legendary Edition, it's a project that started in the middle of 2016, it was one of the first projects I've started to develop using the source code of version 0.175 [HBMAME], at that time I called it PSMame Builds Plus, now I am focusing on updating the rest of the hack roms that could not be included in the HBMAME version in the 2020 year. 
+
+It is being used as the base system of the project PSMame Plus Metal Slug Forever Special Edition version 0.215 [HBMAME].
 
 Clarification this does not replace the version of HBMAME I recommend that you continue using it, since my project is incomplete, why? I only focus on updating all the hack roms that have been published in the year 2020 - 2023, it would become an unofficial expansion of the HBMAME emulator.
 

@@ -1707,7 +1707,6 @@ void neogeo_state::init_mslug4()
 	m_pcm2_prot->neo_pcm2_snk_1999(ym_region, ym_region_size, 8);
 }
 
-
 void neogeo_state::init_rotd()
 {
 	init_neogeo();
@@ -2566,7 +2565,6 @@ void neogeo_state::init_mslug4hb()
 	}
 }
 
-
 void neogeo_state::init_mslug5hb() // hacks of mslug5
 {
 	init_neogeo();
@@ -2644,6 +2642,14 @@ void neogeo_state::init_pnyaad()
 	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
 
+void neogeo_state::init_pnyaan()
+{
+	init_neogeo();
+	m_sprgen->m_fixed_layer_bank_type = 1;
+	m_cmc_prot->neogeo_cmc50_m1_decrypt(audiocrypt_region, audiocrypt_region_size, audiocpu_region,audio_region_size);
+	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
+}
+
 void neogeo_state::init_rotdb()
 {
 	init_neogeo();
@@ -2659,6 +2665,13 @@ void neogeo_state::init_rotdd()
 	m_sprgen->m_fixed_layer_bank_type = 1;
 	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 	m_pcm2_prot->neo_pcm2_snk_1999(ym_region, ym_region_size, 16);
+}
+
+void neogeo_state::init_rotdnd()
+{
+	init_neogeo();
+	m_sprgen->m_fixed_layer_bank_type = 1;
+	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
 
 void neogeo_state::init_sam5sphb2()

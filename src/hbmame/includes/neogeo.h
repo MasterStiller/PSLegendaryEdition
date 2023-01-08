@@ -175,6 +175,7 @@ public:
 	void init_nitd();
 	void init_pnyaa();
 	void init_pnyaad();
+	void init_pnyaan();
 	void init_preisle2();
 	void init_rotd();
 	void init_rotdb();

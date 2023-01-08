@@ -1,8 +1,25 @@
 ﻿What's new in PSLEGENDARY EDITION
 ==================================
 
-2023-01-05
+2023-01-25 1.1
+---------------
 
+New Games
+---------------------------------
+
+- [kof2k2nd]            Kof2002 (Full decrypted)
+- [pnyaadd]             Pochi & Nyaa (decrypted C Set 2)
+- [pnyaan]              Pochi & Nyaa (Fully Decrypted)
+- [rotdndd]             Rage of the Dragons (Fully Decrypted/Set 2)
+- [samsh5spd]           Samurai Shodown V Special (Fully Decrypted C)
+- [umk3hc35]            Ultimate Mortal Kombat 3 (UK Edition 2022-12-14)
+
+
+
+2023-01-05 1.0
+---------------
+
+- First Version
 - Added Missing Roms To Fix Bike Graphics In Chun-Li Stage
 - Added UNIVERSE BIOS v4.0 NeoGeo MVS System.
 - Added Roms NeoGeo, Cps1 Decrypted And Bootleg.

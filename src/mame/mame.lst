@@ -404,6 +404,7 @@ kof2k1fd	    // Decrypted/Bootleg
 kf2k2pla	    // Decrypted/Bootleg
 kf2k2plb	    // Decrypted/Bootleg
 kf2k2plc	    // Decrypted/Bootleg
+kof2k2nd	    // Decrypted/Bootleg
 kof2002d	    // Decrypted/Bootleg
 kof2k2fd	    // Decrypted/Bootleg
 kof2003d	    // Decrypted/Bootleg
@@ -458,9 +459,11 @@ nitdd	        // Decrypted/Bootleg
 pbobblendx	    // Decrypted/Bootleg
 pnyaad	        // Decrypted/Bootleg
 pnyaadd	        // Decrypted/Bootleg
+pnyaan	        // Decrypted/Bootleg
 preisl2d	    // Decrypted/Bootleg
 rotdd	        // Decrypted/Bootleg
 rotdnd	        // Decrypted/Bootleg
+rotdndd	        // Decrypted/Bootleg
 s1945pd	        // Decrypted/Bootleg
 samsho3bh	    // Decrypted/Bootleg
 samsh5bd	    // Decrypted/Bootleg
@@ -471,9 +474,10 @@ samsh5nd	    // Decrypted/Bootleg
 ssh5spnd	    // Decrypted/Bootleg
 ssh5spn	        // Decrypted/Bootleg
 sams5spd	    // Decrypted/Bootleg
+samsh5spd	    // Decrypted/Bootleg
 samsh5spd2	    // Decrypted/Bootleg
-sams5sod	    // Decrypted/Bootleg
-sams5shd	    // Decrypted/Bootleg
+samsh5sh	    // Decrypted/Bootleg
+samsh5sn	    // Decrypted/Bootleg
 sengok3d	    // Decrypted/Bootleg
 svcda	        // Decrypted/Bootleg
 svcd	        // Decrypted/Bootleg
@@ -1733,6 +1737,7 @@ umk3hc31        // Hack
 umk3hc32        // Hack
 umk3hc33        // Hack
 umk3hc34        // Hack
+umk3hc35        // Hack
 umk3plushc01    // Hack
 umk3plushc02    // Hack
 wwfmaniahc01    // Hack

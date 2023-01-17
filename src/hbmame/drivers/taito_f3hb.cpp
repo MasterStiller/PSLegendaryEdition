@@ -142,34 +142,6 @@ ROM_START( cleopatrhc01 )
 	ROM_LOAD16_BYTE("e28-03.bin", 0x000000, 0x200000, CRC(15c7989d) SHA1(7cc63d93e5c1f9f52f889e973bbefd5e6f7ce807) )
 ROM_END
 
-ROM_START( cleopatrhc02 )
-	ROM_REGION(0x200000, "maincpu", 0)
-	ROM_LOAD32_BYTE("e28-10.bin", 0x000000, 0x80000, CRC(013fbc39) SHA1(d36ac44609b88e1da35c98dda381042e0112ea00) )
-	ROM_LOAD32_BYTE("e28-09.bin", 0x000001, 0x80000, CRC(1c48a1f9) SHA1(791d321c03073cdd0269b970f926897446d2a6fb) )
-	ROM_LOAD32_BYTE("e28-08.bin", 0x000002, 0x80000, CRC(7564f199) SHA1(ec4b19edb0660ad478f6c0ec27d701368696a2e4) )
-	ROM_LOAD32_BYTE("e28-07_hc02.bin", 0x000003, 0x80000, CRC(544dd2e9) SHA1(11ad1ce4202937108f23c44de2244da570452ce1) )
-
-	ROM_REGION(0x100000, "sprites" , 0)
-	ROM_LOAD16_BYTE("e28-02.bin", 0x000000, 0x080000, CRC(b20d47cb) SHA1(6888e5564688840fed1c123ab38467066cd59c7f) )
-	ROM_LOAD16_BYTE("e28-01.bin", 0x000001, 0x080000, CRC(4440e659) SHA1(71dece81bac8d638473c6531fed5c32798096af9) )
-
-	EMPTY_SPRITE_HIDATA(0x080000)
-
-	ROM_REGION(0x200000, "tilemap" , 0)
-	ROM_LOAD32_WORD("e28-06.bin", 0x000000, 0x100000, CRC(21d0c454) SHA1(f4c815984b19321cfab303fa6f21d9cad35b09f2) )
-	ROM_LOAD32_WORD("e28-05.bin", 0x000002, 0x100000, CRC(2870dbbc) SHA1(4e412b90cbd9a05956cde3d8cff615ebadca9db6) )
-
-	ROM_REGION( 0x100000, "tilemap_hi", 0 )
-	ROM_LOAD       ("e28-04.bin", 0x000000, 0x100000, CRC(57aef029) SHA1(5c07209015d4749d1ffb3e9c1a890e6cfeec8cb0) )
-
-	ROM_REGION(0x140000, "taito_en:audiocpu", 0)
-	ROM_LOAD16_BYTE("e28-11.bin", 0x100000, 0x20000, CRC(01a06950) SHA1(94d22cd839f9027e9d45264c366e0cb5d698e0b6) )
-	ROM_LOAD16_BYTE("e28-12.bin", 0x100001, 0x20000, CRC(dc19260f) SHA1(fa0ca03a236326652e4f9898d07cd837c1507a9d) )
-
-	ROM_REGION16_BE(0x400000, "ensoniq.0" , ROMREGION_ERASE00 )
-	ROM_LOAD16_BYTE("e28-03.bin", 0x000000, 0x200000, CRC(15c7989d) SHA1(7cc63d93e5c1f9f52f889e973bbefd5e6f7ce807) )
-ROM_END
-
 ROM_START( dankugahc01 )
 	ROM_REGION(0x200000, "maincpu", 0)
 	ROM_LOAD32_BYTE("dkg_mpr3_hc01.20", 0x000000, 0x80000, CRC(1da88664) SHA1(d9569ad4b20776521db937f70986a72364a03eb8) )
@@ -254,36 +226,6 @@ ROM_START( dankugahc02 )
 	ROM_LOAD16_BYTE("d84-01.rom", 0x400000, 0x200000, CRC(9ad22149) SHA1(48055822e0cea228cdecf3d05ac24e50979b6f4d) )
 	ROM_LOAD16_BYTE("d84-02.rom", 0x800000, 0x200000, CRC(9e1827e4) SHA1(1840881b0f8f7b6225e6ffa12a8d4b463554988e) )
 	ROM_LOAD16_BYTE("d84-15.rom", 0xe00000, 0x100000, CRC(31ceb152) SHA1(d9d0bc631a6a726376f566a49605b50485ac7bf4) )
-ROM_END
-
-ROM_START( dariusghc01 )
-	ROM_REGION(0x200000, "maincpu", 0)
-	ROM_LOAD32_BYTE("dge_mpr3.bin", 0x000000, 0x80000, CRC(1c1e24a7) SHA1(eafde331c3be5be55d0d838a84017f357ff92634) )
-	ROM_LOAD32_BYTE("dge_mpr2.bin", 0x000001, 0x80000, CRC(7be23e23) SHA1(4764355f51e207f4538dd753aea59bf2689835de) )
-	ROM_LOAD32_BYTE("dge_mpr1.bin", 0x000002, 0x80000, CRC(bc030f6f) SHA1(841396911d26ddfae0c9863431e02e0b5e762ac6) )
-	ROM_LOAD32_BYTE("dge_mpr0_hack01.bin",  0x000003, 0x80000, CRC(2bb37270) SHA1(98bc07894e92ca9cce34fc7390f40d3357783e3f) )
-
-	ROM_REGION(0x400000, "sprites" , 0)
-	ROM_LOAD16_BYTE("d87-03.bin", 0x000000, 0x200000, CRC(4be1666e) SHA1(35ba7bcf29ec7a8f8b6944ee3544693d4df1bfc2) )
-	ROM_LOAD16_BYTE("d87-04.bin", 0x000001, 0x200000, CRC(2616002c) SHA1(003f98b740a697274385b8da03c78f3c6f7b5e89) )
-
-	ROM_REGION( 0x200000, "sprites_hi", 0 )
-	ROM_LOAD       ("d87-05.bin", 0x000000, 0x200000, CRC(4e5891a9) SHA1(fd08d848079841c9237fa359a850980fd00114d8) )
-
-	ROM_REGION(0x400000, "tilemap" , 0)
-	ROM_LOAD32_WORD("d87-06.bin", 0x000000, 0x200000, CRC(3b97a07c) SHA1(72cdeffedeab0c1bd0e47f03172085390a2be393) )
-	ROM_LOAD32_WORD("d87-17.bin", 0x000002, 0x200000, CRC(e601d63e) SHA1(256a6aeb5633fe1db407fad567169a9d0c911219) )
-
-	ROM_REGION( 0x200000, "tilemap_hi", 0 )
-	ROM_LOAD       ("d87-08.bin", 0x000000, 0x200000, CRC(76d23602) SHA1(ca53ea6641182c44a4038bbeaa5effb1687f1980) )
-
-	ROM_REGION(0x180000, "taito_en:audiocpu", 0)
-	ROM_LOAD16_BYTE("d87-13.bin", 0x100000, 0x40000, CRC(15b1fff4) SHA1(28692b731ae98a47c2c5e11a8a71b61a813d9a64) )
-	ROM_LOAD16_BYTE("d87-14.bin", 0x100001, 0x40000, CRC(eecda29a) SHA1(6eb238e47bc7bf635ffbdbb25fb06a37db980ef8) )
-
-	ROM_REGION16_BE(0x800000, "ensoniq.0" , ROMREGION_ERASE00 )
-	ROM_LOAD16_BYTE("d87-01.bin", 0x000000, 0x200000, CRC(3848a110) SHA1(802e91695a526f665c7fd261f0a7639a0b883c9e) )
-	ROM_LOAD16_BYTE("d87-02.bin", 0x400000, 0x200000, CRC(9250abae) SHA1(07cae8edbc3cca0a95022d9b40a5c18a55350b67) )
 ROM_END
 
 ROM_START( elvactrhc01 )
@@ -527,35 +469,6 @@ ROM_START( lightbrhc01 )
 	ROM_LOAD16_BYTE("d69-02.bin", 0x400000, 0x200000, CRC(dce28dd7) SHA1(eacfc98349b0608fc1a944c11f0483fb6caa4445) )
 ROM_END
 
-ROM_START( pbobble2hc01 )
-	ROM_REGION(0x200000, "maincpu", 0)
- 	ROM_LOAD32_BYTE("e10-29.20", 0x000000, 0x40000, CRC(f1e9ad3f) SHA1(8689d85f30e075d21e4be01a2a097a850a921c47) )
-	ROM_LOAD32_BYTE("e10-28.19", 0x000001, 0x40000, CRC(412a3602) SHA1(d754e6ac886676d2c1eb52de3a727894f316e6b5) )
-	ROM_LOAD32_BYTE("e10-27.18", 0x000002, 0x40000, CRC(88cc0b5c) SHA1(bb08a7b8b37356376052ed03f8515677811823c0) )
-	ROM_LOAD32_BYTE("e10-26_hc01.17", 0x000003, 0x40000, CRC(4bcc216b) SHA1(45e9250414201fa5ad866b32b0285973fd06367c) )
-
-	ROM_REGION(0x200000, "sprites" , 0)
-	ROM_LOAD16_BYTE("e10-02.rom", 0x000000, 0x100000, CRC(c0564490) SHA1(cbe9f880192c08f4d1db21d5ba14073b97e5f1d3) )
-	ROM_LOAD16_BYTE("e10-01.rom", 0x000001, 0x100000, CRC(8c26ff49) SHA1(cbb514c061106003d2ae2b6c43958b24feaad656) )
-
-	EMPTY_SPRITE_HIDATA(0x100000)
-
-	ROM_REGION(0x200000, "tilemap" , ROMREGION_ERASE00)
-	ROM_LOAD32_WORD("e10-07.rom", 0x000000, 0x100000, CRC(dcb3c29b) SHA1(b80c3a8ce53d696c57675e654c9927ef8687759e) )
-	ROM_LOAD32_WORD("e10-06.rom", 0x000002, 0x100000, CRC(1b0f20e2) SHA1(66b44d059c2896abac2f0e7fc932489dee440ba0) )
-
-	ROM_REGION( 0x100000, "tilemap_hi", 0 )
-	ROM_LOAD       ("e10-05.rom", 0x000000, 0x100000, CRC(81266151) SHA1(aa3b144f32995425db97efce440e234a3c7a6715) )
-
-	ROM_REGION(0x180000, "taito_en:audiocpu", 0)
-	ROM_LOAD16_BYTE("e10-30.32", 0x100000, 0x40000, CRC(bb090c1e) SHA1(af2ff23d6f9bd56c25530cb9bf9f452b6f5210f5) )
-	ROM_LOAD16_BYTE("e10-31.33", 0x100001, 0x40000, CRC(f4b88d65) SHA1(c74dcb4bed979039fad1d5c7528c14ce4db1d5ec) )
-
-	ROM_REGION16_BE(0x800000, "ensoniq.0" , ROMREGION_ERASE00 )
-	ROM_LOAD16_BYTE("e10-04.rom", 0x000000, 0x200000, CRC(5c0862a6) SHA1(f916f63b8629239e3221e1e231e1b39962ef38ba) )
-	ROM_LOAD16_BYTE("e10-03.rom", 0x400000, 0x200000, CRC(46d68ac8) SHA1(ad014e9f0d458308014959ca6823077f581ab088) )
-ROM_END
-
 ROM_START( pbobble3hc01 ) //pbobble3rc
 	ROM_REGION( 0x200000, "maincpu", 0 )
 	ROM_LOAD32_BYTE("e29-12_hc01.rom", 0x000000, 0x80000, CRC(c22eda63) SHA1(f6968fea221608bd210fae8fa6fd80045def9fe0) )
@@ -593,10 +506,8 @@ GAME( 1995, akkanvdrhc01,       spcinv95, f3_224a,  f3, taito_f3_state, init_spc
 GAME( 2017, arabianmhc01,       arabianm, f3_224a,  f3, taito_f3_state, init_arabianm, ROT0,   "hack",         "Arabian Magic (Translation Chinese)", 0 )
 GAME( 1994, bubsymphhc01,       bublbob2, f3_224a,  f3, taito_f3_state, init_bubsymph, ROT0,   "hack",         "Bubble Symphony (Translation Chinese)", 0 )
 GAME( 1996, cleopatrhc01,       cleopatr, f3_224a,  f3, taito_f3_state, init_cleopatr, ROT0,   "hack",         "Cleopatra Fortune (Translation Chinese)", 0 )
-GAME( 1996, cleopatrhc02,       cleopatr, f3_224a,  f3, taito_f3_state, init_cleopatr, ROT0,   "hack",         "Cleopatra Fortune (Ex Super Version)", 0 )
 GAME( 1994, dankugahc01,        dankuga,  f3_224a,  kn, taito_f3_state, init_kaiserkn, ROT0,   "hack",         "Dan-Ku-Ga (Plus)", 0 )
 GAME( 1994, dankugahc02,        dankuga,  f3_224a,  kn, taito_f3_state, init_kaiserkn, ROT0,   "hack",         "Dan-Ku-Ga (Enable Hidden Characters)", 0 )
-GAME( 1994, dariusghc01,        dariusg,  f3,       f3, taito_f3_state, init_dariusg,  ROT0,   "hack",         "Darius Gaiden (Ex Super Version)", 0 )
 GAME( 1994, elvactrhc01,        elvactr,  f3,       f3, taito_f3_state, init_elvactr,  ROT0,   "hack",         "Elevator Action Returns (Translation Chinese)", 0 )
 GAME( 1995, gekiridnhc01,       gekiridn, f3,       f3, taito_f3_state, init_gekirido, ROT270, "hack",         "Gekirindan (Translation Chinese)", 0 )
 GAME( 1992, gseekerhc01,        gseeker,  f3_224b_eeprom, f3, taito_f3_state, init_gseeker,  ROT90,  "hack",   "Grid Seeker: Project Storm Hammer (Translation Chinese)", 0 )
@@ -604,5 +515,4 @@ GAME( 1994, kaiserknhc01,       kaiserkn, f3_224a,  kn, taito_f3_state, init_kai
 GAME( 1994, kaiserknhc02,       kaiserkn, f3_224a,  kn, taito_f3_state, init_kaiserkn, ROT0,   "hack",         "Kaiser Knuckle (Plus)", 0 )
 GAME( 1998, landmakrhc01,       landmakr, f3,       f3, taito_f3_state, init_landmakr, ROT0,   "hack",         "Land Maker (Translation Chinese)", 0 )
 GAME( 2017, lightbrhc01,        lightbr,  f3_224a,  f3, taito_f3_state, init_lightbr,  ROT0,   "hack",         "Light Bringer (Translation Chinese)", 0 )
-GAME( 1995, pbobble2hc01,       pbobble2, f3,       f3, taito_f3_state, init_pbobbl2x, ROT0,   "hack",         "Puzzle Bobble 2 (2X Edition)", 0 )
 GAME( 2022, pbobble3hc01,       pbobble3, f3,       f3, taito_f3_state, init_pbobble3, ROT0,   "hack",         "Puzzle Bobble 3 (Compulsory Battle Edition 2022-08-09)", 0 )

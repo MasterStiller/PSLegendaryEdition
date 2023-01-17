@@ -1,5 +1,5 @@
-// license:BSD-3-Clause
-// copyright-holders:Gaston90
+// Proyecto Shadow Legendary Edition
+// copyright-holders:Gaston90 (2016 - 2023)
 /********************************************
   List of all enabled drivers in the system.
 ***********************************************/
@@ -260,14 +260,33 @@ zeroteam        // (c) 1993 Seibu Kaihatsu + Fabtek licen
 @source:powerins.cpp
 powerins        // (c) 1993 Atlus (USA)
 
+@source:seta.cpp
+blandia         // (c) 1992 Allumer
+msgundam        // (c) 1993 Banpresto
+
 @source:seta2.cpp
 grdians         // (c) 1995 Banpresto
+
+@source:shadfrce.cpp
+shadfrce        // TA-0032 (c) 1993 (World)
 
 @source:silkroad.cpp
 silkroad        // (c) 1999
 
 @source:snowbros.cpp
 snowbros        // MIN16-02 (c) 1990 Toaplan + Romstar license
+
+@source:solomon.cpp
+solomon         // (c) 1986 Tecmo
+
+@source:ssv.cpp
+survarts        // (c) 1993 Sammy
+
+@source:stv.cpp
+stvbios         //
+gaxeduel        // 1995.02 Golden Axe the Duel
+groovef         // 1997.05 Groove on Fight (Atlus)
+suikoenb        // 1995.03 Suiko Enbu (Data East)
 
 @source:taito_f2.cpp
 cameltry        // 1990.?? C38 (c) 1989 Taito America Corporation (US)
@@ -285,7 +304,6 @@ arabianm        // 1992.?? D29 (c) 1992 Taito Corporation Japan (World)
 cleopatr        // 1996.10 E28 (c) 1996 Taito Corporation (Japan)
 bublbob2        // 1994.?? D90 (c) 1994 Taito Corporation Japan (World)
 dankuga         // 1994.?? D84? (c) 1994 Taito Corporation (Japan)
-dariusg         // 1994.?? D87 (c) 1994 Taito Corporation Japan (World)
 elvactr         // 1995.?? E02 (c) 1994 Taito Corporation Japan (World)
 gekiridn        // 1995.11 E11 (c) 1995 Taito Corporation Japan (World)
 gseeker         // 1992.?? D40 (c) 1992 Taito Corporation Japan (World
@@ -293,13 +311,37 @@ kaiserkn        // 1994.?? D84 (c) 1994 Taito Corporation Japan (World)
 landmakr        // 1998.08 E61 (c) 1998 Taito Corporation (World)
 lightbr         // 1994.03 D69 (c) 1993 Taito Corporation Japan (World)
 spcinv95        // 1995.?? E06 (c) 1995 Taito Corporation Japan (World)
-pbobble2        // 1995.?? E10 (c) 1995 Taito Corporation Japan (World)
 pbobble3        // 1996.?? E29 (c) 1996 Taito Corporation (World)
+
+@source:taito_l.cpp
+evilston        // C67 (c) 1990 Spacy Industrial, Ltd
+kurikint        // B42 (c) 1988 Taito Corporation Japan (World)
+plotting        // B96 (c) 1989 Taito Corporation Japan (World)
+
+@source:taitosj.cpp
+alpine          // RH  (c) 1982 Taito Corporation
+frontlin        // FL  (c) 1982 Taito Corporation
+
+@source:taotaido.cpp
+taotaido         // (c) 1993 Video System Co.
 
 @source:tecmo.cpp
 gemini           // (c) 1987 Tecmo
 rygar            // 6002 - (c) 1986 Tecmo
 silkworm         // 6217 - (c) 1988 Tecmo
+
+@source:tecmo16.cpp
+fstarfrc         // (c) 1992 Tecmo
+
+@source:tecmosys.cpp
+tkdensho         // (c) 1996 Tecmo
+
+@source:tmnt.cpp
+ssriders         // GX064 (c) 1991 (World)
+tmnt2            // GX063 (c) 1991 (US)
+
+@source:tnzs.cpp
+insectx          // B97 (c) 1989 Taito Corporation Japan (World)
 
 @source:toaplan1.cpp
 zerowing         // TP-O15 (c) 1989 Toaplan
@@ -309,6 +351,19 @@ batsugun         // TP-030 (c) 1993 Toaplan
 sstriker         // (c) 1993 Raizing
 snowbro2         // TP-033 (c) 1994 Hanafram
 pipibibs         // TP-025
+
+@source:vamphalf.cpp
+aoh              // (c) 2001
+
+@source:zn.cpp
+coh1000c         //
+coh1002m         //
+coh3002c         //
+doapp            // Dead Or Alive ++ (JAPAN)
+sfex             // Street Fighter EX (EURO 961219)
+sfex2            // Street Fighter EX 2 (EURO 980312)
+sfex2p           // Street Fighter EX 2 Plus (EURO 990611)
+sfexp            // Street Fighter EX Plus (USA 970407)
 
 /****************************************************************
   List of all enabled drivers in the system PSMame Builds Plus.
@@ -3116,6 +3171,7 @@ mslugxhc83      // Hack
 mslugxhc84      // Hack
 mslugxhc85      // Hack
 mslugxhc86      // Hack
+mslugxhc87      // Hack
 mslugxtst01     // Hack
 mslugxtao01     // Hack
 mslugxat01      // Hack
@@ -4390,6 +4446,12 @@ powerinshc06    // Hack
 powerinshc07    // Hack
 powerinshc08    // Hack
 
+@source:seta.cpp
+blandiahc01     // Hack
+blandiahc02     // Hack
+blandiahc03     // Hack
+msgundamhc01    // Hack
+
 @source:seta2.cpp
 grdianshc01     // Hack
 grdianshc02     // Hack
@@ -4442,6 +4504,9 @@ grdianshc48     // Hack
 grdianshc49     // Hack
 grdianshc50     // Hack
 
+@source:shadfrce.cpp
+shadfrcehc01    // Hack
+
 @source:silkroad.cpp
 silkroadhc01    // Hack
 silkroadhc02    // Hack
@@ -4454,6 +4519,17 @@ snowbroshc02    // Hack
 snowbroshc03    // Hack
 snowbroshc04    // Hack
 snowbroshc05    // Hack
+
+@source:solomon.cpp
+solomonhc01     // Hack
+
+@source:ssv.cpp
+survartshc01    // Hack
+
+@source:stv.cpp
+gaxeduelhc01    // Hack
+groovefhc01     // Hack
+suikoenbhc01    // Hack
 
 @source:taito_f2.cpp
 cameltryhc01    // Hack
@@ -4471,10 +4547,8 @@ akkanvdrhc01    // Hack
 arabianmhc01    // Hack
 bubsymphhc01    // Hack
 cleopatrhc01    // Hack
-cleopatrhc02    // Hack
 dankugahc01     // Hack
 dankugahc02     // Hack
-dariusghc01     // Hack
 elvactrhc01     // Hack
 gekiridnhc01    // Hack
 gseekerhc01     // Hack
@@ -4482,14 +4556,42 @@ kaiserknhc01    // Hack
 kaiserknhc02    // Hack
 landmakrhc01    // Hack
 lightbrhc01     // Hack
-pbobble2hc01    // Hack
 pbobble3hc01    // Hack
+
+@source:taito_l.cpp
+evilstonhc01    // Hack
+kurikinthc01    // Hack
+plottinghc01    // Hack
+
+@source:taitosj.cpp
+alpinehc01      // Hack
+frontlinhc01    // Hack
+
+@source:taotaido.cpp
+taotaidoahc01   // Hack
 
 @source:tecmo.cpp
 geminihc01      // Hack
 geminihc02      // Hack
 rygarhc01       // Hack
 silkwormhc01    // Hack
+
+@source:tecmo16.cpp
+fstarfrchc01    // Hack
+
+@source:tecmosys.cpp
+tkdenshohc01    // Hack
+tkdenshohc02    // Hack
+tkdenshohc03    // Hack
+
+@source:tmnt.cpp
+ssridershc01    // Hack
+ssridershc02    // Hack
+ssridershc03    // Hack
+tmnt2hc01       // Hack
+
+@source:tnzs.cpp
+insectxhc01     // Hack
 
 @source:toaplan1.cpp
 zerowinghc01    // Hack
@@ -4501,3 +4603,13 @@ snowbro2hc01    // Hack
 snowbro2hc02    // Hack
 pipibibshc01    // Hack
 pipibibshc02    // Hack
+
+@source:vamphalf.cpp
+aohhc01         // Hack
+
+@source:zn.cpp
+doapphc01       // Hack
+sfexhc01        // Hack
+sfex2hc01       // Hack
+sfex2phc01      // Hack
+sfexphc01       // Hack

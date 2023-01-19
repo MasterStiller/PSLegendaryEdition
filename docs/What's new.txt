@@ -7,6 +7,13 @@
 New Games
 ---------------------------------
 
+- [sf2amf4]             Street Fighter II': Champion Edition (Alpha Magic-F bootleg set 4, 920313 etc)
+- [sf2amf8]             Street Fighter II': Champion Edition (Alpha Magic-F bootleg set 8, 920313 etc)
+- [sf2koryu2]           Street Fighter II': Champion Edition (Xiang Long 2, Chinese bootleg)
+- [sf2koryu3]           Street Fighter II': Champion Edition (Xiang Long 3, Chinese bootleg)
+- [sf2sl73a]            Street Fighter II': Champion Edition (Sheng Long v 7.3a)
+- [sf2v0043]            Street Fighter II': Champion Edition (V004 bootleg set 3, 920313 etc)
+- [sf2md]               Street Fighter II': Champion Edition (Magic Delta, bootleg, 920313 etc)
 - [kof2k2nd]            Kof2002 (Full decrypted)
 - [mslugxhc87]          Metal Slug X (Survival 2023-01-16)
 - [pnyaadd]             Pochi & Nyaa (decrypted C Set 2)

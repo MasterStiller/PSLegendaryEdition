@@ -161,9 +161,7 @@ public:
 	void init_mslug3();
 	void init_mslug3b6();
 	void init_mslug3h();
-	void init_mslug3d();
-	void init_mslug3n();
-	void init_mslug3fr();
+	void init_mslug3hb();
 	void init_mslug4();
 	void init_mslug4hb();
 	void init_mslug4lw();
@@ -203,7 +201,6 @@ public:
 	void init_svchb();
 	void init_svcboot();
 	void init_svcpcb();
-	void init_svcpcd();
 	void init_svcplus();
 	void init_svcplusa();
 	void init_svcsplus();
@@ -475,7 +472,7 @@ INPUT_PORTS_EXTERN(dualbios);
 	\
 	NEOGEO_UNIBIOS(16) \
 	NEOGEO_UNIBIOS_1_2_AND_OLDER(16) \
-	ROM_DEFAULT_BIOS("euro")
+	ROM_DEFAULT_BIOS("us")
 
 
 #define NEO_BIOS_AUDIO_64K(name, hash) \

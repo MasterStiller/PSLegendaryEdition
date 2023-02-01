@@ -1609,15 +1609,6 @@ void neogeo_state::init_mslug3h()
 	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
 
-void neogeo_state::init_mslug3d()
-{
-	init_neogeo();
-	m_sma_prot->mslug3_decrypt_68k(cpuregion);
-	m_sprgen->m_fixed_layer_bank_type = 1;
-	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
-	m_sma_prot->mslug3_install_protection(m_maincpu,m_banked_cart);
-}
-
 void neogeo_state::init_ganryu()
 {
 	init_neogeo();
@@ -2280,7 +2271,6 @@ void neogeo_state::init_svcpcb()
 	install_banked_bios();
 }
 
-
 void neogeo_state::init_kf2k3pcb()
 {
 	init_neogeo();
@@ -2552,12 +2542,35 @@ void neogeo_state::init_matrimd()
 	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
 
-void neogeo_state::init_mslug3fr()
+void neogeo_state::init_mslug3hb()
 {
 	init_neogeo();
 	m_sprgen->m_fixed_layer_bank_type = 1;
-	m_sma_prot->mslug3_install_protection(m_maincpu, m_banked_cart);
-	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
+
+	// decrypt p roms if needed
+	u8 *ram = memregion("maincpu")->base();
+	if (ram[0x100] != 0x45)
+	{
+		//printf("Maincpu=%X\n",ram[0x100]);fflush(stdout);
+		m_sma_prot->mslug3_decrypt_68k(cpuregion);
+	    m_sma_prot->mslug3_install_protection(m_maincpu,m_banked_cart);
+	}
+
+	// decrypt c roms if needed
+	ram = memregion("sprites")->base();
+	if (ram[0] != 0)
+	{
+		//printf("Sprites=%X\n",ram[0]);
+		m_cmc_prot->cmc42_neogeo_gfx_decrypt(spr_region, spr_region_size, MSLUG3_GFX_KEY);
+	}
+
+	// if no s rom, copy info from end of c roms
+	ram = memregion("fixed")->base();
+	if (ram[0x100] == 0)
+	{
+		//printf("Fixed1=%X\n",ram[0x100]);
+		m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
+	}
 }
 
 void neogeo_state::init_mslug4hb()
@@ -2598,7 +2611,7 @@ void neogeo_state::init_mslug4lw()
 {
 	init_neogeo();
 	m_sprgen->m_fixed_layer_bank_type = 1;
-	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size,3);
+	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size,0);
 	m_cmc_prot->cmc50_neogeo_gfx_decrypt(spr_region, spr_region_size, MSLUG4_GFX_KEY);
 	m_pcm2_prot->neo_pcm2_snk_1999(ym_region, ym_region_size, 8);
 	m_cmc_prot->neogeo_cmc50_m1_decrypt(audiocrypt_region, audiocrypt_region_size, audiocpu_region,audio_region_size);
@@ -2856,13 +2869,6 @@ void neogeo_state::init_kof99d()
 	m_sma_prot->kof99_install_protection(m_maincpu, m_banked_cart);
 	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
-
-void neogeo_state::init_svcpcd()
-{
-	init_svchb();
-	install_banked_bios();
-}
-
 
 /* dummy entry for the dummy bios driver */
 ROM_START( neogeo )

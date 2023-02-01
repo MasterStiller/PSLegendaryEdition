@@ -1,25 +1,80 @@
 ﻿What's new in PSLEGENDARY EDITION
 ==================================
+What is PSLEGENDARY EDITION?
 
-2023-01-25 1.1
+It's called Project Shadow Legendary Edition, it's a project that started in the middle of 2016, it was one of the first 
+projects I've started to develop using the source code of version 0.175 [HBMAME], at that time I called it PSMame Builds Plus, now I am focusing on updating the rest of the hack roms that could not be included in the HBMAME version in the 2020 year.
+
+It is being used as the base system of the project PSMame Plus Metal Slug Forever Special Edition version 0.215 [HBMAME].
+
+I am only giving support for the Windows XP, Windows 7, Windows 8, Windows 10 and Windows 11 operating systems, 
+for the 86/64 bit cpu of the compatible microprocessors.
+
+===============================================================================================================================
+
+2023-02-22 1.1
 ---------------
+
+- The controls have been configured, now you will have much easier access to access it:
+  * Command to reset games, with the keyboard button "9".
+  * Command to enter the NeoGeo bios, with the keyboard button "0".
+  * Command to save games, with the keyboard button "´´". [Clarification is located to the right of the letter "P"]
+  * Command to load games, with the keyboard button "+".
+  * Command to pause the game, with the keyboard button "P".
+  * Command to display the time in real time in the game, with the keyboard button "O".
+  * Command to overclock the game, with the keyboard button "I".
+  * Command for the window mode screen, with the keyboard button "U".
+  * Command to apply a graphic filter to the games, with the keyboard button "Ñ".
+  * Command to speed up the game, with the keyboard button "Back Space".
+- Added Latest Decrypted/Bootleg Roms:
+  * Street Fighter II': Champion Edition (Alpha Magic-F bootleg set 4, 920313 etc)
+  * Street Fighter II': Champion Edition (Alpha Magic-F bootleg set 8, 920313 etc)
+  * Street Fighter II': Champion Edition (Xiang Long 2, Chinese bootleg)
+  * Street Fighter II': Champion Edition (Xiang Long 3, Chinese bootleg)
+  * Street Fighter II': Champion Edition (V004 bootleg set 3, 920313 etc)
+  * Street Fighter II': Champion Edition (Magic Delta, bootleg, 920313 etc)
+  * Kof'99 (Decrypted C)
+  * Kof2002 (Full decrypted)
+  * Metal Slug 3 (Decrypted C)
+  * Metal Slug 6 (Metal Slug 3 bootleg, decrypted C)
+  * Metal Slug 4 Plus (bootleg, Fully Decrypted)
+  * Pochi & Nyaa (Decrypted C, Set 2)
+  * Pochi & Nyaa (Fully Decrypted)
+  * Rage of the Dragons (Bootleg, Decrypted)
+  * Samurai Shodown V Special (Fully Decrypted C)
 
 New Games
 ---------------------------------
 
-- [sf2amf4]             Street Fighter II': Champion Edition (Alpha Magic-F bootleg set 4, 920313 etc)
-- [sf2amf8]             Street Fighter II': Champion Edition (Alpha Magic-F bootleg set 8, 920313 etc)
-- [sf2koryu2]           Street Fighter II': Champion Edition (Xiang Long 2, Chinese bootleg)
-- [sf2koryu3]           Street Fighter II': Champion Edition (Xiang Long 3, Chinese bootleg)
+- [dinohc367]           Cadillacs and Dinosaurs (The Warriors Edition 2023-01-06)
+- [dinohc368]           Cadillacs and Dinosaurs (Pao Fire 2022-12-07)
+- [dinohc369]           Cadillacs and Dinosaurs (Triassic Edition 2023-01-16)
+- [dinohc370]           Cadillacs and Dinosaurs (Tournament Edition 2023-01-06)
+- [dinohc371]           Cadillacs and Dinosaurs (30th Anniversary Edition 2022-12-21)
+- [kof96hc04]           Kof'96 (Mixed Edition Spring Special Edition Original 2022-12-25)
+- [kof96hc05]           Kof'96 (Mixed Edition Spring Special Edition Simplified 2022-12-25)
+- [kof97hc140]          Kof'97 (Mad Dragon Edition Original 2023-01-24)
+- [kof97hc141]          Kof'97 (Mad Dragon Edition Simplified 2023-01-24)
+- [kof98hc120]          Kof'98 (Ultimate Invincible Lucar 2023-01-03)
+- [kof98hc121]          Kof'98 (Rising Chinese Original Version 2023-01-09)
+- [kof98hc122]          Kof'98 (Rising Chinese Simplified Version 2023-01-09)
+- [kof2002hc154]        Kof2002 (Unlimited Original V0.26 2023-01-20)
+- [kof2002hc155]        Kof2002 (Unlimited Simplified V0.26 2023-01-20)
+- [kof2002hc156]        Kof2002 (Unlimited Simplified+ V0.26 2023-01-20)
+- [kov2phc126]          Knights of Valour 2 Plus (Dragon Fighting in the Wild 2023-01-05)
+- [kovplushc290]        Knights of Valour Plus (Full Firepower 2020 2022-12-11)
+- [lans2004hc01]        Lansquenet 2004 (Strongest Firepower 2022-12-17)
+- [mslugxhc87]          Metal Slug X (Survival 2023-01-01)
+- [oldsplushc35]        Oriental Legend 2 (The Legend of Shi'er-Xin Qunma Ranwu V211 Final Edition 2023-01-13)
 - [sf2sl73a]            Street Fighter II': Champion Edition (Sheng Long v 7.3a)
-- [sf2v0043]            Street Fighter II': Champion Edition (V004 bootleg set 3, 920313 etc)
-- [sf2md]               Street Fighter II': Champion Edition (Magic Delta, bootleg, 920313 etc)
-- [kof2k2nd]            Kof2002 (Full decrypted)
-- [mslugxhc87]          Metal Slug X (Survival 2023-01-16)
-- [pnyaadd]             Pochi & Nyaa (decrypted C Set 2)
-- [pnyaan]              Pochi & Nyaa (Fully Decrypted)
-- [rotdndd]             Rage of the Dragons (Fully Decrypted/Set 2)
-- [samsh5spd]           Samurai Shodown V Special (Fully Decrypted C)
+- [sf2cehc125]          Street Fighter II': Champion Edition (Rising Dragon Enhanced Edition Simplified+ 2023-01-19)
+- [sf2cehc126]          Street Fighter II': Champion Edition (Rising Dragon Enhanced Edition Simplified++ 2023-01-19)
+- [sf2cehc127]          Street Fighter II': Champion Edition (Rising Dragon Enhanced Edition Original 2023-01-19)
+- [sf2cehc128]          Street Fighter II': Champion Edition (Golden 3, Edition Simplified 2023-01-01)
+- [sf2cehc129]          Street Fighter II': Champion Edition (Four Kings Cobra Edition Accelerated Edition 2023-01-13)
+- [sf2hc10]             Street Fighter II: The World Warrior (New Version Simplified 2022-01-20)
+- [sf2hc11]             Street Fighter II: The World Warrior (New Version Simplified 2021-03-07)
+- [shocktr2hc02]        Shock Troopers - 2nd Squad (Strongest Firepower 2022-12-17)
 - [umk3hc35]            Ultimate Mortal Kombat 3 (UK Edition 2022-12-14)
 
 

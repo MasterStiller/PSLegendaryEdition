@@ -1609,6 +1609,15 @@ void neogeo_state::init_mslug3h()
 	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
 
+void neogeo_state::init_mslug3d()
+{
+	init_neogeo();
+	m_sma_prot->mslug3_decrypt_68k(cpuregion);
+	m_sprgen->m_fixed_layer_bank_type = 1;
+	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
+	m_sma_prot->mslug3_install_protection(m_maincpu,m_banked_cart);
+}
+
 void neogeo_state::init_ganryu()
 {
 	init_neogeo();
@@ -2151,6 +2160,14 @@ void neogeo_state::init_matrimbl()
 	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
 
+void neogeo_state::init_ms4plusd()
+{
+	init_neogeo();
+	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size,0);
+	m_pcm2_prot->neo_pcm2_snk_1999(ym_region, ym_region_size, 8);
+	m_cmc_prot->neogeo_cmc50_m1_decrypt(audiocrypt_region, audiocrypt_region_size, audiocpu_region,audio_region_size);
+}
+
 
 void neogeo_state::init_ms5plus()
 {
@@ -2163,6 +2180,12 @@ void neogeo_state::init_ms5plus()
 	m_bootleg_prot->install_ms5plus_protection(m_maincpu,m_banked_cart);
 }
 
+void neogeo_state::init_ms5plusc()
+{
+	init_neogeo();
+	m_sprgen->m_fixed_layer_bank_type = 1;
+	m_bootleg_prot->install_ms5plus_protection(m_maincpu,m_banked_cart);
+}
 
 
 void neogeo_state::init_svcboot()
@@ -2383,6 +2406,12 @@ void neogeo_state::init_kf2k2mp2hb()
 	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size, 1);
 }
 
+void neogeo_state::init_kf2k2pla()
+{
+	init_kof2002();
+	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size, 0);
+}
+
 void neogeo_state::init_kf2k2plc()
 {
 	init_kof2002();
@@ -2565,6 +2594,16 @@ void neogeo_state::init_mslug4hb()
 	}
 }
 
+void neogeo_state::init_mslug4lw()
+{
+	init_neogeo();
+	m_sprgen->m_fixed_layer_bank_type = 1;
+	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size,3);
+	m_cmc_prot->cmc50_neogeo_gfx_decrypt(spr_region, spr_region_size, MSLUG4_GFX_KEY);
+	m_pcm2_prot->neo_pcm2_snk_1999(ym_region, ym_region_size, 8);
+	m_cmc_prot->neogeo_cmc50_m1_decrypt(audiocrypt_region, audiocrypt_region_size, audiocpu_region,audio_region_size);
+}
+
 void neogeo_state::init_mslug5hb() // hacks of mslug5
 {
 	init_neogeo();
@@ -2627,7 +2666,7 @@ void neogeo_state::init_ms5pcbd()
 	install_banked_bios();
 }
 
-void neogeo_state::init_mslug6hb()
+void neogeo_state::init_mslug3b6d()
 {
 	init_neogeo();
 	m_bootleg_prot->neogeo_bootleg_sx_decrypt(fix_region, fix_region_size,2);
@@ -2808,6 +2847,14 @@ void neogeo_state::init_svchb()
 		//printf("Fixed2=%X\n",ram[0]);
 		m_sma_prot->svcpcb_s1data_decrypt(fix_region, fix_region_size);
 	}
+}
+
+void neogeo_state::init_kof99d()
+{
+	init_neogeo();
+	m_sma_prot->kof99_decrypt_68k(cpuregion);
+	m_sma_prot->kof99_install_protection(m_maincpu, m_banked_cart);
+	m_cmc_prot->neogeo_sfix_decrypt(spr_region, spr_region_size, fix_region, fix_region_size);
 }
 
 void neogeo_state::init_svcpcd()

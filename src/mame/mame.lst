@@ -32,7 +32,6 @@ contra          // GX633 (c) 1987
 
 @source:cps1.cpp
 3wonders        // 20/05/1991 (c) 1991 (World)
-area88          // 8/1989 (c) 1989 (Japan)
 captcomm        // 02/12/1991 (c) 1991 (World)
 cawing          // 12/10/1990 (c) 1990 (World)
 dino            // 01/02/1993 (c) 1993 (World) (CPS1 + QSound)
@@ -452,34 +451,28 @@ kof96ep2	    // Decrypted/Bootleg
 kof96ep3	    // Decrypted/Bootleg
 kof97pla	    // Decrypted/Bootleg
 kof99d	        // Decrypted/Bootleg
-kof99fd	        // Decrypted/Bootleg
-kof2000d	    // Decrypted/Bootleg
+kof99kd	        // Decrypted/Bootleg
+kof2kd	        // Decrypted/Bootleg
 kof2knd	        // Decrypted/Bootleg
-kof2kfd	        // Decrypted/Bootleg
-kof2001d	    // Decrypted/Bootleg
-kof2001n	    // Decrypted/Bootleg
-kf2k1pls	    // Decrypted/Bootleg
-kf2k1pla	    // Decrypted/Bootleg
-kof2k1nd	    // Decrypted/Bootleg
+kof2k1d	        // Decrypted/Bootleg
 kof2k1hd	    // Decrypted/Bootleg
-kof2k1fd	    // Decrypted/Bootleg
-kf2k2pla	    // Decrypted/Bootleg
-kf2k2plb	    // Decrypted/Bootleg
-kf2k2plc	    // Decrypted/Bootleg
+kof2k1nd	    // Decrypted/Bootleg
+kof2k1e	        // Decrypted/Bootleg
+kof2k2d	        // Decrypted/Bootleg
 kof2k2nd	    // Decrypted/Bootleg
-kof2002d	    // Decrypted/Bootleg
-kof2k2fd	    // Decrypted/Bootleg
+kf2k2plad	    // Decrypted/Bootleg
+kf2k2plbd	    // Decrypted/Bootleg
+kf2k2plcd	    // Decrypted/Bootleg
 kof2003d	    // Decrypted/Bootleg
 kof2003f	    // Decrypted/Bootleg
 kof2k3d	        // Decrypted/Bootleg
-kf2k3bd	        // Decrypted/Bootleg
+kof2k3bd	    // Decrypted/Bootleg
 kof2k3hd	    // Decrypted/Bootleg
 kof2k3nd	    // Decrypted/Bootleg
 kf2k3pcd	    // Decrypted/Bootleg
 kof2k3pd	    // Decrypted/Bootleg
 kf2k3upd	    // Decrypted/Bootleg
 kf2k3bl2	    // Decrypted/Bootleg
-kf2k3fd	        // Decrypted/Bootleg
 kogd	        // Decrypted/Bootleg
 kogplus	        // Decrypted/Bootleg
 kof10thd	    // Decrypted/Bootleg
@@ -498,25 +491,25 @@ matrimeh	    // Decrypted/Bootleg
 matrimnd	    // Decrypted/Bootleg
 msboot	        // Decrypted/Bootleg
 mslug2t	        // Decrypted/Bootleg
+mslug3d	        // Decrypted/Bootleg
 mslug3hd	    // Decrypted/Bootleg
 mslug3nd	    // Decrypted/Bootleg
+mslug3b6d	    // Decrypted/Bootleg
+ms4plusd	    // Decrypted/Bootleg
 ms4boot	        // Decrypted/Bootleg
 mslug4d	        // Decrypted/Bootleg
 mslug4hd	    // Decrypted/Bootleg
 mslug4nd	    // Decrypted/Bootleg
-mslug4dd	    // Decrypted/Bootleg
 ms5boot	        // Decrypted/Bootleg
 ms5pcbd	        // Decrypted/Bootleg
-mslug5nd	    // Decrypted/Bootleg
-mslug5d         // Decrypted/Bootleg
-mslug5b1	    // Decrypted/Bootleg
 ms5plusd	    // Decrypted/Bootleg
-mslug5n	        // Decrypted/Bootleg
-mslug5b3	    // Decrypted/Bootleg
-mslug5n2	    // Decrypted/Bootleg
-mslug5hd	    // Decrypted/Bootleg
 ms5plusc	    // Decrypted/Bootleg
-mslug5fd	    // Decrypted/Bootleg
+mslug5d         // Decrypted/Bootleg
+mslug5hd	    // Decrypted/Bootleg
+mslug5nd	    // Decrypted/Bootleg
+mslug5b1	    // Decrypted/Bootleg
+mslug5b2	    // Decrypted/Bootleg
+mslug5n	        // Decrypted/Bootleg
 nitdd	        // Decrypted/Bootleg
 pbobblendx	    // Decrypted/Bootleg
 pnyaad	        // Decrypted/Bootleg
@@ -1089,6 +1082,11 @@ dinohc363       // Hack
 //dinohc364       // Hack [It does not work]
 dinohc365       // Hack
 dinohc366       // Hack
+dinohc367       // Hack
+dinohc368       // Hack
+dinohc369       // Hack
+dinohc370       // Hack
+dinohc371       // Hack
 forgottnhc01    // Hack
 ffighthc01      // Hack
 ffighthc02      // Hack
@@ -1122,6 +1120,7 @@ kodhc18         // Hack
 kodhc19         // Hack
 kodhc20         // Hack
 //kodhc21        // Hack [It does not work]
+//kodhc22        // Hack [It does not work]
 knightshc01     // Hack
 knightshc02     // Hack
 knightshc03     // Hack
@@ -1307,6 +1306,12 @@ sf2cehc121      // Hack
 sf2cehc122      // Hack
 sf2cehc123      // Hack
 sf2cehc124      // Hack
+sf2cehc125      // Hack
+sf2cehc126      // Hack
+sf2cehc127      // Hack
+sf2cehc128      // Hack
+sf2cehc129      // Hack
+//sf2cehc130      // Hack [It does not work]
 sf2hc01         // Hack
 sf2hc02         // Hack
 sf2hc03         // Hack
@@ -1316,6 +1321,8 @@ sf2hc06         // Hack
 sf2hc07         // Hack
 sf2hc08         // Hack
 sf2hc09         // Hack
+sf2hc10         // Hack
+sf2hc11         // Hack
 sf2hfhc01       // Hack
 sf2hfhc02       // Hack
 sf2hfhc03       // Hack
@@ -1910,8 +1917,8 @@ kof95hc04       // Hack
 kof96hc01       // Hack
 //kof96hc02       // Hack [It does not work]
 kof96hc03       // Hack
-//kof96hc04       // Hack
-//kof96hc05       // Hack
+kof96hc04       // Hack
+kof96hc05       // Hack
 //kof96hc06       // Hack
 //kof96hc07       // Hack
 kof96hc08       // Hack
@@ -1927,7 +1934,6 @@ kof96hc17       // Hack
 kof96hc18       // Hack
 kof96hc19       // Hack
 kof96hc20       // Hack
-//kof96hc21       // Hack
 kof97hc01       // Hack
 kof97hc02       // Hack
 kof97hc03       // Hack
@@ -2067,8 +2073,8 @@ kof97hc136      // Hack
 kof97hc137      // Hack
 kof97hc138      // Hack
 kof97hc139      // Hack
-//kof97hc140      // Hack
-//kof97hc141      // Hack
+kof97hc140      // Hack
+kof97hc141      // Hack
 kof97hc142      // Hack
 kof97hc143      // Hack
 kof97hc144      // Hack
@@ -2325,6 +2331,9 @@ kof98hc116      // Hack
 kof98hc117      // Hack
 kof98hc118      // Hack
 kof98hc119      // Hack
+kof98hc120      // Hack
+kof98hc121      // Hack
+kof98hc122      // Hack
 kof99hc01       // Hack
 kof99hc02       // Hack
 kof99hc03       // Hack
@@ -2615,6 +2624,9 @@ kof2002hc150    // Hack
 kof2002hc151    // Hack
 kof2002hc152    // Hack
 kof2002hc153    // Hack
+kof2002hc154    // Hack
+kof2002hc155    // Hack
+kof2002hc156    // Hack
 
 kof2003hc01     // Hack
 kof2003hc02     // Hack
@@ -2632,6 +2644,7 @@ kof2003hc13     // Hack
 koghc01         // Hack
 koghc02         // Hack
 koghc03         // Hack
+lans2004hc01    // Hack
 lastbladhc01    // Hack
 lastbladhc02    // Hack
 lastbladhc03    // Hack
@@ -3496,6 +3509,7 @@ kov2hc39        // Hack
 kov2hc40        // Hack
 kov2hc41        // Hack
 kov2hc42        // Hack
+//kov2hc43        // Hack [It does not work]
 //kov2phc01       // Hack [It does not work]
 kov2phc02       // Hack
 kov2phc03       // Hack
@@ -3621,6 +3635,7 @@ kov2phc122       // Hack
 kov2phc123       // Hack
 //kov2phc124       // Hack [It does not work]
 //kov2phc125       // Hack [It does not work]
+kov2phc126       // Hack
 kovplushc01      // Hack
 //kovplushc02     // Hack [It does not work]
 //kovplushc03     // Hack [It does not work]
@@ -3910,6 +3925,8 @@ kovplushc285     // Hack
 //kovplushc287     // Hack [It does not work]
 //kovplushc288     // Hack [It does not work]
 //kovplushc289     // Hack [It does not work]
+kovplushc290     // Hack
+//kovplushc291     // Hack [It does not work]
 kovshhc01        // Hack
 kovshhc02        // Hack
 kovshhc03        // Hack
@@ -4319,6 +4336,7 @@ oldsplushc29    // Hack
 oldsplushc32    // Hack
 oldsplushc33    // Hack
 oldsplushc34    // Hack
+oldsplushc35    // Hack
 orlegendhc01    // Hack
 orlegendhc02    // Hack
 orlegendhc03    // Hack

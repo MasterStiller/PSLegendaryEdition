@@ -6,7 +6,7 @@
   Hack And Homebrow
 ***********************/
 
-ROM_START( nbajamhc01 )
+ROM_START( nbajamhc01 ) //nbajamre
 	ROM_REGION( 0x50000, "adpcm:cpu", 0 )
 	ROM_LOAD(  "l2_nba_jam_u3_sound_rom.u3", 0x010000, 0x20000, CRC(3a3ea480) SHA1(d12a45cba5c35f046b176661d7877fa4fd0e6c13) )
 	ROM_RELOAD(             0x030000, 0x20000 )

@@ -170,11 +170,10 @@ public:
 	void init_mslug5hb();
 	void init_mslugx();
 	void init_ms4plus();
-	void init_ms4plusd();
+	void init_ms4plushb();
 	void init_ms5pcb();
-	void init_ms5pcbd();
 	void init_ms5plus();
-	void init_ms5plusc();
+	void init_ms5plushb();
 	void init_mslug3b6d();
 	void init_neogeo();
 	void init_nitd();

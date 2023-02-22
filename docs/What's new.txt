@@ -15,6 +15,9 @@ for the 86/64 bit cpu of the compatible microprocessors.
 2023-02-22 1.1
 ---------------
 
+- A specific configuration has been developed, now you can play for free, you will no longer have to insert credits 
+  with the "5" button, now press "start" and you will be able to play with infinite credits [Only in NeoGeo system].
+- Added a credit counter for 1 player and in turn for 2 players, now individually [Only in the NeoGeo system].
 - The controls have been configured, now you will have much easier access to access it:
   * Command to reset games, with the keyboard button "9".
   * Command to enter the NeoGeo bios, with the keyboard button "0".

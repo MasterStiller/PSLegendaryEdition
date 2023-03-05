@@ -12,6 +12,58 @@ for the 86/64 bit cpu of the compatible microprocessors.
 
 ===============================================================================================================================
 
+2023-03-29 1.2
+---------------
+- [dinohc367]           Cadillacs and Dinosaurs (The Warriors Edition 2023-01-06)
+- [hsf2hc14]            Hyper Street Fighter II: The Anniversary Edition (040202 Asia Phoenix Edition, Simplified 2023-02-11)
+- [hsf2hc15]            Hyper Street Fighter II: The Anniversary Edition (Double Enhanced Version Japan Simplified 2023-02-11)
+- [hsf2hc16]            Hyper Street Fighter II: The Anniversary Edition (Double Enhanced Version USA Simplified 2023-02-11)
+- [hsf2hc17]            Hyper Street Fighter II: The Anniversary Edition (Triple Enhanced Version Simplified 2023-02-11)
+- [hsf2hc18]            Hyper Street Fighter II: The Anniversary Edition (Phoenix Edition USA Simplified 2023-02-11)
+- [hsf2hc19]            Hyper Street Fighter II: The Anniversary Edition (Phoenix Edition Japan Simplified 2023-02-11)
+- [knightsc]            Knights of the Round (Chineese 911127)
+- [kof94hc09]           Kof'94 (Clothes Version 2023-02-15)
+- [kof95hc04]           Kof'95 (Clothes Version 2023-02-19)
+- [kof98hc123]          Kof'98 (Ultimate Edition Simplified 2023-02-13)
+- [kof98hc124]          Kof'98 (Ultimate Edition Original 2023-02-13)
+- [kof99hc80]           Kof'99 (Smooth And Refreshing Original Version 2023-01-31)
+- [kof99hc81]           Kof'99 (Smooth And Refreshing Simplified Version 2023-01-31)
+- [kof99hc82]           Kof'99 (Evolution Edition Youju Original Edition 2023-01-28)
+- [kof99hc83]           Kof'99 (Evolution Edition Youju Simplified Edition 2023-01-28)
+- [kof99hc84]           Kof'99 (Evolution Edition Youju Simplified Edition 2023-02-13)
+- [kof99hc85]           Kof'99 (Evolution Edition Youju Original Edition 2023-02-13)
+- [kof2001hc28]         Kof2001 (Ultimate Edition Full Boss Edition 2023-02-13)
+- [kof2002hc26]         Kof2002 (Imitation Enhanced One Key Version 2023-01-23)
+- [mslugxhc88]          Metal Slug X (Survival 2023-02-04)
+- [sf2cehc132]          Street Fighter II': Champion Edition (L735 Test Rom 8, bootleg Simplified Edition 2023-01-11)
+- [sf2cehc133]          Street Fighter II': Champion Edition (Cobra Version 2 Original Ten Edition 2023-1-21)
+- [sf2cehc134]          Street Fighter II': Champion Edition (Cobra Version 2 Ultimate Simplification Ten Edition 2023-1-21)
+- [sf2cehc135]          Street Fighter II': Champion Edition (Cobra Version 3 Original Ten Edition 2023-1-21)
+- [sf2cehc136]          Street Fighter II': Champion Edition (Cobra Version 3 Ultimate Simplification Ten Edition 2023-1-21)
+- [sf2cehc137]          Street Fighter II': Champion Edition (Battle Ten Edition Original 2022-08-24)
+- [sf2cehc138]          Street Fighter II': Champion Edition (Battle Ten Edition Ultimate Simplification 2022-08-24)
+- [sf2cehc139]          Street Fighter II': Champion Edition (Crazy Tem Edition Original 2023-01-21)
+- [sf2cehc140]          Street Fighter II': Champion Edition (Crazy Tem Edition Ultimate Simplification 2023-01-21)
+- [sf2cehc141]          Street Fighter II': Champion Edition (Xiang Long 5, Chinese bootleg Edition Simplificado 2023-01-21)
+- [sf2cehc142]          Street Fighter II': Champion Edition (Mix 1.3, Original Edition 2023-02-01)
+- [sf2cehc143]          Street Fighter II': Champion Edition (Mix 1.3, Simplified Edition 2023-02-01)
+- [sf2cehc144]          Street Fighter II': Champion Edition (Dragon Enhanced Version 3rd Original Ten 2023-01-23)
+- [sf2cehc145]          Street Fighter II': Champion Edition (Dragon Enhanced Version 3rd Simplified Ten 2023-01-23)
+- [sf2cehc146]          Street Fighter II': Champion Edition (Golden Wave Zangerf Enhanced Version Simplified 2023-02-17)
+- [sf2cehc147]          Street Fighter II': Champion Edition (Green Wave Simplified 2023-02-15)
+- [sf2cehc148]          Street Fighter II': Champion Edition (Green Wave Original 2023-02-15)
+- [sf2cehc149]          Street Fighter II': Champion Edition (Punishment Edition Simplified 2023-02-15)
+- [sf2cehc150]          Street Fighter II': Champion Edition (Golden Wave Zangerf Sneak Attack Simplified 2023-02-15)
+- [sf2hc12]             Street Fighter II: The World Warrior (New Chinese Version Simplified 2023-01-31)
+- [sonicfgthc01]        Sega Sonic Cosmo Fighter 2023-02-14
+- [ssf2thc19]           Super Street Fighter II Turbo (Battle Edition Original 2022-06-20)
+- [ssf2thc20]           Super Street Fighter II Turbo (Battle Edition Simplified 2022-06-20)
+- [ssf2thc21]           Super Street Fighter II X: Grand Master Challenge (Version Japan Enhanced Edition Simplified 2023-02-07)
+- [tk2hc120]            Tenchi wo Kurau II (Unparalleled Master Edition 2020 2023-01-23)
+- [tk2hc121]            Tenchi wo Kurau II (Yan Ming's Revenge 2023-02-02)
+
+
+
 2023-02-22 1.1
 ---------------
 

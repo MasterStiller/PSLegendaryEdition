@@ -4,11 +4,9 @@
 -----------------------------------------------------------------------
 --  List of all drivers e nucleus enabled in the system HBMAME 0.215
 -----------------------------------------------------------------------
-
---------------------------------------------------
+----------------------------------------------
 -- specify available CPU cores
 ---------------------------------------------------
-
 
 CPUS["ADSP21XX"] = true
 CPUS["ADSP21062"] = true -- model2
@@ -554,7 +552,7 @@ files {
 	MAME_DIR .. "src/mame/drivers/timeplt.cpp",
 	MAME_DIR .. "src/mame/audio/timeplt.cpp",
 	MAME_DIR .. "src/mame/video/timeplt.cpp",
-	MAME_DIR .. "src/mame/drivers/tmnt.cpp",
+	MAME_DIR .. "src/hbmame/drivers/tmnthb.cpp",
 	MAME_DIR .. "src/mame/video/tmnt.cpp",
 	MAME_DIR .. "src/mame/drivers/trackfld.cpp",
 	MAME_DIR .. "src/mame/drivers/konamigx.cpp",
@@ -767,7 +765,7 @@ files {
 	MAME_DIR .. "src/mame/machine/megadriv.cpp",
 	MAME_DIR .. "src/mame/drivers/megaplay.cpp",
 	MAME_DIR .. "src/mame/drivers/megatech.cpp",
-	MAME_DIR .. "src/mame/drivers/segac2.cpp",
+	MAME_DIR .. "src/hbmame/drivers/segac2hb.cpp",
 	MAME_DIR .. "src/mame/drivers/segae.cpp",
 	MAME_DIR .. "src/mame/drivers/segag80r.cpp",
 	MAME_DIR .. "src/mame/machine/segag80.cpp",
@@ -810,7 +808,7 @@ files {
 	MAME_DIR .. "src/mame/machine/315-5881_crypt.cpp",
 	MAME_DIR .. "src/mame/machine/315-5838_317-0229_comp.cpp",
 	MAME_DIR .. "src/mame/machine/model1io.cpp",
-	MAME_DIR .. "src/mame/drivers/stv.cpp", -- from here, for stv
+	MAME_DIR .. "src/hbmame/drivers/stvhb.cpp",
 	MAME_DIR .. "src/mame/machine/saturn.cpp",
 	MAME_DIR .. "src/mame/machine/stvprot.cpp",
 	MAME_DIR .. "src/mame/machine/segabill.cpp",
@@ -839,12 +837,12 @@ createMAMEProjects(_target, _subtarget, "seta")
 files {
 	MAME_DIR .. "src/mame/machine/st0016.cpp",
 	MAME_DIR .. "src/mame/drivers/simple_st0016.cpp",
-	MAME_DIR .. "src/mame/drivers/seta.cpp",
+	MAME_DIR .. "src/hbmame/drivers/setahb.cpp",
 	MAME_DIR .. "src/mame/video/seta.cpp",
 	MAME_DIR .. "src/hbmame/drivers/seta2hb.cpp",
 	MAME_DIR .. "src/mame/video/seta2.cpp",
 	MAME_DIR .. "src/mame/video/seta001.cpp",
-	MAME_DIR .. "src/mame/drivers/ssv.cpp",
+	MAME_DIR .. "src/hbmame/drivers/ssvhb.cpp",
 	MAME_DIR .. "src/mame/video/ssv.cpp",
 	MAME_DIR .. "src/mame/video/st0020.cpp",
 }
@@ -858,7 +856,7 @@ files {
 
 createMAMEProjects(_target, _subtarget, "sony")
 files {
-	MAME_DIR .. "src/mame/drivers/zn.cpp",
+	MAME_DIR .. "src/hbmame/drivers/znhb.cpp",
 	MAME_DIR .. "src/mame/machine/znmcu.cpp",
 	MAME_DIR .. "src/mame/machine/cat702.cpp",
 	MAME_DIR .. "src/mame/audio/rax.cpp",
@@ -899,7 +897,7 @@ files {
 	MAME_DIR .. "src/mame/audio/taito_en.cpp",
 	MAME_DIR .. "src/mame/machine/taitoio.cpp",
 	MAME_DIR .. "src/mame/video/taito_helper.cpp",
-	MAME_DIR .. "src/mame/drivers/tnzs.cpp",
+	MAME_DIR .. "src/hbmame/drivers/tnzshb.cpp",
 	MAME_DIR .. "src/mame/machine/tnzs.cpp",
 	MAME_DIR .. "src/mame/video/tnzs.cpp",
 	MAME_DIR .. "src/mame/video/pc080sn.cpp",
@@ -910,11 +908,11 @@ files {
 	MAME_DIR .. "src/mame/video/tc0480scp.cpp",
 	MAME_DIR .. "src/mame/video/tc0110pcr.cpp",
 	MAME_DIR .. "src/mame/video/tc0180vcu.cpp",
-	MAME_DIR .. "src/mame/drivers/taito_l.cpp",
+	MAME_DIR .. "src/hbmame/drivers/taito_lhb.cpp",
 	MAME_DIR .. "src/mame/video/taito_l.cpp",
 	MAME_DIR .. "src/mame/machine/taito68705interface.cpp",
 	MAME_DIR .. "src/mame/machine/taitosjsec.cpp",
-	MAME_DIR .. "src/mame/drivers/taitosj.cpp",
+	MAME_DIR .. "src/hbmame/drivers/taitosjhb.cpp",
 	MAME_DIR .. "src/mame/machine/taitosj.cpp",
 	MAME_DIR .. "src/mame/video/taitosj.cpp",
 	MAME_DIR .. "src/mame/audio/taito_zm.cpp", -- zn
@@ -924,7 +922,7 @@ files {
 
 createMAMEProjects(_target, _subtarget, "technos")
 files {
-	MAME_DIR .. "src/mame/drivers/shadfrce.cpp",
+	MAME_DIR .. "src/hbmame/drivers/shadfrcehb.cpp",
 	MAME_DIR .. "src/mame/video/shadfrce.cpp",
 	MAME_DIR .. "src/mame/drivers/ddragon.cpp",
 	MAME_DIR .. "src/mame/video/ddragon.cpp",
@@ -932,9 +930,9 @@ files {
 
 createMAMEProjects(_target, _subtarget, "tehkan")
 files {
-	MAME_DIR .. "src/mame/drivers/solomon.cpp",
+	MAME_DIR .. "src/hbmame/drivers/solomonhb.cpp",
 	MAME_DIR .. "src/mame/video/solomon.cpp",
-	MAME_DIR .. "src/mame/drivers/tecmosys.cpp",
+	MAME_DIR .. "src/hbmame/drivers/tecmosyshb.cpp",
 	MAME_DIR .. "src/mame/machine/tecmosys.cpp",
 	MAME_DIR .. "src/mame/video/tecmosys.cpp",
 	MAME_DIR .. "src/mame/video/tecmo_spr.cpp",
@@ -943,7 +941,7 @@ files {
 	MAME_DIR .. "src/mame/video/bombjack.cpp",
 	MAME_DIR .. "src/hbmame/drivers/tecmohb.cpp",
 	MAME_DIR .. "src/mame/video/tecmo.cpp",
-	MAME_DIR .. "src/mame/drivers/tecmo16.cpp",
+	MAME_DIR .. "src/hbmame/drivers/tecmo16hb.cpp",
 	MAME_DIR .. "src/mame/video/tecmo16.cpp",
 	MAME_DIR .. "src/mame/drivers/tehkanwc.cpp",
 	MAME_DIR .. "src/mame/video/tehkanwc.cpp",
@@ -1001,7 +999,7 @@ files {
 	MAME_DIR .. "src/mame/video/vsystem_spr2.cpp",
 	MAME_DIR .. "src/hbmame/drivers/aerofgthb.cpp",
 	MAME_DIR .. "src/mame/video/aerofgt.cpp",
-	MAME_DIR .. "src/mame/drivers/taotaido.cpp",
+	MAME_DIR .. "src/hbmame/drivers/taotaidohb.cpp",
 	MAME_DIR .. "src/mame/video/taotaido.cpp",
 }
 
@@ -1015,7 +1013,7 @@ files {
 	MAME_DIR .. "src/mame/drivers/skimaxx.cpp",
 	MAME_DIR .. "src/mame/drivers/timelimt.cpp",
 	MAME_DIR .. "src/mame/video/timelimt.cpp",
-	MAME_DIR .. "src/mame/drivers/vamphalf.cpp",
+	MAME_DIR .. "src/hbmame/drivers/vamphalfhb.cpp",
 }
 
 end

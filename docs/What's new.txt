@@ -14,7 +14,6 @@ for the 86/64 bit cpu of the compatible microprocessors.
 
 2023-03-29 1.2
 ---------------
-- [dinohc367]           Cadillacs and Dinosaurs (The Warriors Edition 2023-01-06)
 - [hsf2hc14]            Hyper Street Fighter II: The Anniversary Edition (040202 Asia Phoenix Edition, Simplified 2023-02-11)
 - [hsf2hc15]            Hyper Street Fighter II: The Anniversary Edition (Double Enhanced Version Japan Simplified 2023-02-11)
 - [hsf2hc16]            Hyper Street Fighter II: The Anniversary Edition (Double Enhanced Version USA Simplified 2023-02-11)

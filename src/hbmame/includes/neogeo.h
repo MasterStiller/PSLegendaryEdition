@@ -429,6 +429,27 @@ INPUT_PORTS_EXTERN(dualbios);
 	ROM_LOAD16_WORD_SWAP_BIOS( x+13, "uni-bios_1_1.rom",  0x00000, 0x020000, CRC(5dda0d84) SHA1(4153d533c02926a2577e49c32657214781ff29b7) ) /* Universe Bios v1.1 (hack) */ \
 	ROM_SYSTEM_BIOS( x+14, "unibios10", "Universe Bios (Hack, Ver. 1.0)" ) \
 	ROM_LOAD16_WORD_SWAP_BIOS( x+14, "uni-bios_1_0.rom",  0x00000, 0x020000, CRC(0ce453a0) SHA1(3b4c0cd26c176fc6b26c3a2f95143dd478f6abf9) ) /* Universe Bios v1.0 (hack) */
+#define NEOGEO_UNIBIOS_THE_REGION_IS_CHANGED(x) /* Documentation Universe Bios 4.0 "It Is Not Official": Default Regions European, USA, Japan, Arcade And Console Mode */ \
+	ROM_SYSTEM_BIOS( x+15, "unibios40_olds", "Universe Bios (Hack, Ver.olds 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+15, "uni-bios_4_0_olds.rom",  0x00000, 0x020000, CRC(b25d5696) SHA1(9c39d8d2e7db56398f65fda43799e026bf570fd7) ) /* Universe Bios v4.0 ver.olds (hack) */ \
+	ROM_SYSTEM_BIOS( x+16, "unibios40_japon", "Universe Bios (Hack, Ver.Region: Japon 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+16, "uni-bios_4_0_japon.rom",  0x00000, 0x020000, CRC(29ecf5a3) SHA1(9c602a0cba44f734e8c333543514e4128c6aaa13) ) /* Universe Bios v4.0 Regions: Japon Mode: Arcade (hack) */ \
+	ROM_SYSTEM_BIOS( x+17, "unibios40_usa", "Universe Bios (Hack, Ver.Region: USA 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+17, "uni-bios_4_0_usa.rom",  0x00000, 0x020000, CRC(88818602) SHA1(8ec685a270c17408b264ba317fcafced0f288447) ) /* Universe Bios v4.0 Regions: USA Mode: Arcade (hack) */ \
+	ROM_SYSTEM_BIOS( x+18, "unibios40_europe", "Universe Bios (Hack, Ver.Region: Europe 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+18, "uni-bios_4_0_europe.rom",  0x00000, 0x020000, CRC(b04714a0) SHA1(6dbc25d2e0642ddb1a21ba36891e356ed3b2c977) ) /* Universe Bios v4.0 Regions: Europe Mode: Arcade (hack) */ \
+	ROM_SYSTEM_BIOS( x+19, "unibios40_jap_c", "Universe Bios (Hack, Ver.Regions: Japon Mode: Console Mode 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+19, "uni-bios_4_0_japon_modo_consola.rom",  0x00000, 0x020000, CRC(877a2b5b) SHA1(bebccf4f538f984db51955e05aef3b3eaff577f1) ) /* Universe Bios v4.0 Regions: Japon Mode: Console (hack) */ \
+	ROM_SYSTEM_BIOS( x+20, "unibios40_usa_c", "Universe Bios (Hack, Ver.Regions: USA Mode: Console 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+20, "uni-bios_4_0_usa_modo_consola.rom",  0x00000, 0x020000, CRC(261758fa) SHA1(2b090413b0ef213feebb9b87a45e208eed2b1db4) ) /* Universe Bios v4.0 Regions: USA Mode: Console (hack) */ \
+	ROM_SYSTEM_BIOS( x+21, "unibios40_eur_c", "Universe Bios (Hack, Ver. Regions: Europe Mode: Console 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+21, "uni-bios_4_0_europe_modo_consola.rom",  0x00000, 0x020000, CRC(1ed1ca58) SHA1(7def8a5cdc20793837fc83b5d2371d09f3adb7f6) ) /* Universe Bios v4.0 Regions: Europe Mode: Console (hack) */ \
+	ROM_SYSTEM_BIOS( x+22, "unibios40_jap_ca", "Universe Bios (Hack, Ver.Regions: Japon Mode: Console (Disable Game Menu Command) 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+22, "uni-bios_4_0_japon_modo_consola_v2.rom",  0x00000, 0x020000, CRC(0dc39308) SHA1(0aa0dcebe145ed6f1edf83b8d0ee3c7bd89ea1da) ) /* Universe Bios v4.0 Regions: Japon Mode: Console "Disabled Command Region Selection Menu, Start+A+B+C, Start+Select And Start+Coin" (hack) */ \
+	ROM_SYSTEM_BIOS( x+23, "unibios40_usa_ca", "Universe Bios (Hack, Ver.Regions: USA Mode: Console (Disable Game Menu Command) 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+23, "uni-bios_4_0_usa_modo_consola_v2.rom",  0x00000, 0x020000, CRC(acaee0a9) SHA1(ae483c004fe0bf41f41b01c112b113263025ed04) ) /* Universe Bios v4.0 Regions: USA Mode: Console "Disabled Command Region Selection Menu, Start+A+B+C, Start+Select And Start+Coin" (hack) */ \
+	ROM_SYSTEM_BIOS( x+24, "unibios40_eur_ca", "Universe Bios (Hack, Ver.Regions: Europe Mode: Console (Disable Game Menu Command) 4.0)" ) \
+	ROM_LOAD16_WORD_SWAP_BIOS( x+24, "uni-bios_4_0_europe_modo_consola_v2.rom",  0x00000, 0x020000, CRC(9468720b) SHA1(8bb936ffa2d64b9124525f8351d211cad9657845) ) /* Universe Bios v4.0 Regions: Europe Mode: Console "Disabled Command Region Selection Menu, Start+A+B+C, Start+Select And Start+Coin" (hack) */
 
 #define NEOGEO_BIOS \
 	ROM_REGION16_BE( 0x80000, "mainbios", 0 ) \
@@ -471,7 +492,8 @@ INPUT_PORTS_EXTERN(dualbios);
 	\
 	NEOGEO_UNIBIOS(16) \
 	NEOGEO_UNIBIOS_1_2_AND_OLDER(16) \
-	ROM_DEFAULT_BIOS("us")
+	NEOGEO_UNIBIOS_THE_REGION_IS_CHANGED(16) \
+	ROM_DEFAULT_BIOS("euro")
 
 
 #define NEO_BIOS_AUDIO_64K(name, hash) \
